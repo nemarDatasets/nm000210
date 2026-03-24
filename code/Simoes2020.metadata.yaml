@@ -1,0 +1,114 @@
+_dataset:
+  class: Simoes2020
+  code: Simoes2020
+  doi: 10.3389/fnins.2020.568104
+  interval:
+  - 0
+  - 1.2
+  n_subjects: 15
+  paradigm: p300
+acquisition:
+  channel_types:
+    eeg: 8
+  ground: AFz
+  hardware: g.Nautilus (g.tec, wireless)
+  line_freq: 50.0
+  montage: standard_1020
+  n_channels: 8
+  reference: right ear
+  sampling_rate: 250.0
+  sensors:
+  - C3
+  - Cz
+  - C4
+  - CPz
+  - P3
+  - Pz
+  - P4
+  - POz
+bci_application:
+  applications:
+  - joint_attention_training
+  environment: clinical
+  online_feedback: true
+cross_validation:
+  cv_method: calibration_vs_online
+  evaluation_type:
+  - within_subject
+  - cross_session
+  - cross_subject
+data_processed: true
+data_structure:
+  n_trials: 1600 train + 400*K test per session (K=3-10)
+  trials_context: per_session
+documentation:
+  country: PT
+  data_url: https://zenodo.org/records/19005186
+  doi: 10.3389/fnins.2020.568104
+  institution: University of Coimbra
+  investigators:
+  - Marco Simoes
+  - Davide Borra
+  - Eduardo Santamaria-Vazquez
+  - Mayra Bittencourt-Villalpando
+  - Dominik Krzeminski
+  - Aleksandar Miladinovic
+  - Carlos Amaral
+  - Bruno Direito
+  - Miguel Castelo-Branco
+  license: CC-BY-4.0
+  publication_year: 2020
+experiment:
+  class_labels:
+  - Target
+  - NonTarget
+  events:
+    NonTarget: 1
+    Target: 2
+  feedback_type: visual
+  mode: online
+  n_classes: 2
+  paradigm: p300
+  primary_modality: visual
+  stimulus_modalities:
+  - visual
+  stimulus_type: object flash
+  study_design: P300 BCI joint-attention training in virtual environment; 8 flashing objects; 15 ASD subjects across 7 sessions
+    (clinical trial NCT02445625)
+  trial_duration: 1.2
+file_format: MATLAB (epoched)
+paradigm_specific:
+  detected_paradigm: p300
+participants:
+  age_max: 38
+  age_mean: 22.17
+  age_min: 16
+  age_std: 5.5
+  clinical_population: autism spectrum disorder (ASD)
+  gender:
+    male: 15
+  health_status: patients
+  n_subjects: 15
+  species: human
+runs_per_session: 2
+sessions_per_subject: 7
+signal_processing:
+  classifiers:
+  - EEGNet
+  - LDA
+  - SVM
+  - MLP
+  feature_extraction:
+  - temporal_features
+  - deep_learning
+  frequency_bands:
+    bandpass:
+    - 2.0
+    - 30.0
+tags:
+  modality:
+  - ERP
+  pathology:
+  - Autism
+  type:
+  - P300
