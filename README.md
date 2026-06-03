@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.nm000210-blue)](https://doi.org/10.82901/nemar.nm000210)
+
 # BCIAUT-P300 dataset for autism from Simoes et al 2020
 
 BCIAUT-P300 dataset for autism from Simoes et al 2020.
