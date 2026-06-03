@@ -1,43 +1,45 @@
 {
-	"Name": "BCIAUT-P300 dataset for autism from Simoes et al 2020",
-	"BIDSVersion": "1.9.0",
-	"HEDVersion": "8.4.0",
-	"DatasetType": "derivative",
-	"License": "CC-BY-4.0",
-	"Authors": [
-		"Marco Simoes",
-		"Davide Borra",
-		"Eduardo Santamaria-Vazquez",
-		"Mayra Bittencourt-Villalpando",
-		"Dominik Krzeminski",
-		"Aleksandar Miladinovic",
-		"Carlos Amaral",
-		"Bruno Direito",
-		"Miguel Castelo-Branco"
-	],
-	"ReferencesAndLinks": [
-		"https://zenodo.org/records/19005186"
-	],
-	"GeneratedBy": [
-		{
-			"CodeURL": "https://github.com/NeuroTechX/moabb",
-			"Name": "moabb",
-			"Description": "Mother of All BCI Benchmarks",
-			"Version": "1.5.0"
-		}
-	],
-	"SourceDatasets": [
-		{
-			"DOI": "10.3389/fnins.2020.568104",
-			"URL": "https://zenodo.org/records/19005186"
-		}
-	],
-	"Keywords": [
-		"Autism",
-		"ERP",
-		"P300",
-		"p300",
-		"joint_attention_training"
-	],
-	"PublicationYear": 2020
+  "Name": "BCIAUT-P300 dataset for autism from Simoes et al 2020",
+  "BIDSVersion": "1.9.0",
+  "HEDVersion": "8.4.0",
+  "DatasetType": "derivative",
+  "License": "CC-BY-4.0",
+  "Authors": [
+    "Marco Simoes",
+    "Davide Borra",
+    "Eduardo Santamaria-Vazquez",
+    "Mayra Bittencourt-Villalpando",
+    "Dominik Krzeminski",
+    "Aleksandar Miladinovic",
+    "Carlos Amaral",
+    "Bruno Direito",
+    "Miguel Castelo-Branco"
+  ],
+  "ReferencesAndLinks": [
+    "https://zenodo.org/records/19005186"
+  ],
+  "GeneratedBy": [
+    {
+      "CodeURL": "https://github.com/NeuroTechX/moabb",
+      "Name": "moabb",
+      "Description": "Mother of All BCI Benchmarks",
+      "Version": "1.5.0"
+    }
+  ],
+  "SourceDatasets": [
+    {
+      "DOI": "10.3389/fnins.2020.568104",
+      "URL": "https://zenodo.org/records/19005186"
+    }
+  ],
+  "Keywords": [
+    "Autism",
+    "ERP",
+    "P300",
+    "p300",
+    "joint_attention_training"
+  ],
+  "PublicationYear": 2020,
+  "DatasetDOI": "10.82901/nemar.nm000210",
+  "Version": "1.0.0"
 }
