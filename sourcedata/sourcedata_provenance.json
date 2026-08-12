@@ -1,0 +1,4740 @@
+{
+ "dataset": "nm000210",
+ "moabb_class": "Simoes2020",
+ "moabb_version_used": "1.5.0",
+ "retrieved": "2026-08-11",
+ "retrieved_by": "moabb.datasets.Simoes2020.data_path()",
+ "upstream_cache_root": "/expanse/lustre/scratch/bpinto/temp_project/sourcedata_staging/mne_data/MNE-Simoes2020-data/BCIAUT_P300",
+ "license": "CC-BY-4.0",
+ "doi": "10.3389/fnins.2020.568104",
+ "naming": "upstream_filenames_restored",
+ "n_files": 945,
+ "total_bytes": 5931782434,
+ "files": [
+  {
+   "file": "SBJ01/S01/Test/runs_per_block.txt",
+   "bytes": 2,
+   "sha256": "06e9d52c1720fca412803e3b07c4b228ff113e303f4c7ab94665319d832bbfb7"
+  },
+  {
+   "file": "SBJ01/S01/Test/testData.mat",
+   "bytes": 30636038,
+   "sha256": "4b73d9a696a8bdaf335eed20faa65e3517e9320a84bf95a664c0e3ae0f7b6ebe"
+  },
+  {
+   "file": "SBJ01/S01/Test/testEvents.txt",
+   "bytes": 4800,
+   "sha256": "6706eead0b6c130e7d8ec9ea466a5701897a55452285b7b87ca0c867554cba17"
+  },
+  {
+   "file": "SBJ01/S01/Test/testLabels.txt",
+   "bytes": 100,
+   "sha256": "35c810cf1a0523f7c25152943103f698cbdff73da81ed8176b31569d5b7a6a47"
+  },
+  {
+   "file": "SBJ01/S01/Test/testTargets.txt",
+   "bytes": 4800,
+   "sha256": "43d976b4b377ccb0ba984ab42cbff6450bf59777181a897de5ba4236dfa38a45"
+  },
+  {
+   "file": "SBJ01/S01/Train/trainData.mat",
+   "bytes": 20396208,
+   "sha256": "f3bb48963e20e58206099224d774fdb662b89f6d24aeb7ea3dd3ee4cd191e401"
+  },
+  {
+   "file": "SBJ01/S01/Train/trainEvents.txt",
+   "bytes": 3200,
+   "sha256": "79fd111012c4b47916ddf55e4e858f84c7d5f3644b9b2516d42adca5bcd71f3d"
+  },
+  {
+   "file": "SBJ01/S01/Train/trainLabels.txt",
+   "bytes": 40,
+   "sha256": "5de84019fa43b7543e595777f083aca8043a38eabd400393c7af34808745ade5"
+  },
+  {
+   "file": "SBJ01/S01/Train/trainTargets.txt",
+   "bytes": 3200,
+   "sha256": "fa716acd64295e49c2f8b9113aa0e798ef3627d045b53fccffdb4de67d6204e7"
+  },
+  {
+   "file": "SBJ01/S02/Test/runs_per_block.txt",
+   "bytes": 2,
+   "sha256": "10159baf262b43a92d95db59dae1f72c645127301661e0a3ce4e38b295a97c58"
+  },
+  {
+   "file": "SBJ01/S02/Test/testData.mat",
+   "bytes": 35801142,
+   "sha256": "b765b90b87a97fa4c07a73c20929eb7828d9caad349c3fe7ac2db6851d88bb85"
+  },
+  {
+   "file": "SBJ01/S02/Test/testEvents.txt",
+   "bytes": 5600,
+   "sha256": "f3f25bad3b63726e9fc5acc680aa8d2923cea651029631aa25b5ba1adf17bc8b"
+  },
+  {
+   "file": "SBJ01/S02/Test/testLabels.txt",
+   "bytes": 100,
+   "sha256": "6a814afac53862830fc6f0ed586144352e2c70bd576a8c1311800237c3ef4da6"
+  },
+  {
+   "file": "SBJ01/S02/Test/testTargets.txt",
+   "bytes": 5600,
+   "sha256": "5350ffef9751c360074786300043d9dd5d26dfa79bf90e19f5fb998c005db1ea"
+  },
+  {
+   "file": "SBJ01/S02/Train/trainData.mat",
+   "bytes": 20432708,
+   "sha256": "94e78a0802770020b7c573789140f67775813df7a39e77e88a71b811be6a7fb2"
+  },
+  {
+   "file": "SBJ01/S02/Train/trainEvents.txt",
+   "bytes": 3200,
+   "sha256": "4fd72915a40df01e70cc9dab6ecad70e4a06b6962f5e47c4f812b95aa857f80d"
+  },
+  {
+   "file": "SBJ01/S02/Train/trainLabels.txt",
+   "bytes": 40,
+   "sha256": "24ea9752452191fefe758134a7494765c1367c6ccb37bb4d1dfda00f6897e2de"
+  },
+  {
+   "file": "SBJ01/S02/Train/trainTargets.txt",
+   "bytes": 3200,
+   "sha256": "9f2f1cc28ad24e998a1f4a99125cc41565de122ea01fc2e62cf58a6f055bf3f4"
+  },
+  {
+   "file": "SBJ01/S03/Test/runs_per_block.txt",
+   "bytes": 2,
+   "sha256": "10159baf262b43a92d95db59dae1f72c645127301661e0a3ce4e38b295a97c58"
+  },
+  {
+   "file": "SBJ01/S03/Test/testData.mat",
+   "bytes": 35697953,
+   "sha256": "054f664e6cfbb6691c9e1966ff87e571d6da0c810f74124fbea64d732c993962"
+  },
+  {
+   "file": "SBJ01/S03/Test/testEvents.txt",
+   "bytes": 5600,
+   "sha256": "8cc101e6f285518a18d5e851d591a0144914e483527bdb73f3d000f202f93b53"
+  },
+  {
+   "file": "SBJ01/S03/Test/testLabels.txt",
+   "bytes": 100,
+   "sha256": "f728ba82de399809817fc54a81ca25f41e466fe3d1412ef7714e55dc10c862a6"
+  },
+  {
+   "file": "SBJ01/S03/Test/testTargets.txt",
+   "bytes": 5600,
+   "sha256": "fb1ad0f09649b80993ed4e684d453406c0ae9202ebde5d96f7a6632ca884fa4d"
+  },
+  {
+   "file": "SBJ01/S03/Train/trainData.mat",
+   "bytes": 20390755,
+   "sha256": "4f1fd88d254b53be19e2d9ccd1d2975037bce34c3863a4a1b433f9993cb82245"
+  },
+  {
+   "file": "SBJ01/S03/Train/trainEvents.txt",
+   "bytes": 3200,
+   "sha256": "ce283d9dd1dc39bc2d3b2e65e707709e3b56555936d0a09d95dfecfef71dc752"
+  },
+  {
+   "file": "SBJ01/S03/Train/trainLabels.txt",
+   "bytes": 40,
+   "sha256": "337ee32517cccc50acfb9470a21f44aa3ba6a751f449ac84d8ba4188d2bee374"
+  },
+  {
+   "file": "SBJ01/S03/Train/trainTargets.txt",
+   "bytes": 3200,
+   "sha256": "64388d44620292cb1a5fed8061af7c8793f285a9b2491c37d42334d8ad299c89"
+  },
+  {
+   "file": "SBJ01/S04/Test/runs_per_block.txt",
+   "bytes": 2,
+   "sha256": "2e6d31a5983a91251bfae5aefa1c0a19d8ba3cf601d0e8a706b4cfa9661a6b8a"
+  },
+  {
+   "file": "SBJ01/S04/Test/testData.mat",
+   "bytes": 46011601,
+   "sha256": "9f35395a542df1312b49bc0a4429c2fe9cfcb777782e9d6d27602042c578346b"
+  },
+  {
+   "file": "SBJ01/S04/Test/testEvents.txt",
+   "bytes": 7200,
+   "sha256": "9c93e17411b2821f9017741b663cac48a0ae79036e8473a8aa094722065d00b8"
+  },
+  {
+   "file": "SBJ01/S04/Test/testLabels.txt",
+   "bytes": 100,
+   "sha256": "6cacb106e7a376e0f2b53ca78c67b7666baf71373ef39fa8cb3631f110c8da8a"
+  },
+  {
+   "file": "SBJ01/S04/Test/testTargets.txt",
+   "bytes": 7200,
+   "sha256": "78440e588b0392c988f2c9636d869a51ae970c1af0f3dcc96337c16c79df16d6"
+  },
+  {
+   "file": "SBJ01/S04/Train/trainData.mat",
+   "bytes": 20414855,
+   "sha256": "0aa735010aa4b59e71e16084ae6e08f765752f6ea1dee2e34ce7766710f8dde7"
+  },
+  {
+   "file": "SBJ01/S04/Train/trainEvents.txt",
+   "bytes": 3200,
+   "sha256": "f6e99ccee9cd03162f7be1becd5e64cb4b0df7253981226c9d5afffed5c5e58a"
+  },
+  {
+   "file": "SBJ01/S04/Train/trainLabels.txt",
+   "bytes": 40,
+   "sha256": "8cb719e56f6b2c883dbcbf10f2d1f6058f434500efeeb24f96df8f9beb7d7b9e"
+  },
+  {
+   "file": "SBJ01/S04/Train/trainTargets.txt",
+   "bytes": 3200,
+   "sha256": "14946f9e031fd2da8413f10e94b777e1c4514dcafc31c8c1cfdc292a5f3096e8"
+  },
+  {
+   "file": "SBJ01/S05/Test/runs_per_block.txt",
+   "bytes": 2,
+   "sha256": "f0b5c2c2211c8d67ed15e75e656c7862d086e9245420892a7de62cd9ec582a06"
+  },
+  {
+   "file": "SBJ01/S05/Test/testData.mat",
+   "bytes": 25351936,
+   "sha256": "96c997aa3ad76979a3cc0025e66e750d790ae75b0bd09b34b668316fbe3763d4"
+  },
+  {
+   "file": "SBJ01/S05/Test/testEvents.txt",
+   "bytes": 4000,
+   "sha256": "e4b9f06b8f14771ee6148a133bf1fc8c58bb114d31b6d9c44bcc48be3b3bf198"
+  },
+  {
+   "file": "SBJ01/S05/Test/testLabels.txt",
+   "bytes": 100,
+   "sha256": "bf047a3e347da2cb98bcb4cf256b8619acdc9d00800d6b8641c117e7b792c6d1"
+  },
+  {
+   "file": "SBJ01/S05/Test/testTargets.txt",
+   "bytes": 4000,
+   "sha256": "9536346352e47a0d3484c8d96b7041ee1a98dd3ec51d60e2cfe30ed959bc57bf"
+  },
+  {
+   "file": "SBJ01/S05/Train/trainData.mat",
+   "bytes": 20406138,
+   "sha256": "c9493070752ca4877c3da831c8d12bd96976a14e9287415e88369d59c643f4fc"
+  },
+  {
+   "file": "SBJ01/S05/Train/trainEvents.txt",
+   "bytes": 3200,
+   "sha256": "c389879e95e35059928de28e38637eb51bb1012023a5dd471c2298d3740e99e6"
+  },
+  {
+   "file": "SBJ01/S05/Train/trainLabels.txt",
+   "bytes": 40,
+   "sha256": "62aab8240ef616e350470014eeb021fa10bc82548b8abf4714eb3988b4153542"
+  },
+  {
+   "file": "SBJ01/S05/Train/trainTargets.txt",
+   "bytes": 3200,
+   "sha256": "ae0a9ff7c51c5eb002b34848e9880f9b266151c84682588e28f67a1004b5a612"
+  },
+  {
+   "file": "SBJ01/S06/Test/runs_per_block.txt",
+   "bytes": 2,
+   "sha256": "10159baf262b43a92d95db59dae1f72c645127301661e0a3ce4e38b295a97c58"
+  },
+  {
+   "file": "SBJ01/S06/Test/testData.mat",
+   "bytes": 35795648,
+   "sha256": "1c9d3f05f18738a87426631d0ce8a2e87c6af2c29d99af124185f294dcdd1d26"
+  },
+  {
+   "file": "SBJ01/S06/Test/testEvents.txt",
+   "bytes": 5600,
+   "sha256": "ce0a1be27cef31f0716ac209c94057c77cd1fae0286baf7da70014174257f9be"
+  },
+  {
+   "file": "SBJ01/S06/Test/testLabels.txt",
+   "bytes": 100,
+   "sha256": "e72c75ad49f1fae31dfd6b3ec52e94faf38b92f3cfa7ba8514d56327dac9fd8e"
+  },
+  {
+   "file": "SBJ01/S06/Test/testTargets.txt",
+   "bytes": 5600,
+   "sha256": "d17eca95a4519b21a02570d407eb67d38834bc110625b64ac99d59036b1cc553"
+  },
+  {
+   "file": "SBJ01/S06/Train/trainData.mat",
+   "bytes": 20432191,
+   "sha256": "fc900fa704dbb435518e485df935124fa6b08847408390cdae4e597e3d091cc0"
+  },
+  {
+   "file": "SBJ01/S06/Train/trainEvents.txt",
+   "bytes": 3200,
+   "sha256": "81db7df79207b640f9b6c7544a166a966aa4e5e96f71daf7439ae2c4bf752915"
+  },
+  {
+   "file": "SBJ01/S06/Train/trainLabels.txt",
+   "bytes": 40,
+   "sha256": "ce16ba3c375b15e88c63ba97f273f9595d25356e67c9b712abcc44a904441e30"
+  },
+  {
+   "file": "SBJ01/S06/Train/trainTargets.txt",
+   "bytes": 3200,
+   "sha256": "4f4145ea02e77998151440e1fa4a3aa16020bf6e94bb11abe814505192b76eeb"
+  },
+  {
+   "file": "SBJ01/S07/Test/runs_per_block.txt",
+   "bytes": 2,
+   "sha256": "10159baf262b43a92d95db59dae1f72c645127301661e0a3ce4e38b295a97c58"
+  },
+  {
+   "file": "SBJ01/S07/Test/testData.mat",
+   "bytes": 35699323,
+   "sha256": "5b162223b7f947f965b2ae00d05d30b0e0f6ea5dc3adc897053f5868cef9ad11"
+  },
+  {
+   "file": "SBJ01/S07/Test/testEvents.txt",
+   "bytes": 5600,
+   "sha256": "8ad0d82f264caa4d8be2214c5144162483ed714277936d58adf484094f350d64"
+  },
+  {
+   "file": "SBJ01/S07/Test/testLabels.txt",
+   "bytes": 100,
+   "sha256": "ce8728219445bd558756b9a36c9820d90edff1fa06f78edc58fe78a18ec35995"
+  },
+  {
+   "file": "SBJ01/S07/Test/testTargets.txt",
+   "bytes": 5600,
+   "sha256": "0a217671d37c99332c6daecdde909f6212dd58af637c3f0add06be0d2229a46b"
+  },
+  {
+   "file": "SBJ01/S07/Train/trainData.mat",
+   "bytes": 20390149,
+   "sha256": "729ed494dd59cd4f20694b50e857bbb8117986ef8d2d39fa8d263a4d8d371892"
+  },
+  {
+   "file": "SBJ01/S07/Train/trainEvents.txt",
+   "bytes": 3200,
+   "sha256": "4a2ccb368b265a4abb1fc12d819fe6e09e2863329d3b71daab3d796b026d02f0"
+  },
+  {
+   "file": "SBJ01/S07/Train/trainLabels.txt",
+   "bytes": 40,
+   "sha256": "7af88883c9c315967517ccae1bb41c50a9c80e0e94a1372835c8b59a3dcf28b1"
+  },
+  {
+   "file": "SBJ01/S07/Train/trainTargets.txt",
+   "bytes": 3200,
+   "sha256": "f89898f0d391a482dc124bcfb9504260a1438ea78c39f5749ad8a023ca1f0aad"
+  },
+  {
+   "file": "SBJ02/S01/Test/runs_per_block.txt",
+   "bytes": 2,
+   "sha256": "2e6d31a5983a91251bfae5aefa1c0a19d8ba3cf601d0e8a706b4cfa9661a6b8a"
+  },
+  {
+   "file": "SBJ02/S01/Test/testData.mat",
+   "bytes": 45795947,
+   "sha256": "1f4d1df849ae1c0498cf5ad1f9f75a43a4a213a34337ef29926fb15d5eda992b"
+  },
+  {
+   "file": "SBJ02/S01/Test/testEvents.txt",
+   "bytes": 7200,
+   "sha256": "a8adcf9b3eb668a5e265432f90c27257c39d9bf2ab0a8a366354850b250b85f7"
+  },
+  {
+   "file": "SBJ02/S01/Test/testLabels.txt",
+   "bytes": 100,
+   "sha256": "c699055a3d513029b5e033174155eef616338acb2c326d27f4ed422ff8d22ed8"
+  },
+  {
+   "file": "SBJ02/S01/Test/testTargets.txt",
+   "bytes": 7200,
+   "sha256": "f5a8dab1e45752bb6865cf86766e77690314f1f7abf3f14512aab91c22264898"
+  },
+  {
+   "file": "SBJ02/S01/Train/trainData.mat",
+   "bytes": 20173989,
+   "sha256": "a21f9a3272adaac4869cd2e7f744a0327339689bf5846b94b0853d9d41de644b"
+  },
+  {
+   "file": "SBJ02/S01/Train/trainEvents.txt",
+   "bytes": 3200,
+   "sha256": "06fb3d53bcefabc6a8abfab2ae2a266fc201d3063c4530cb75ca68cf853a9544"
+  },
+  {
+   "file": "SBJ02/S01/Train/trainLabels.txt",
+   "bytes": 40,
+   "sha256": "197417d3ba9e746af14a01e133729ad688239b853eb89c31cd911f148ee5ec35"
+  },
+  {
+   "file": "SBJ02/S01/Train/trainTargets.txt",
+   "bytes": 3200,
+   "sha256": "52c5c296de32983ae632a422d58b5bd9e7bfffa02f971887bc1f271f186c6f1a"
+  },
+  {
+   "file": "SBJ02/S02/Test/runs_per_block.txt",
+   "bytes": 2,
+   "sha256": "aa67a169b0bba217aa0aa88a65346920c84c42447c36ba5f7ea65f422c1fe5d8"
+  },
+  {
+   "file": "SBJ02/S02/Test/testData.mat",
+   "bytes": 40491120,
+   "sha256": "d70adaef637244e704fb24e88997f131854e681c6bf527b2819cecc815d699d7"
+  },
+  {
+   "file": "SBJ02/S02/Test/testEvents.txt",
+   "bytes": 6400,
+   "sha256": "328957265952236e2826ce0fae822362b45a33d0c3940ac0a5db40b22cc59a2a"
+  },
+  {
+   "file": "SBJ02/S02/Test/testLabels.txt",
+   "bytes": 100,
+   "sha256": "cc61e42e682d899150e33ba537ce77531ffc7751dca60ea5fdd31404c45d5683"
+  },
+  {
+   "file": "SBJ02/S02/Test/testTargets.txt",
+   "bytes": 6400,
+   "sha256": "5305faed3ce2d280edd02dafbdcfa520250f9694420bf597e5882ae5c39da853"
+  },
+  {
+   "file": "SBJ02/S02/Train/trainData.mat",
+   "bytes": 20424470,
+   "sha256": "4d1308ba5c631467713b2d82398838138506f99680b1e35af2c1557b3f28ded0"
+  },
+  {
+   "file": "SBJ02/S02/Train/trainEvents.txt",
+   "bytes": 3200,
+   "sha256": "5cf1fd0fafa5c193eb865233fb318d5d0ffaf628e452aabf971f458c24ad9412"
+  },
+  {
+   "file": "SBJ02/S02/Train/trainLabels.txt",
+   "bytes": 40,
+   "sha256": "8dfedb2e343cf755a4d966d07340c9606b88ef1af6dbbcec273433735ace13d5"
+  },
+  {
+   "file": "SBJ02/S02/Train/trainTargets.txt",
+   "bytes": 3200,
+   "sha256": "be89c11032cb84514997a4d969e3b83c3d24ca9d2b57a52c2ea80da71e659354"
+  },
+  {
+   "file": "SBJ02/S03/Test/runs_per_block.txt",
+   "bytes": 2,
+   "sha256": "f0b5c2c2211c8d67ed15e75e656c7862d086e9245420892a7de62cd9ec582a06"
+  },
+  {
+   "file": "SBJ02/S03/Test/testData.mat",
+   "bytes": 25473704,
+   "sha256": "fd04883da49cfa2725fc0462bf01920a53c450e5b1f77920d98d21eca84f3b6d"
+  },
+  {
+   "file": "SBJ02/S03/Test/testEvents.txt",
+   "bytes": 4000,
+   "sha256": "489565bff08a123b85f14e9119549fceef42492e01187aa73bcd60a11b9786d0"
+  },
+  {
+   "file": "SBJ02/S03/Test/testLabels.txt",
+   "bytes": 100,
+   "sha256": "d1f89650e62948f9cdf67f9b971b46d8d98c75013bf8b0071c4d7636f2c6713e"
+  },
+  {
+   "file": "SBJ02/S03/Test/testTargets.txt",
+   "bytes": 4000,
+   "sha256": "810dda5d5f7449b1524bca038f786a5c76d9c2a7a32dcf1e2c2c494f99ae904c"
+  },
+  {
+   "file": "SBJ02/S03/Train/trainData.mat",
+   "bytes": 20405995,
+   "sha256": "048759e05a224ec49cea096c675ee223835076dd868e93166d68e2447923fa28"
+  },
+  {
+   "file": "SBJ02/S03/Train/trainEvents.txt",
+   "bytes": 3200,
+   "sha256": "ca771f8414242e019be1bf0be240c03362efca27d11b397f15e570759215906a"
+  },
+  {
+   "file": "SBJ02/S03/Train/trainLabels.txt",
+   "bytes": 40,
+   "sha256": "839473a83f48c34a2be3f7e0ae18a32b44e44eb37eaef00d846614198bcba544"
+  },
+  {
+   "file": "SBJ02/S03/Train/trainTargets.txt",
+   "bytes": 3200,
+   "sha256": "2516e91b9e38fe2829295c68dfc2c14b3ceae88dff656869a251a9c960e67fc9"
+  },
+  {
+   "file": "SBJ02/S04/Test/runs_per_block.txt",
+   "bytes": 2,
+   "sha256": "10159baf262b43a92d95db59dae1f72c645127301661e0a3ce4e38b295a97c58"
+  },
+  {
+   "file": "SBJ02/S04/Test/testData.mat",
+   "bytes": 35686196,
+   "sha256": "e80de5a4f3e26458175146d324af02fb286d8ca6f4bbf1c1cc171c17b9549e7f"
+  },
+  {
+   "file": "SBJ02/S04/Test/testEvents.txt",
+   "bytes": 5600,
+   "sha256": "23598ce419c7be3dad7b578a603181ddc1bbfc9bf0a8ac54e6924b3bed18a342"
+  },
+  {
+   "file": "SBJ02/S04/Test/testLabels.txt",
+   "bytes": 100,
+   "sha256": "49ef98fab2aba6db7506c9d617a2ddea6b8ee74a49dc7147bfc035cd3da08c01"
+  },
+  {
+   "file": "SBJ02/S04/Test/testTargets.txt",
+   "bytes": 5600,
+   "sha256": "5f18f2b816d0cbddfd7ccea66f6617209c486e4db82291a578339305a73d596f"
+  },
+  {
+   "file": "SBJ02/S04/Train/trainData.mat",
+   "bytes": 20358414,
+   "sha256": "28de8378548b54e27d87ea27378da55fd963a476f051496d464c8a2993a368aa"
+  },
+  {
+   "file": "SBJ02/S04/Train/trainEvents.txt",
+   "bytes": 3200,
+   "sha256": "c92e07c971ea8a8b55cfb4c3f04c9e1c0187d30d1bc9160b192dcfedefa45a45"
+  },
+  {
+   "file": "SBJ02/S04/Train/trainLabels.txt",
+   "bytes": 40,
+   "sha256": "d0f3b05f68f24c96951db7b5fd46fb9586191b33a02b649af91e7676d391a8a2"
+  },
+  {
+   "file": "SBJ02/S04/Train/trainTargets.txt",
+   "bytes": 3200,
+   "sha256": "784490907a98a6eab48b16d6ddf749cfa29d1a496a128ff2836d056b36cad413"
+  },
+  {
+   "file": "SBJ02/S05/Test/runs_per_block.txt",
+   "bytes": 2,
+   "sha256": "f0b5c2c2211c8d67ed15e75e656c7862d086e9245420892a7de62cd9ec582a06"
+  },
+  {
+   "file": "SBJ02/S05/Test/testData.mat",
+   "bytes": 25453611,
+   "sha256": "d5a3063244ea9f9c8951c70e324ef6d9b993b07efa1fc47ecf7cda6bddc3bb35"
+  },
+  {
+   "file": "SBJ02/S05/Test/testEvents.txt",
+   "bytes": 4000,
+   "sha256": "cec908a2a71d449e1e1f67f5bf4af2c3624cd6e301a1c295cd76c33d16f11e78"
+  },
+  {
+   "file": "SBJ02/S05/Test/testLabels.txt",
+   "bytes": 100,
+   "sha256": "838b69c51c6f2d1875dcabf28d23918901e999ebf043c174c979c847e0e99810"
+  },
+  {
+   "file": "SBJ02/S05/Test/testTargets.txt",
+   "bytes": 4000,
+   "sha256": "fa56928934e65b9c78c3c6a5421a3f38340b79a5fe816f77ac75636f05c4a815"
+  },
+  {
+   "file": "SBJ02/S05/Train/trainData.mat",
+   "bytes": 20367471,
+   "sha256": "13b2472c0ffd29602fc0ea3a97274d6e471bfbd3a59be167836e4024dab5fb1c"
+  },
+  {
+   "file": "SBJ02/S05/Train/trainEvents.txt",
+   "bytes": 3200,
+   "sha256": "7a7a0e5dc7f7a322144b293a870feac914232f02c5af4239e57d8944bb49c343"
+  },
+  {
+   "file": "SBJ02/S05/Train/trainLabels.txt",
+   "bytes": 40,
+   "sha256": "a1e939bc4f73f6d48575a153df3b0e523c4d830ff417d2a686f058fd9a123296"
+  },
+  {
+   "file": "SBJ02/S05/Train/trainTargets.txt",
+   "bytes": 3200,
+   "sha256": "33ca16009288de11cf5c200f5a340a9cc0eb0c19bcb4e05921e5dd594d354f9e"
+  },
+  {
+   "file": "SBJ02/S06/Test/runs_per_block.txt",
+   "bytes": 2,
+   "sha256": "06e9d52c1720fca412803e3b07c4b228ff113e303f4c7ab94665319d832bbfb7"
+  },
+  {
+   "file": "SBJ02/S06/Test/testData.mat",
+   "bytes": 30392570,
+   "sha256": "fbefa1ffb087fef62fbbea18d595f1b6092c58f74cb8e4c753cd978bd1bf5e92"
+  },
+  {
+   "file": "SBJ02/S06/Test/testEvents.txt",
+   "bytes": 4800,
+   "sha256": "e9079945837befff62ba7f9beed290e183f8881a251c125f865177ae6539f89d"
+  },
+  {
+   "file": "SBJ02/S06/Test/testLabels.txt",
+   "bytes": 100,
+   "sha256": "ee7211acdfa978c3cfb47a4914e9d268de253792d4764e9a67b818529a839a25"
+  },
+  {
+   "file": "SBJ02/S06/Test/testTargets.txt",
+   "bytes": 4800,
+   "sha256": "8170c73f39109886b3adcf2ba190764448df9de1cac686a416e6afd0ad347ec0"
+  },
+  {
+   "file": "SBJ02/S06/Train/trainData.mat",
+   "bytes": 20384072,
+   "sha256": "1286b599df3cb9fe77a1296db2fa425cfff3ec47829b5ba47784e8dffe4a8189"
+  },
+  {
+   "file": "SBJ02/S06/Train/trainEvents.txt",
+   "bytes": 3200,
+   "sha256": "a6045072742ea7a6af8bf2d4091dce8b651961750f2a2f229ffad8ff18d1186e"
+  },
+  {
+   "file": "SBJ02/S06/Train/trainLabels.txt",
+   "bytes": 40,
+   "sha256": "93de8d1726ca6ba5c6576b9de36821abc718cf7b7d80a159c518be30ede67f5a"
+  },
+  {
+   "file": "SBJ02/S06/Train/trainTargets.txt",
+   "bytes": 3200,
+   "sha256": "6abfe8bccc74c79225926dc5baf1e7592e28de070d8baf2fc1f36ffb00822b29"
+  },
+  {
+   "file": "SBJ02/S07/Test/runs_per_block.txt",
+   "bytes": 2,
+   "sha256": "f0b5c2c2211c8d67ed15e75e656c7862d086e9245420892a7de62cd9ec582a06"
+  },
+  {
+   "file": "SBJ02/S07/Test/testData.mat",
+   "bytes": 25499565,
+   "sha256": "3dacf1990eac4903ebd37fa15f8726836f7e2986e7db811c8634136df2cf4e95"
+  },
+  {
+   "file": "SBJ02/S07/Test/testEvents.txt",
+   "bytes": 4000,
+   "sha256": "04215b088561ec5da9f01f257d15754dfcc0ee17a0f8527a7cf9ab3f46f84377"
+  },
+  {
+   "file": "SBJ02/S07/Test/testLabels.txt",
+   "bytes": 100,
+   "sha256": "14443ae77c5d2a27cdb4896ffdfeb7f73addc8c63e9a512783f5c946d3634a81"
+  },
+  {
+   "file": "SBJ02/S07/Test/testTargets.txt",
+   "bytes": 4000,
+   "sha256": "e1b4fd91e332fb20cfde5bafc9b2f65e7fa2c81a2482294b401e57daf1f137e3"
+  },
+  {
+   "file": "SBJ02/S07/Train/trainData.mat",
+   "bytes": 20381081,
+   "sha256": "8f8c0afdf232809508f7471015b1f4c2b60d2f3c5922109e6b5c0281c5c2bdc3"
+  },
+  {
+   "file": "SBJ02/S07/Train/trainEvents.txt",
+   "bytes": 3200,
+   "sha256": "f201f414ababfcf24782cfa4e1a1ed22bd030d48d29bdd42cdc9f8405ae6cff8"
+  },
+  {
+   "file": "SBJ02/S07/Train/trainLabels.txt",
+   "bytes": 40,
+   "sha256": "7fabb0d3df94256fbebbb16f31da3f50dc8895334316c204683f062493bf6030"
+  },
+  {
+   "file": "SBJ02/S07/Train/trainTargets.txt",
+   "bytes": 3200,
+   "sha256": "ced4873149f502d77f2e4acb266e1af9dce810cee22a5999b5c9ba1f197dbcff"
+  },
+  {
+   "file": "SBJ03/S01/Test/runs_per_block.txt",
+   "bytes": 2,
+   "sha256": "06e9d52c1720fca412803e3b07c4b228ff113e303f4c7ab94665319d832bbfb7"
+  },
+  {
+   "file": "SBJ03/S01/Test/testData.mat",
+   "bytes": 30746175,
+   "sha256": "66e6fb80c6f67af013dd95811bf0cf201427d15093be92f2397203d4f85640cd"
+  },
+  {
+   "file": "SBJ03/S01/Test/testEvents.txt",
+   "bytes": 4800,
+   "sha256": "db96f8d5bc844cbfbba188f46cae2637acc0deaf60e3c75bcac5e4af2802171c"
+  },
+  {
+   "file": "SBJ03/S01/Test/testLabels.txt",
+   "bytes": 100,
+   "sha256": "bffcf74fd563902088fc8682e9bbf457e2dc2628c856a5f9c355cfb1a14f0f7e"
+  },
+  {
+   "file": "SBJ03/S01/Test/testTargets.txt",
+   "bytes": 4800,
+   "sha256": "c90b11a28e0781a8c61a86606679cad2437688cc0b8ad516c1b19d921b39219e"
+  },
+  {
+   "file": "SBJ03/S01/Train/trainData.mat",
+   "bytes": 20418005,
+   "sha256": "ffb6b2a14b476289d9750c5ac1388ee1eeeabdcb25bbc6db083fd725aa79c651"
+  },
+  {
+   "file": "SBJ03/S01/Train/trainEvents.txt",
+   "bytes": 3200,
+   "sha256": "96189d11e932e0527b83a000b6662b4842e6fec8331578497a1f199a464522f0"
+  },
+  {
+   "file": "SBJ03/S01/Train/trainLabels.txt",
+   "bytes": 40,
+   "sha256": "c94b31a4bff9f20e5e707044ef2a01ad08aab81775aa86b891202ad0b79272cc"
+  },
+  {
+   "file": "SBJ03/S01/Train/trainTargets.txt",
+   "bytes": 3200,
+   "sha256": "dbed315f67a476888a96f7f1a5dea6e2841af60e45c4af40bd38b95f2233e6a5"
+  },
+  {
+   "file": "SBJ03/S02/Test/runs_per_block.txt",
+   "bytes": 2,
+   "sha256": "06e9d52c1720fca412803e3b07c4b228ff113e303f4c7ab94665319d832bbfb7"
+  },
+  {
+   "file": "SBJ03/S02/Test/testData.mat",
+   "bytes": 30415921,
+   "sha256": "4de7ff16926622c8a68aed37a499e63f507ac78fcfc6740426ca524fe7e9960d"
+  },
+  {
+   "file": "SBJ03/S02/Test/testEvents.txt",
+   "bytes": 4800,
+   "sha256": "fe6fdb2917c25f49073ee283cc351d2afdb817be3fc7fcb99bd21710e19efad7"
+  },
+  {
+   "file": "SBJ03/S02/Test/testLabels.txt",
+   "bytes": 100,
+   "sha256": "1e66bef17a14e02f2805b8ed5b64c7058c32608a73aafce365290499140e9b6e"
+  },
+  {
+   "file": "SBJ03/S02/Test/testTargets.txt",
+   "bytes": 4800,
+   "sha256": "d172d0a1fae8be4b970e4de3e78da1663f47a02d6efcb85e7f708b08b5480341"
+  },
+  {
+   "file": "SBJ03/S02/Train/trainData.mat",
+   "bytes": 20307600,
+   "sha256": "7d21c6b02499a0ca688a26982f47af9b8eeaae9b963dc9cf26419a1fe76fa5cb"
+  },
+  {
+   "file": "SBJ03/S02/Train/trainEvents.txt",
+   "bytes": 3200,
+   "sha256": "2ba92bf007f6b96fe896652d3260a628dcb79ebc514722ca75b7cf963039da10"
+  },
+  {
+   "file": "SBJ03/S02/Train/trainLabels.txt",
+   "bytes": 40,
+   "sha256": "3b8e74950eabc5b42b273794e47e94eb565f57e92336df7a772f6e7728e6177b"
+  },
+  {
+   "file": "SBJ03/S02/Train/trainTargets.txt",
+   "bytes": 3200,
+   "sha256": "8b247eb6ea1353985c2e7dfe4f9af2f9aa1f74047a22ed98c8e21974c4a04fa7"
+  },
+  {
+   "file": "SBJ03/S03/Test/runs_per_block.txt",
+   "bytes": 2,
+   "sha256": "10159baf262b43a92d95db59dae1f72c645127301661e0a3ce4e38b295a97c58"
+  },
+  {
+   "file": "SBJ03/S03/Test/testData.mat",
+   "bytes": 35839411,
+   "sha256": "8b24b0307c361a75f52aa84df20da76bff58481f55e88019a82162a3e536c404"
+  },
+  {
+   "file": "SBJ03/S03/Test/testEvents.txt",
+   "bytes": 5600,
+   "sha256": "68a6d49b41e8226438dfc18ef324035d05379b1418d52ede1e72b85a9f4eb57a"
+  },
+  {
+   "file": "SBJ03/S03/Test/testLabels.txt",
+   "bytes": 100,
+   "sha256": "17ca227530c0e40f768bb65c22da9235d904e850a229b9029c4cbd071da28b7b"
+  },
+  {
+   "file": "SBJ03/S03/Test/testTargets.txt",
+   "bytes": 5600,
+   "sha256": "c5640d70e70cc9137f5665f5f6729074994ff8c8ad019dd484cd0029c7f166ba"
+  },
+  {
+   "file": "SBJ03/S03/Train/trainData.mat",
+   "bytes": 20454263,
+   "sha256": "73031e3434e0146f476606e9a4dc0a4a21943b428c2a07584e90a2898d8ed9d6"
+  },
+  {
+   "file": "SBJ03/S03/Train/trainEvents.txt",
+   "bytes": 3200,
+   "sha256": "b0d7408ad7765ccd22430985b15ff26fa03812b01ca84fd5459d8b0f55646a6a"
+  },
+  {
+   "file": "SBJ03/S03/Train/trainLabels.txt",
+   "bytes": 40,
+   "sha256": "5d33f1b1e30c6def30240944d245a48ae6eae11a4bc6a4eb87abe23bd2061777"
+  },
+  {
+   "file": "SBJ03/S03/Train/trainTargets.txt",
+   "bytes": 3200,
+   "sha256": "2561d504fd0db2824eed894836929c622983b4b634ce8ea4fe16b12140f72f12"
+  },
+  {
+   "file": "SBJ03/S04/Test/runs_per_block.txt",
+   "bytes": 3,
+   "sha256": "917df3320d778ddbaa5c5c7742bc4046bf803c36ed2b050f30844ed206783469"
+  },
+  {
+   "file": "SBJ03/S04/Test/testData.mat",
+   "bytes": 51220842,
+   "sha256": "acd15918df0db959b1cea7883236a6a7ecdf5707976c5b274602bdb4fa1f6a0d"
+  },
+  {
+   "file": "SBJ03/S04/Test/testEvents.txt",
+   "bytes": 8000,
+   "sha256": "18004cfb5adec88ec96e4ba165f6475c868cb378ce25082937e79ea085712df7"
+  },
+  {
+   "file": "SBJ03/S04/Test/testLabels.txt",
+   "bytes": 100,
+   "sha256": "32c0c113fb62bdd98aa19483ed9e1ed3ff7510ea60e64b52a6ab95ead2e7cd2d"
+  },
+  {
+   "file": "SBJ03/S04/Test/testTargets.txt",
+   "bytes": 8000,
+   "sha256": "0de62e08916142d03604a36f5ad806f146259524c1f916bde4bc31833b9e8491"
+  },
+  {
+   "file": "SBJ03/S04/Train/trainData.mat",
+   "bytes": 20491043,
+   "sha256": "111dcd68430edd727ca81ca03c46162adaef87b600d7fad402e8a9019084ed1f"
+  },
+  {
+   "file": "SBJ03/S04/Train/trainEvents.txt",
+   "bytes": 3200,
+   "sha256": "649e541ac5c62d307c41395a45b8db7011ac3615ca8901a74d4131e7ef96c748"
+  },
+  {
+   "file": "SBJ03/S04/Train/trainLabels.txt",
+   "bytes": 40,
+   "sha256": "3ad8caa56e243f1560d3a7b890625d00963da89051287d1a92ca640188174c50"
+  },
+  {
+   "file": "SBJ03/S04/Train/trainTargets.txt",
+   "bytes": 3200,
+   "sha256": "c8a6f78f51690122b39a7730eeef6c2da3c31492586874c14ed90c006b157f05"
+  },
+  {
+   "file": "SBJ03/S05/Test/runs_per_block.txt",
+   "bytes": 3,
+   "sha256": "917df3320d778ddbaa5c5c7742bc4046bf803c36ed2b050f30844ed206783469"
+  },
+  {
+   "file": "SBJ03/S05/Test/testData.mat",
+   "bytes": 51117120,
+   "sha256": "b668f89abc19daca094bcf13568a82f1b5e478e2b6fad8e410973fb9a66d0294"
+  },
+  {
+   "file": "SBJ03/S05/Test/testEvents.txt",
+   "bytes": 8000,
+   "sha256": "c3067c9ac28891c8fa26939825be3bda53575f153bcd238324c41f65e27d9c60"
+  },
+  {
+   "file": "SBJ03/S05/Test/testLabels.txt",
+   "bytes": 100,
+   "sha256": "df5d3c4d2b2c8a3b7beac5537e79c203ba7e33260c91f9940372f431c694c815"
+  },
+  {
+   "file": "SBJ03/S05/Test/testTargets.txt",
+   "bytes": 8000,
+   "sha256": "fed919628eccb656f9552b4970173518d20c23a480676c9844e922e6776d58e8"
+  },
+  {
+   "file": "SBJ03/S05/Train/trainData.mat",
+   "bytes": 19919267,
+   "sha256": "b9a739362e784add5897912d64e0eee8ffbd7d79ce534781574dcdea0b4e2cab"
+  },
+  {
+   "file": "SBJ03/S05/Train/trainEvents.txt",
+   "bytes": 3200,
+   "sha256": "ebdbc537838d637713ae6d8db199fc70fda9f8dbc9ac23f8e7ea3cadf0d1cc3e"
+  },
+  {
+   "file": "SBJ03/S05/Train/trainLabels.txt",
+   "bytes": 40,
+   "sha256": "ca2060974ca3f648dbb356c6ac8d6015a26604466037466b8d2454a2080f6bbe"
+  },
+  {
+   "file": "SBJ03/S05/Train/trainTargets.txt",
+   "bytes": 3200,
+   "sha256": "f3d0121cc3f36525298e829a74199e853d14a2cfb348a1f4e6e0dbdb2becaa87"
+  },
+  {
+   "file": "SBJ03/S06/Test/runs_per_block.txt",
+   "bytes": 3,
+   "sha256": "917df3320d778ddbaa5c5c7742bc4046bf803c36ed2b050f30844ed206783469"
+  },
+  {
+   "file": "SBJ03/S06/Test/testData.mat",
+   "bytes": 51182148,
+   "sha256": "af7b562d78725130e58dd7f4fd8a79c1116a1b395e843dd51cc048e2f68ef002"
+  },
+  {
+   "file": "SBJ03/S06/Test/testEvents.txt",
+   "bytes": 8000,
+   "sha256": "8d6046ae9697a20da3480fdad588eef074ce884e28d87808989a4e3d9f9ba511"
+  },
+  {
+   "file": "SBJ03/S06/Test/testLabels.txt",
+   "bytes": 100,
+   "sha256": "69366c3b8b5de95916fd9c0f4fbb845a8b78a1d72c11e3e9a71b378f85546511"
+  },
+  {
+   "file": "SBJ03/S06/Test/testTargets.txt",
+   "bytes": 8000,
+   "sha256": "052161ec8d39c6c2d941fc2938e069e0c3bc7b678bfdcf4f6963318008497bd8"
+  },
+  {
+   "file": "SBJ03/S06/Train/trainData.mat",
+   "bytes": 20504221,
+   "sha256": "4c1b61d5900b62147a2d909bd6e6f3e2c26b8fede5dfb6883cb8f779215bc24c"
+  },
+  {
+   "file": "SBJ03/S06/Train/trainEvents.txt",
+   "bytes": 3200,
+   "sha256": "87d6dd56bb6d0183160c660da812de0230b974ce9c2e41a757ba8d56bb0f0b28"
+  },
+  {
+   "file": "SBJ03/S06/Train/trainLabels.txt",
+   "bytes": 40,
+   "sha256": "0eb1b82b7a1f7a441beeafe39fba6c64183e0ed460c9854dde71251bf3bdf900"
+  },
+  {
+   "file": "SBJ03/S06/Train/trainTargets.txt",
+   "bytes": 3200,
+   "sha256": "b97c5874d4533eb1d559013ceb9fd2f35a69348edb3ec04c392fef6bfd87d746"
+  },
+  {
+   "file": "SBJ03/S07/Test/runs_per_block.txt",
+   "bytes": 2,
+   "sha256": "f0b5c2c2211c8d67ed15e75e656c7862d086e9245420892a7de62cd9ec582a06"
+  },
+  {
+   "file": "SBJ03/S07/Test/testData.mat",
+   "bytes": 25831041,
+   "sha256": "f6ac4e3d41057d76e6fef3202d315156479bd502a2f3f59cea0e68dd46474cd0"
+  },
+  {
+   "file": "SBJ03/S07/Test/testEvents.txt",
+   "bytes": 4000,
+   "sha256": "3e191d41dd88534bcc7571387e5f3137786f6da3e808fa9262621b706cacea4e"
+  },
+  {
+   "file": "SBJ03/S07/Test/testLabels.txt",
+   "bytes": 100,
+   "sha256": "6c9682aec186d76597707ec7407b95f610ee0d575a6560c4a9c750908bb5bfc7"
+  },
+  {
+   "file": "SBJ03/S07/Test/testTargets.txt",
+   "bytes": 4000,
+   "sha256": "788200c4ded5cc427ff5e4fa5b49bcac217eb8ac7aa2f463fff4c928469fabd3"
+  },
+  {
+   "file": "SBJ03/S07/Train/trainData.mat",
+   "bytes": 20315194,
+   "sha256": "35b8218fce5036f2684b00182af0b5e0437a2a4c103ce34781f1aa863312a1b8"
+  },
+  {
+   "file": "SBJ03/S07/Train/trainEvents.txt",
+   "bytes": 3200,
+   "sha256": "1afffa97ade6d4c31faa3b7aaea34c8a6301aaa3405844c20343af5f8d5777ca"
+  },
+  {
+   "file": "SBJ03/S07/Train/trainLabels.txt",
+   "bytes": 40,
+   "sha256": "471c7ca86813eb57d56c0493fa1fb941be58ef4a91e2d59a18a457a8374a170b"
+  },
+  {
+   "file": "SBJ03/S07/Train/trainTargets.txt",
+   "bytes": 3200,
+   "sha256": "676e4e16e17cb861b90a9898402412c83a3025c409a9c4dd23019f1be38a24da"
+  },
+  {
+   "file": "SBJ04/S01/Test/runs_per_block.txt",
+   "bytes": 2,
+   "sha256": "f0b5c2c2211c8d67ed15e75e656c7862d086e9245420892a7de62cd9ec582a06"
+  },
+  {
+   "file": "SBJ04/S01/Test/testData.mat",
+   "bytes": 25417988,
+   "sha256": "cb73d01eb7fcc89c1dba2876d9e82d4c6fc08329190342a18ff4b44e74c8ed04"
+  },
+  {
+   "file": "SBJ04/S01/Test/testEvents.txt",
+   "bytes": 4000,
+   "sha256": "4f623e3190a908ab6eaa8f89179cb2a4fc34e1d0c58ae0d2916d53b3b5ee4201"
+  },
+  {
+   "file": "SBJ04/S01/Test/testLabels.txt",
+   "bytes": 100,
+   "sha256": "12af4a8ad2daf16fd007f4a556a1605794bb15ad8a6716fff6d950bf7bfc4ba0"
+  },
+  {
+   "file": "SBJ04/S01/Test/testTargets.txt",
+   "bytes": 4000,
+   "sha256": "c9cf2708d1b0a81223df5834172280929d5f09229bb70733ac3304c2bae9353c"
+  },
+  {
+   "file": "SBJ04/S01/Train/trainData.mat",
+   "bytes": 20332590,
+   "sha256": "1181da30da3e566dfc204ea1c24aeb702ac1d1091795c5fdbc79e47101825d01"
+  },
+  {
+   "file": "SBJ04/S01/Train/trainEvents.txt",
+   "bytes": 3200,
+   "sha256": "c0c13660f7b9f7a2242809e2742a9283c83540a2492aa062326b7348c7a22846"
+  },
+  {
+   "file": "SBJ04/S01/Train/trainLabels.txt",
+   "bytes": 40,
+   "sha256": "e667ae745807c73964da18268a135ee25867344d7c7e8de5b4e251c4a621c647"
+  },
+  {
+   "file": "SBJ04/S01/Train/trainTargets.txt",
+   "bytes": 3200,
+   "sha256": "0bcb073b7c9f1e91fad4da43da8ae721eefb19bd07ed7c4ad9a55f20a231338b"
+  },
+  {
+   "file": "SBJ04/S02/Test/runs_per_block.txt",
+   "bytes": 2,
+   "sha256": "f0b5c2c2211c8d67ed15e75e656c7862d086e9245420892a7de62cd9ec582a06"
+  },
+  {
+   "file": "SBJ04/S02/Test/testData.mat",
+   "bytes": 25314571,
+   "sha256": "efab02352502fe83e3fd26ca88d56c9e0bd226c913b62c9518ac31d9ec0f6a3f"
+  },
+  {
+   "file": "SBJ04/S02/Test/testEvents.txt",
+   "bytes": 4000,
+   "sha256": "41dc0efe1ba84d4424ef05baadde0af4e83057d809f3e972dd1b7d6bac4994f7"
+  },
+  {
+   "file": "SBJ04/S02/Test/testLabels.txt",
+   "bytes": 100,
+   "sha256": "d7a7b0076f9eec0849f48688f106bca3165d00ce5ed7e350a59bb7af6b014d3a"
+  },
+  {
+   "file": "SBJ04/S02/Test/testTargets.txt",
+   "bytes": 4000,
+   "sha256": "e840c897a2452e672635c66be64b256f90461aafa36130bcd2af41b6b7ee33e1"
+  },
+  {
+   "file": "SBJ04/S02/Train/trainData.mat",
+   "bytes": 20297426,
+   "sha256": "fbaa07dac3d2a1aa907dc0b4160c494c7e01397c57e4596132118abca0a41d7a"
+  },
+  {
+   "file": "SBJ04/S02/Train/trainEvents.txt",
+   "bytes": 3200,
+   "sha256": "cef80bf5d882082dfce0f2878f737becce921006f00dda2ad52b9484e6661162"
+  },
+  {
+   "file": "SBJ04/S02/Train/trainLabels.txt",
+   "bytes": 40,
+   "sha256": "819c1d8f5e838578a9e8e118dc292e0e388d5a0c094a139fc9e00ca118efb841"
+  },
+  {
+   "file": "SBJ04/S02/Train/trainTargets.txt",
+   "bytes": 3200,
+   "sha256": "d4d3433f742dfb7ce808b8739b5cf8bbfcec57a04f96ceb107587d153d58de8b"
+  },
+  {
+   "file": "SBJ04/S03/Test/runs_per_block.txt",
+   "bytes": 2,
+   "sha256": "10159baf262b43a92d95db59dae1f72c645127301661e0a3ce4e38b295a97c58"
+  },
+  {
+   "file": "SBJ04/S03/Test/testData.mat",
+   "bytes": 35588010,
+   "sha256": "098abc3f3b658ee68070cd4078e94fb1d96c8ed39f84f658eec154919711b614"
+  },
+  {
+   "file": "SBJ04/S03/Test/testEvents.txt",
+   "bytes": 5600,
+   "sha256": "987d77bbb69432b5027258b7846141864cf7cc8ca964e534a88c9e7696739ae3"
+  },
+  {
+   "file": "SBJ04/S03/Test/testLabels.txt",
+   "bytes": 100,
+   "sha256": "9d0cca5e9c468a543d06d1a6aafc09fbda852eeda0cfa75ae47ff4374eb417e9"
+  },
+  {
+   "file": "SBJ04/S03/Test/testTargets.txt",
+   "bytes": 5600,
+   "sha256": "c681686b83b4c047301e810a766921c00b5f918dd3224ee8671955f5892e9502"
+  },
+  {
+   "file": "SBJ04/S03/Train/trainData.mat",
+   "bytes": 20203969,
+   "sha256": "5f76d2b8b3b3013a7995d1b481ff03c5ffca701879240586a39fc94a7af88cc6"
+  },
+  {
+   "file": "SBJ04/S03/Train/trainEvents.txt",
+   "bytes": 3200,
+   "sha256": "c5fbff3a5c6582e0f90152360e0780451834fd33d5cd36720835a4c5a6ed6705"
+  },
+  {
+   "file": "SBJ04/S03/Train/trainLabels.txt",
+   "bytes": 40,
+   "sha256": "41455d110728db2e23ae488054f0e7d0526f9006fe0b903929f0b1cbd3bb06e8"
+  },
+  {
+   "file": "SBJ04/S03/Train/trainTargets.txt",
+   "bytes": 3200,
+   "sha256": "603b4c2696dfef396e40b53a451aa4cc2ae0f2b86f2d26717a6d7c899c9448f2"
+  },
+  {
+   "file": "SBJ04/S04/Test/runs_per_block.txt",
+   "bytes": 2,
+   "sha256": "06e9d52c1720fca412803e3b07c4b228ff113e303f4c7ab94665319d832bbfb7"
+  },
+  {
+   "file": "SBJ04/S04/Test/testData.mat",
+   "bytes": 30375330,
+   "sha256": "87d91749d58981417d16ca2b3d35fb5d86d95b4c2b4b34abe6dee32d51a3d988"
+  },
+  {
+   "file": "SBJ04/S04/Test/testEvents.txt",
+   "bytes": 4800,
+   "sha256": "936f0d0d7a3696d25f61f5823b20f6efff4b57071fea013cee4e6eba6d7ccc81"
+  },
+  {
+   "file": "SBJ04/S04/Test/testLabels.txt",
+   "bytes": 100,
+   "sha256": "0fcd928a4b2f62b66be9e91deb67523821ab164b1164e72db4c515d669c9a986"
+  },
+  {
+   "file": "SBJ04/S04/Test/testTargets.txt",
+   "bytes": 4800,
+   "sha256": "7442b35ee023630136093deaf1fa864b8ab4fd2ea695fd45da4e083956073bf0"
+  },
+  {
+   "file": "SBJ04/S04/Train/trainData.mat",
+   "bytes": 20331872,
+   "sha256": "df5b4564d3d840cc558b6674993e5c797b6e36df5a0ed0808c788cd72d5778ad"
+  },
+  {
+   "file": "SBJ04/S04/Train/trainEvents.txt",
+   "bytes": 3200,
+   "sha256": "43d4a18c330b20e6bb22b119a0ae8f92c8a4f884b02150d992a8bb4687fbfa47"
+  },
+  {
+   "file": "SBJ04/S04/Train/trainLabels.txt",
+   "bytes": 40,
+   "sha256": "f9ad63a54217dfb89b87975913678a2e9c585b7947c3114b9dfae35642d56e3e"
+  },
+  {
+   "file": "SBJ04/S04/Train/trainTargets.txt",
+   "bytes": 3200,
+   "sha256": "47ea753d25534dd61a7dff5b4efa177c778ed146900f57bf4baf2ed692a722e4"
+  },
+  {
+   "file": "SBJ04/S05/Test/runs_per_block.txt",
+   "bytes": 2,
+   "sha256": "7de1555df0c2700329e815b93b32c571c3ea54dc967b89e81ab73b9972b72d1d"
+  },
+  {
+   "file": "SBJ04/S05/Test/testData.mat",
+   "bytes": 20361800,
+   "sha256": "23fe7bf0ea44c15c1f45d5b567bda75c27606dfbd382218b75bee4c1323a8213"
+  },
+  {
+   "file": "SBJ04/S05/Test/testEvents.txt",
+   "bytes": 3200,
+   "sha256": "bd1159389711d1f65fd7276097dca705cef6bb6804e386065370470f9abc2e7b"
+  },
+  {
+   "file": "SBJ04/S05/Test/testLabels.txt",
+   "bytes": 100,
+   "sha256": "093749b7ad3020186a63783721cd981446a766039f6d61bd4cdd12b80214aec1"
+  },
+  {
+   "file": "SBJ04/S05/Test/testTargets.txt",
+   "bytes": 3200,
+   "sha256": "93e3e1a3cf403929eba3a7da34a68a9ed17f2c14c05cb125c02bd054052c8796"
+  },
+  {
+   "file": "SBJ04/S05/Train/trainData.mat",
+   "bytes": 20341335,
+   "sha256": "a8cf97d08273502b89090ca30207c3acc0a08f31685bbcbd07547e16104d07c5"
+  },
+  {
+   "file": "SBJ04/S05/Train/trainEvents.txt",
+   "bytes": 3200,
+   "sha256": "c94cc7a27e8b68344dc596105684c54676839f158e9bb99bda67aad4cab80928"
+  },
+  {
+   "file": "SBJ04/S05/Train/trainLabels.txt",
+   "bytes": 40,
+   "sha256": "a99d38b8b74e7058265ce254334c446727e672c20924e01dbb61447ada4bb4e4"
+  },
+  {
+   "file": "SBJ04/S05/Train/trainTargets.txt",
+   "bytes": 3200,
+   "sha256": "6558c5a5d0303f3abedbfe01f3912923e6309bd9c53463fe485f5f0f2396c107"
+  },
+  {
+   "file": "SBJ04/S06/Test/runs_per_block.txt",
+   "bytes": 3,
+   "sha256": "917df3320d778ddbaa5c5c7742bc4046bf803c36ed2b050f30844ed206783469"
+  },
+  {
+   "file": "SBJ04/S06/Test/testData.mat",
+   "bytes": 50787886,
+   "sha256": "b4935ac86057f0848954184d4d4d1d9bee408f5f8c9aa2d1c63532ffda2763c9"
+  },
+  {
+   "file": "SBJ04/S06/Test/testEvents.txt",
+   "bytes": 8000,
+   "sha256": "bfa2356ba8423453715700332a3ab337332465214f46067ff658dde86de3a130"
+  },
+  {
+   "file": "SBJ04/S06/Test/testLabels.txt",
+   "bytes": 100,
+   "sha256": "a6e99bcdaae6f48ae6084db56651a1668aef33e3a4ed628310897a956537cf76"
+  },
+  {
+   "file": "SBJ04/S06/Test/testTargets.txt",
+   "bytes": 8000,
+   "sha256": "f754ef7aea69c941b150e76c6fbdc9a4f084b65ad8c9d5c021ced44290339905"
+  },
+  {
+   "file": "SBJ04/S06/Train/trainData.mat",
+   "bytes": 20164119,
+   "sha256": "63765ad47ed16e4c06b8d1500a76fdf447801beaf12898b5731807e86334ee6c"
+  },
+  {
+   "file": "SBJ04/S06/Train/trainEvents.txt",
+   "bytes": 3200,
+   "sha256": "544a7215daa97599d838b08fd69dc841ee86e90241820590c47f2ee493b5b872"
+  },
+  {
+   "file": "SBJ04/S06/Train/trainLabels.txt",
+   "bytes": 40,
+   "sha256": "84af4371649ade05d7c71de2f4f02ff3e8762a560b12c6c8f08e7b33deec22ec"
+  },
+  {
+   "file": "SBJ04/S06/Train/trainTargets.txt",
+   "bytes": 3200,
+   "sha256": "6062ac670a739a35ca190d502c235322558c05bd8dc11e44e6cb6f596aa6d2f7"
+  },
+  {
+   "file": "SBJ04/S07/Test/runs_per_block.txt",
+   "bytes": 2,
+   "sha256": "06e9d52c1720fca412803e3b07c4b228ff113e303f4c7ab94665319d832bbfb7"
+  },
+  {
+   "file": "SBJ04/S07/Test/testData.mat",
+   "bytes": 30467973,
+   "sha256": "c8d2831ac0a53eee1aa8f4a5b5869b6d77281520ee45121bfd4d59ad812d015d"
+  },
+  {
+   "file": "SBJ04/S07/Test/testEvents.txt",
+   "bytes": 4800,
+   "sha256": "b0e76e97c3cfcaf5af9df74281d0f2220e15a129632de7ccf8f65e361d3d2fca"
+  },
+  {
+   "file": "SBJ04/S07/Test/testLabels.txt",
+   "bytes": 100,
+   "sha256": "6d97ba61b490cdd672dd33558364fab30261d5e897b23f5e22d114eb0032123a"
+  },
+  {
+   "file": "SBJ04/S07/Test/testTargets.txt",
+   "bytes": 4800,
+   "sha256": "97199d5f27498d0f6b5b84707ce41124ebd7b786980b543332dad34455dc78d6"
+  },
+  {
+   "file": "SBJ04/S07/Train/trainData.mat",
+   "bytes": 20348789,
+   "sha256": "228d1e5398443c9b43592bca0f331c6b810e2b83bc7235b8662c541fc1866353"
+  },
+  {
+   "file": "SBJ04/S07/Train/trainEvents.txt",
+   "bytes": 3200,
+   "sha256": "7623ee56478fa133888776738dcbb668c212a5d98b0997c7238f248f90a0bcec"
+  },
+  {
+   "file": "SBJ04/S07/Train/trainLabels.txt",
+   "bytes": 40,
+   "sha256": "125ddc08d9a634e7772bd32c6c11cfa6adcc6e38126e227dc4a7f0673b2f37ee"
+  },
+  {
+   "file": "SBJ04/S07/Train/trainTargets.txt",
+   "bytes": 3200,
+   "sha256": "79405fa13119ef00d65f7c2e394c6de40ae2e0737516e9006bff2f4dc74e04aa"
+  },
+  {
+   "file": "SBJ05/S01/Test/runs_per_block.txt",
+   "bytes": 2,
+   "sha256": "aa67a169b0bba217aa0aa88a65346920c84c42447c36ba5f7ea65f422c1fe5d8"
+  },
+  {
+   "file": "SBJ05/S01/Test/testData.mat",
+   "bytes": 40705558,
+   "sha256": "84cf5a30e087c795e6ac2eef5c0244bd12695502c713b35e90a8b2e6f8525f64"
+  },
+  {
+   "file": "SBJ05/S01/Test/testEvents.txt",
+   "bytes": 6400,
+   "sha256": "5eb7a5ec470abc868d0b39307fe2952819e3e37b812c849a10cd9c339bd8ce90"
+  },
+  {
+   "file": "SBJ05/S01/Test/testLabels.txt",
+   "bytes": 100,
+   "sha256": "d2f4f506d0d27d1c848cafdb8e37a0a07435a69450375e2405a5cee21488e74a"
+  },
+  {
+   "file": "SBJ05/S01/Test/testTargets.txt",
+   "bytes": 6400,
+   "sha256": "a6132ee8fbe6120d543d0f8e87c9aa187b65b2b3c8fbc5a151f6ddeb2cacec5f"
+  },
+  {
+   "file": "SBJ05/S01/Train/trainData.mat",
+   "bytes": 20333218,
+   "sha256": "5e79bdada9d3dab22eb165a271cf7caa92b392be38e23035533ac4365098dad3"
+  },
+  {
+   "file": "SBJ05/S01/Train/trainEvents.txt",
+   "bytes": 3200,
+   "sha256": "82e352c14bfa8e728b8035cb58564f7bdf8d003cdb58f5ba67b4b9e3c32afb6e"
+  },
+  {
+   "file": "SBJ05/S01/Train/trainLabels.txt",
+   "bytes": 40,
+   "sha256": "9109d373e8ab8d3a4b24a52713040f2fa531586b0b91b34e014f2d6b95cc27cc"
+  },
+  {
+   "file": "SBJ05/S01/Train/trainTargets.txt",
+   "bytes": 3200,
+   "sha256": "fd61b007a73ac0ae6937d904a71b2ed0e5471359dd166aad4903ad9e8f054ef7"
+  },
+  {
+   "file": "SBJ05/S02/Test/runs_per_block.txt",
+   "bytes": 2,
+   "sha256": "10159baf262b43a92d95db59dae1f72c645127301661e0a3ce4e38b295a97c58"
+  },
+  {
+   "file": "SBJ05/S02/Test/testData.mat",
+   "bytes": 35398826,
+   "sha256": "a7069d627841737948f69e438a0a0d1293cd2237b34305d072db5cc463487e80"
+  },
+  {
+   "file": "SBJ05/S02/Test/testEvents.txt",
+   "bytes": 5600,
+   "sha256": "63c037a0849c0a9b746b6ca6dc5226064b3c7f5a5f2c019f4586ef6b94b54db2"
+  },
+  {
+   "file": "SBJ05/S02/Test/testLabels.txt",
+   "bytes": 100,
+   "sha256": "2fad47663e905021521932d512e1e895fb9f0d00b0f600975e8790e99f028fa8"
+  },
+  {
+   "file": "SBJ05/S02/Test/testTargets.txt",
+   "bytes": 5600,
+   "sha256": "eeba10e9ed03383ee6a3f09f2abe329ec112c3ab32eebcfa8b5276fd52f1fe58"
+  },
+  {
+   "file": "SBJ05/S02/Train/trainData.mat",
+   "bytes": 20222799,
+   "sha256": "c402cc48e30f7086c4256a3d07669b0d7d4351679678cd97e9b592e159db7380"
+  },
+  {
+   "file": "SBJ05/S02/Train/trainEvents.txt",
+   "bytes": 3200,
+   "sha256": "ca73e85705ac1cfa7928a1923069b06938ffbd396521b311991b55837230dc87"
+  },
+  {
+   "file": "SBJ05/S02/Train/trainLabels.txt",
+   "bytes": 40,
+   "sha256": "a8badcc042be27b201f3954096d2f1b1c904814e3fc75dea6417e710260d9def"
+  },
+  {
+   "file": "SBJ05/S02/Train/trainTargets.txt",
+   "bytes": 3200,
+   "sha256": "46aa2e61a7c55e3c12b0e2338ce7b535cfb1ad43e7cbf1df84829590b4cb3619"
+  },
+  {
+   "file": "SBJ05/S03/Test/runs_per_block.txt",
+   "bytes": 2,
+   "sha256": "10159baf262b43a92d95db59dae1f72c645127301661e0a3ce4e38b295a97c58"
+  },
+  {
+   "file": "SBJ05/S03/Test/testData.mat",
+   "bytes": 35572726,
+   "sha256": "3ac248568c965f8d8b514f012f9b0a8fc69be5c3f8344498fe44e51d7060e4e4"
+  },
+  {
+   "file": "SBJ05/S03/Test/testEvents.txt",
+   "bytes": 5600,
+   "sha256": "d858864b18be84a34475d11b63f068c526a37a861f86009d36064404bf34fd8d"
+  },
+  {
+   "file": "SBJ05/S03/Test/testLabels.txt",
+   "bytes": 100,
+   "sha256": "eaef78e2980d542be92c0220e8d930f44e64ce526ec3c991dbb74b24d28a5af4"
+  },
+  {
+   "file": "SBJ05/S03/Test/testTargets.txt",
+   "bytes": 5600,
+   "sha256": "77c760999898a9664157d2899db4b9b344a0798fb6ec52b986c8f0d7e41c7fee"
+  },
+  {
+   "file": "SBJ05/S03/Train/trainData.mat",
+   "bytes": 20380618,
+   "sha256": "93f3d238267c8bdac386857fe9079b2ffa01a29bd373e1ee6add0276c73c65ec"
+  },
+  {
+   "file": "SBJ05/S03/Train/trainEvents.txt",
+   "bytes": 3200,
+   "sha256": "65db9368ed4691e5f1b370bafcbc4802dc8058458bb6a31092bba49df4c97d78"
+  },
+  {
+   "file": "SBJ05/S03/Train/trainLabels.txt",
+   "bytes": 40,
+   "sha256": "ca49be2073e55f631ed5314a3817794be79a74d87a447e55499635c4a48b9615"
+  },
+  {
+   "file": "SBJ05/S03/Train/trainTargets.txt",
+   "bytes": 3200,
+   "sha256": "90d1d6faa1646d9a5db812bc006760eccdf1024b345de827798a56798d04cb07"
+  },
+  {
+   "file": "SBJ05/S04/Test/runs_per_block.txt",
+   "bytes": 3,
+   "sha256": "917df3320d778ddbaa5c5c7742bc4046bf803c36ed2b050f30844ed206783469"
+  },
+  {
+   "file": "SBJ05/S04/Test/testData.mat",
+   "bytes": 50643630,
+   "sha256": "69cc548a3382efd38da9c252f6ee285256162befb9de002c01cae4843c23b904"
+  },
+  {
+   "file": "SBJ05/S04/Test/testEvents.txt",
+   "bytes": 8000,
+   "sha256": "77bb1fa00fc7855f0e8b902de4ddc33c7cfcf1f2a69640a8e1dd92a77c19ca6d"
+  },
+  {
+   "file": "SBJ05/S04/Test/testLabels.txt",
+   "bytes": 100,
+   "sha256": "0e5391879e5593091b2ed156b8513f4c0600ba16a943f8779aa3f62f015a4def"
+  },
+  {
+   "file": "SBJ05/S04/Test/testTargets.txt",
+   "bytes": 8000,
+   "sha256": "44df36f2f3a8fecf1dd2e5f0373e03688b1c053306d6749d819ae52808a425a9"
+  },
+  {
+   "file": "SBJ05/S04/Train/trainData.mat",
+   "bytes": 20288624,
+   "sha256": "6290e77c30c11cbe05f55318ac497ff78a8b05f02d363bb63807834c4cedd1f5"
+  },
+  {
+   "file": "SBJ05/S04/Train/trainEvents.txt",
+   "bytes": 3200,
+   "sha256": "a076f2530d6b010696d29f3d66e727c431ae4df6c29c2d1a34703bd11fdab982"
+  },
+  {
+   "file": "SBJ05/S04/Train/trainLabels.txt",
+   "bytes": 40,
+   "sha256": "7164ca050ffcf6fffe2c61d7b3bc507b4f5cf0317f1880091cad509d9054a26b"
+  },
+  {
+   "file": "SBJ05/S04/Train/trainTargets.txt",
+   "bytes": 3200,
+   "sha256": "11f87c8ae12cedee2ca771b47cf4fc4b4343a3fd969c047650fa1d499d153c51"
+  },
+  {
+   "file": "SBJ05/S05/Test/runs_per_block.txt",
+   "bytes": 2,
+   "sha256": "06e9d52c1720fca412803e3b07c4b228ff113e303f4c7ab94665319d832bbfb7"
+  },
+  {
+   "file": "SBJ05/S05/Test/testData.mat",
+   "bytes": 30358330,
+   "sha256": "f787a36235a5566bc81aba64b08d9a2f54a499b9de34d2d3c0808d9845562a33"
+  },
+  {
+   "file": "SBJ05/S05/Test/testEvents.txt",
+   "bytes": 4800,
+   "sha256": "a1b16b9bad4688d8e8ab07e3173b10bf93dd8f9fb02448cf738983bea9268dc3"
+  },
+  {
+   "file": "SBJ05/S05/Test/testLabels.txt",
+   "bytes": 100,
+   "sha256": "2608dbc5718b4ef2d6855f27faa164379456e6536ac0ed48eef056cf1d63c92a"
+  },
+  {
+   "file": "SBJ05/S05/Test/testTargets.txt",
+   "bytes": 4800,
+   "sha256": "35c3a8b8649f25399a77b2afc078520ac185ac8bedf336f886d6cd4d270844ec"
+  },
+  {
+   "file": "SBJ05/S05/Train/trainData.mat",
+   "bytes": 20240380,
+   "sha256": "31f0504f2d4ce539ce3a903f40e04f2ac341b17130b50f02f94476c915408f22"
+  },
+  {
+   "file": "SBJ05/S05/Train/trainEvents.txt",
+   "bytes": 3200,
+   "sha256": "eba00efa42e5df5e960013e8e577fd7ca5bee3d0f91f9bf26a13433b18cde7ad"
+  },
+  {
+   "file": "SBJ05/S05/Train/trainLabels.txt",
+   "bytes": 40,
+   "sha256": "3c46ca3caa3b1854e409846ba7b89845fe4005df7298f471d37ceef662026c82"
+  },
+  {
+   "file": "SBJ05/S05/Train/trainTargets.txt",
+   "bytes": 3200,
+   "sha256": "e79fc52bf91e66cf098d2c580cdeff2ef70948d16e79e6386e94a8788a6db5f2"
+  },
+  {
+   "file": "SBJ05/S06/Test/runs_per_block.txt",
+   "bytes": 2,
+   "sha256": "06e9d52c1720fca412803e3b07c4b228ff113e303f4c7ab94665319d832bbfb7"
+  },
+  {
+   "file": "SBJ05/S06/Test/testData.mat",
+   "bytes": 30517255,
+   "sha256": "258b42e445246c90e0dafc7572acba2df312ed629a160593b9aef00b6194706c"
+  },
+  {
+   "file": "SBJ05/S06/Test/testEvents.txt",
+   "bytes": 4800,
+   "sha256": "cb1fca0f2555dc187ea8be1b7e33dbd0ae985f5bf9e20c6a8a5c9c155acbe39e"
+  },
+  {
+   "file": "SBJ05/S06/Test/testLabels.txt",
+   "bytes": 100,
+   "sha256": "f2399ac9cde460aca0b4e1a30adca79d5c693f5b6582da6e813483b9a72671c8"
+  },
+  {
+   "file": "SBJ05/S06/Test/testTargets.txt",
+   "bytes": 4800,
+   "sha256": "e2261010617b85df65cb202aa010605e962abb7b713d7d71bd6d3e77dd273f1a"
+  },
+  {
+   "file": "SBJ05/S06/Train/trainData.mat",
+   "bytes": 20373411,
+   "sha256": "b69676b5f5736281a2abc357babac12647af15014ddd1f2f0e19b2e85604cf5d"
+  },
+  {
+   "file": "SBJ05/S06/Train/trainEvents.txt",
+   "bytes": 3200,
+   "sha256": "3f3c400aba1c8c634579e975245003f04afb54eafb5fc1b002d75f743d43e65b"
+  },
+  {
+   "file": "SBJ05/S06/Train/trainLabels.txt",
+   "bytes": 40,
+   "sha256": "52e8b4a90ea9c3fb051a9e47747f240087f15e55564165799424386a63f7281e"
+  },
+  {
+   "file": "SBJ05/S06/Train/trainTargets.txt",
+   "bytes": 3200,
+   "sha256": "dc2daedaf6c5f5e9d884690a99ca10ca3bda64cd0c32742688101d9d35131ecf"
+  },
+  {
+   "file": "SBJ05/S07/Test/runs_per_block.txt",
+   "bytes": 2,
+   "sha256": "10159baf262b43a92d95db59dae1f72c645127301661e0a3ce4e38b295a97c58"
+  },
+  {
+   "file": "SBJ05/S07/Test/testData.mat",
+   "bytes": 35688896,
+   "sha256": "47a985c6b25922978c5f0c83f952366e37ebaf50373955c9272c8f82dcb4dd60"
+  },
+  {
+   "file": "SBJ05/S07/Test/testEvents.txt",
+   "bytes": 5600,
+   "sha256": "64623545cdf17e5c628b401085c30ca962111ae04482267349274059036500f7"
+  },
+  {
+   "file": "SBJ05/S07/Test/testLabels.txt",
+   "bytes": 100,
+   "sha256": "145d0ad4ad08b546b1cc366a4cbc6fcee3debfb046c8da39d48dd7ac1edfaae6"
+  },
+  {
+   "file": "SBJ05/S07/Test/testTargets.txt",
+   "bytes": 5600,
+   "sha256": "51f02fc6df51a06119ab36ba22ed8468a6661959db584105417cb7c1208e693a"
+  },
+  {
+   "file": "SBJ05/S07/Train/trainData.mat",
+   "bytes": 20322923,
+   "sha256": "c7da91f7470ea6d4b1d62afcb3db873794753126bd62760306714369b5d2051e"
+  },
+  {
+   "file": "SBJ05/S07/Train/trainEvents.txt",
+   "bytes": 3200,
+   "sha256": "b1fc08da2550635f1ea2d930586e5dd479433ad8516daa536790c4165c917ad3"
+  },
+  {
+   "file": "SBJ05/S07/Train/trainLabels.txt",
+   "bytes": 40,
+   "sha256": "c7fc0a9d177bc0e15910282dbcfdda551d92c406b052e813ecf218e1d1017c24"
+  },
+  {
+   "file": "SBJ05/S07/Train/trainTargets.txt",
+   "bytes": 3200,
+   "sha256": "fcfcbef58f08ed2fee06860d84c8a2462507d44d6347f203fe367a517b714984"
+  },
+  {
+   "file": "SBJ06/S01/Test/runs_per_block.txt",
+   "bytes": 2,
+   "sha256": "7de1555df0c2700329e815b93b32c571c3ea54dc967b89e81ab73b9972b72d1d"
+  },
+  {
+   "file": "SBJ06/S01/Test/testData.mat",
+   "bytes": 20430440,
+   "sha256": "7105069ccabb74dc36f246debb7561d58b640eacdb8010fb084adc1698b900ee"
+  },
+  {
+   "file": "SBJ06/S01/Test/testEvents.txt",
+   "bytes": 3200,
+   "sha256": "d3dfa3acbefaef03ba7d6567361698b61f54701da899e350723ec7612b9ced68"
+  },
+  {
+   "file": "SBJ06/S01/Test/testLabels.txt",
+   "bytes": 100,
+   "sha256": "0c868e81ec3036cdb6c3b0faa0a7e55015fac78753f5db6fdd11512896f98fea"
+  },
+  {
+   "file": "SBJ06/S01/Test/testTargets.txt",
+   "bytes": 3200,
+   "sha256": "f7b8a59f7d48f9df24b837abd2005682382b5f6b21db6b8e9e53dbe299fbe7a2"
+  },
+  {
+   "file": "SBJ06/S01/Train/trainData.mat",
+   "bytes": 20451141,
+   "sha256": "81590624ee1310d730c28bf83a480a84af1c5ae7756c6cff77c23d517ad37933"
+  },
+  {
+   "file": "SBJ06/S01/Train/trainEvents.txt",
+   "bytes": 3200,
+   "sha256": "349d4cdabd047c49e5be7bd54d6f535997963b11e8c378c7909c514c73a9f5e1"
+  },
+  {
+   "file": "SBJ06/S01/Train/trainLabels.txt",
+   "bytes": 40,
+   "sha256": "ecb0357559defb38bd460067dc292d745a257faaa2590c23f9379a4e4351435f"
+  },
+  {
+   "file": "SBJ06/S01/Train/trainTargets.txt",
+   "bytes": 3200,
+   "sha256": "766f9e1332aa0ef1ec43c3b7552a0f46a27c1fcefebe1bb3f6789631b9ebf754"
+  },
+  {
+   "file": "SBJ06/S02/Test/runs_per_block.txt",
+   "bytes": 2,
+   "sha256": "10159baf262b43a92d95db59dae1f72c645127301661e0a3ce4e38b295a97c58"
+  },
+  {
+   "file": "SBJ06/S02/Test/testData.mat",
+   "bytes": 35780632,
+   "sha256": "d8270e45057533a440b45ca7d67eac4026f08aba214de5f8ea295578234cb2e4"
+  },
+  {
+   "file": "SBJ06/S02/Test/testEvents.txt",
+   "bytes": 5600,
+   "sha256": "41ea04a8fba2c69c981c8fe664d773b84740b8c264856400cf2ee4f80e3d99f7"
+  },
+  {
+   "file": "SBJ06/S02/Test/testLabels.txt",
+   "bytes": 100,
+   "sha256": "76bcd3f329df0291685226fbd2c718cf74bbb919c6baba01b5580d4440a6335d"
+  },
+  {
+   "file": "SBJ06/S02/Test/testTargets.txt",
+   "bytes": 5600,
+   "sha256": "706d76a2232304a093a388882818ca0478ad058ef07f75308e82fd9ecb5d8876"
+  },
+  {
+   "file": "SBJ06/S02/Train/trainData.mat",
+   "bytes": 20410376,
+   "sha256": "af1ecd358b490fe10620d544e3f0570527a3b1e15a70be81b51bdd26dd87d05b"
+  },
+  {
+   "file": "SBJ06/S02/Train/trainEvents.txt",
+   "bytes": 3200,
+   "sha256": "b7a633d3de06b048a9d46a0861069ce62f80b67a4ed485f462daf61601154e0f"
+  },
+  {
+   "file": "SBJ06/S02/Train/trainLabels.txt",
+   "bytes": 40,
+   "sha256": "125bbc71f5c8f09ac8e908c1f23b0a11e3b28d7614d6b5729d4cccf0ac9a4ed1"
+  },
+  {
+   "file": "SBJ06/S02/Train/trainTargets.txt",
+   "bytes": 3200,
+   "sha256": "034961e3e74ee398ae84614fe27000d97e2cb5596d45bcb2179aeedf3c5d3a8f"
+  },
+  {
+   "file": "SBJ06/S03/Test/runs_per_block.txt",
+   "bytes": 2,
+   "sha256": "2e6d31a5983a91251bfae5aefa1c0a19d8ba3cf601d0e8a706b4cfa9661a6b8a"
+  },
+  {
+   "file": "SBJ06/S03/Test/testData.mat",
+   "bytes": 46004791,
+   "sha256": "02d7f76d9538e389d92ba5184cdca8dfb9ea6f3d6c72b95457fcb3447691b38f"
+  },
+  {
+   "file": "SBJ06/S03/Test/testEvents.txt",
+   "bytes": 7200,
+   "sha256": "a075ba92fdeb388d26a6373dbcc3edf2f3bcadbf3812e86fad87f32051b5ad46"
+  },
+  {
+   "file": "SBJ06/S03/Test/testLabels.txt",
+   "bytes": 100,
+   "sha256": "fe49740883b5e0c32efd7440cb1aa1408354250603bb6ec4b89e21bf6d707e8d"
+  },
+  {
+   "file": "SBJ06/S03/Test/testTargets.txt",
+   "bytes": 7200,
+   "sha256": "cefc5c51ef50c7dd9e842772d712115031daf228ee29e8b6b287119a175d1541"
+  },
+  {
+   "file": "SBJ06/S03/Train/trainData.mat",
+   "bytes": 20237424,
+   "sha256": "fc5960adb8123871218c831fee4c3b4d834e800db70e747b31462c6c97748b5e"
+  },
+  {
+   "file": "SBJ06/S03/Train/trainEvents.txt",
+   "bytes": 3200,
+   "sha256": "b17aeddf82a24fef26cdcb03e43f79a9e74d06a91f2773f6856d2d63ecaeff14"
+  },
+  {
+   "file": "SBJ06/S03/Train/trainLabels.txt",
+   "bytes": 40,
+   "sha256": "ac17d2aa69ad8e3888d09ae67e5dacb97b8a60828e40067bba994954cf4e9675"
+  },
+  {
+   "file": "SBJ06/S03/Train/trainTargets.txt",
+   "bytes": 3200,
+   "sha256": "67678fded1e4897e03193e63f1f860e342f72f4da0ec2539df886da17a33b3d0"
+  },
+  {
+   "file": "SBJ06/S04/Test/runs_per_block.txt",
+   "bytes": 2,
+   "sha256": "10159baf262b43a92d95db59dae1f72c645127301661e0a3ce4e38b295a97c58"
+  },
+  {
+   "file": "SBJ06/S04/Test/testData.mat",
+   "bytes": 35757752,
+   "sha256": "702893a5c09b81e0f47dc404659eeb5426e55f822a5378b52ffa4f7a3efcad14"
+  },
+  {
+   "file": "SBJ06/S04/Test/testEvents.txt",
+   "bytes": 5600,
+   "sha256": "d88573da984c85c0c72cda48128fca0f2eb99bf3a2a4c2803d273e5035bc49a3"
+  },
+  {
+   "file": "SBJ06/S04/Test/testLabels.txt",
+   "bytes": 100,
+   "sha256": "9a0f28e55564ad4be862b26de771622740ec5c0456f876c18640ae247a74b77d"
+  },
+  {
+   "file": "SBJ06/S04/Test/testTargets.txt",
+   "bytes": 5600,
+   "sha256": "03e5f72ba90fc4235f54d96d51fa2ef8c3423ca08ebb08fb039773d4baae5014"
+  },
+  {
+   "file": "SBJ06/S04/Train/trainData.mat",
+   "bytes": 20485866,
+   "sha256": "b4ff98230b006d1fb12fe87655572661cc2e2ed3f9c4e6734d35a0ed9730b9ef"
+  },
+  {
+   "file": "SBJ06/S04/Train/trainEvents.txt",
+   "bytes": 3200,
+   "sha256": "502c16f38aa74ee2a286560a621298443f715917da34997a75f38ac266f490c7"
+  },
+  {
+   "file": "SBJ06/S04/Train/trainLabels.txt",
+   "bytes": 40,
+   "sha256": "796d715da0e27f20e7d2576b325ee24dd6de97d307c18da1fde9fd1e2c7dec50"
+  },
+  {
+   "file": "SBJ06/S04/Train/trainTargets.txt",
+   "bytes": 3200,
+   "sha256": "b2f4fbce68f9a761e598b380b34d55169f19c875afe961870651892cc5339944"
+  },
+  {
+   "file": "SBJ06/S05/Test/runs_per_block.txt",
+   "bytes": 2,
+   "sha256": "10159baf262b43a92d95db59dae1f72c645127301661e0a3ce4e38b295a97c58"
+  },
+  {
+   "file": "SBJ06/S05/Test/testData.mat",
+   "bytes": 35830021,
+   "sha256": "c478269707fc4475053b39bbd23a93341f68473dcaebdc30f4a4e4e79966bc71"
+  },
+  {
+   "file": "SBJ06/S05/Test/testEvents.txt",
+   "bytes": 5600,
+   "sha256": "dd40f6ca83eb97378f7989fd81c648aca8a92d2f7282756e8c0a6fb7589f6ed1"
+  },
+  {
+   "file": "SBJ06/S05/Test/testLabels.txt",
+   "bytes": 100,
+   "sha256": "547e5f83dbe27b78e13b48655fd4ca60db6a62ab393636248adc3776025cfc3d"
+  },
+  {
+   "file": "SBJ06/S05/Test/testTargets.txt",
+   "bytes": 5600,
+   "sha256": "f15ab5c94af79263071ee8314dca94d70fbf8c66f983729f7291dad68dd41b2f"
+  },
+  {
+   "file": "SBJ06/S05/Train/trainData.mat",
+   "bytes": 20474945,
+   "sha256": "0f774012fac7e0606c097e8a077316f5dbb887c85eb33d8387d2eb5a9357c871"
+  },
+  {
+   "file": "SBJ06/S05/Train/trainEvents.txt",
+   "bytes": 3200,
+   "sha256": "2ec200796082106e004b2f0be7a272c9244df8562f2b0fb868cc6363b611fd52"
+  },
+  {
+   "file": "SBJ06/S05/Train/trainLabels.txt",
+   "bytes": 40,
+   "sha256": "4168352200993059bd417b71851ea56429eaddc6e86563f1b6bad863be1e1805"
+  },
+  {
+   "file": "SBJ06/S05/Train/trainTargets.txt",
+   "bytes": 3200,
+   "sha256": "e58759adc7886b2464fdd3ca526eb4a92e664fc6bbc3ef29fc724c43db239876"
+  },
+  {
+   "file": "SBJ06/S06/Test/runs_per_block.txt",
+   "bytes": 2,
+   "sha256": "10159baf262b43a92d95db59dae1f72c645127301661e0a3ce4e38b295a97c58"
+  },
+  {
+   "file": "SBJ06/S06/Test/testData.mat",
+   "bytes": 35943900,
+   "sha256": "e92b22be7f18d06bc7a06a213551d373e3f822029ca50e526f73e0837703e277"
+  },
+  {
+   "file": "SBJ06/S06/Test/testEvents.txt",
+   "bytes": 5600,
+   "sha256": "0c52afaf4f69dfd60afc357e492b91f8e14797cae346adf1e8375dbcd86762be"
+  },
+  {
+   "file": "SBJ06/S06/Test/testLabels.txt",
+   "bytes": 100,
+   "sha256": "0612d288be934f4cbb06aa1cc8981282975dc8f94672a4dac4411c38bbde7d39"
+  },
+  {
+   "file": "SBJ06/S06/Test/testTargets.txt",
+   "bytes": 5600,
+   "sha256": "528f9fc140e74bdb1e345f1274d71cc9ba3ecddc7cfc07d11134a78738ddca72"
+  },
+  {
+   "file": "SBJ06/S06/Train/trainData.mat",
+   "bytes": 20509443,
+   "sha256": "622210bd21f50a85432f322d6c3ca8ad7bdc2e9653a117b84f1bfce5debbad05"
+  },
+  {
+   "file": "SBJ06/S06/Train/trainEvents.txt",
+   "bytes": 3200,
+   "sha256": "976ad0a2c7aafd8121f5320babba124f7e2f4a79f8417dd8f77163df3cd0187b"
+  },
+  {
+   "file": "SBJ06/S06/Train/trainLabels.txt",
+   "bytes": 40,
+   "sha256": "4a6dee6039e8d75d34262bac01b538542ec4654554b39f7f03b0c58211f43691"
+  },
+  {
+   "file": "SBJ06/S06/Train/trainTargets.txt",
+   "bytes": 3200,
+   "sha256": "600e6240e38e2c682d874dcd8f7a8ea9880b22e8b8e809d9bb6abdcac9baa95a"
+  },
+  {
+   "file": "SBJ06/S07/Test/runs_per_block.txt",
+   "bytes": 3,
+   "sha256": "917df3320d778ddbaa5c5c7742bc4046bf803c36ed2b050f30844ed206783469"
+  },
+  {
+   "file": "SBJ06/S07/Test/testData.mat",
+   "bytes": 51314187,
+   "sha256": "94cf8cef14e9221843624055826dfdb5d48a27524bf8fbb0cb773ebca12cfab0"
+  },
+  {
+   "file": "SBJ06/S07/Test/testEvents.txt",
+   "bytes": 8000,
+   "sha256": "2ec3712750b1947e358f99750086615c209fce948c0f48f1e52596b001bf7a7f"
+  },
+  {
+   "file": "SBJ06/S07/Test/testLabels.txt",
+   "bytes": 100,
+   "sha256": "4ec17d3d4c4e53dcc079290a7eb6e6a5e334b423e9f0bff43038463bee5abcba"
+  },
+  {
+   "file": "SBJ06/S07/Test/testTargets.txt",
+   "bytes": 8000,
+   "sha256": "ad25dc763337dad42e49b8d993b8ad9fb3c2c32a763e74d670ace3793d6b4305"
+  },
+  {
+   "file": "SBJ06/S07/Train/trainData.mat",
+   "bytes": 20328087,
+   "sha256": "348ae4909357c0127c97c75cc1da69f905750f3cde1b141e4f9e0e92b44f2601"
+  },
+  {
+   "file": "SBJ06/S07/Train/trainEvents.txt",
+   "bytes": 3200,
+   "sha256": "3bef0cf8891ae3412e70a2cbe49581178069b17425df8ecec1e7ccf0c79d300b"
+  },
+  {
+   "file": "SBJ06/S07/Train/trainLabels.txt",
+   "bytes": 40,
+   "sha256": "4c319ced0dafbad2955d804ae030a9ba472240ffc8668cbb470a2764284f23a5"
+  },
+  {
+   "file": "SBJ06/S07/Train/trainTargets.txt",
+   "bytes": 3200,
+   "sha256": "955b38364cfd82d6d0ccd6e997d7d7619fb5b0dea986fd7d4b68ae20b37a3a18"
+  },
+  {
+   "file": "SBJ07/S01/Test/runs_per_block.txt",
+   "bytes": 2,
+   "sha256": "2e6d31a5983a91251bfae5aefa1c0a19d8ba3cf601d0e8a706b4cfa9661a6b8a"
+  },
+  {
+   "file": "SBJ07/S01/Test/testData.mat",
+   "bytes": 45790927,
+   "sha256": "b4f4fe1930e840703e3747c3f8cba90e1cc77a735ac3fbb2fadd8051a1acf03e"
+  },
+  {
+   "file": "SBJ07/S01/Test/testEvents.txt",
+   "bytes": 7200,
+   "sha256": "0095b4b058f282862dcf13b7ce12e19740b5644dd16a8a33851814ceba12f07b"
+  },
+  {
+   "file": "SBJ07/S01/Test/testLabels.txt",
+   "bytes": 100,
+   "sha256": "4e986c4da75c6a57d579099091fad400fffcf4c2ebf89c24455ffc8820fe48ea"
+  },
+  {
+   "file": "SBJ07/S01/Test/testTargets.txt",
+   "bytes": 7200,
+   "sha256": "cb2502939af421184356dd4ecebcf05c61e3f4a597e72a3d67e5be45e6e8539b"
+  },
+  {
+   "file": "SBJ07/S01/Train/trainData.mat",
+   "bytes": 20292357,
+   "sha256": "28ebe7abf8af835e760b6dd8329d49ef43f228593a4d957a324c64bb7e04264d"
+  },
+  {
+   "file": "SBJ07/S01/Train/trainEvents.txt",
+   "bytes": 3200,
+   "sha256": "15c35acef7d08f0d75ec961c233f89cddb5bf657dc8db63a738343983466247a"
+  },
+  {
+   "file": "SBJ07/S01/Train/trainLabels.txt",
+   "bytes": 40,
+   "sha256": "77b87d501c26c6893e447f9ca56cb8bec8846368f076a87bae89dbfcf72aabc8"
+  },
+  {
+   "file": "SBJ07/S01/Train/trainTargets.txt",
+   "bytes": 3200,
+   "sha256": "3e68d3433368698fa3e0baf386196daf87f8af0e67b406315f49f1ccbf19c61f"
+  },
+  {
+   "file": "SBJ07/S02/Test/runs_per_block.txt",
+   "bytes": 2,
+   "sha256": "f0b5c2c2211c8d67ed15e75e656c7862d086e9245420892a7de62cd9ec582a06"
+  },
+  {
+   "file": "SBJ07/S02/Test/testData.mat",
+   "bytes": 25446081,
+   "sha256": "84976f01ce9c214e6fbe4e0172747793a828a5d02e282b6beb3023d2a7c8fb64"
+  },
+  {
+   "file": "SBJ07/S02/Test/testEvents.txt",
+   "bytes": 4000,
+   "sha256": "ade687f2ebb35a449d54b60f0b7f9e75bd18e625fdf0f8d4c0f38ac8f3e04e83"
+  },
+  {
+   "file": "SBJ07/S02/Test/testLabels.txt",
+   "bytes": 100,
+   "sha256": "c4ef52f814b1368464f88e8e4f4376fcb6af5b34c0b1883e60efc8900a386b1c"
+  },
+  {
+   "file": "SBJ07/S02/Test/testTargets.txt",
+   "bytes": 4000,
+   "sha256": "80dfcede7da65ec6ed8586003e53c63e89d32c782aed02c4ae9dd731c48363c6"
+  },
+  {
+   "file": "SBJ07/S02/Train/trainData.mat",
+   "bytes": 20334029,
+   "sha256": "26bfeac6e4a3b2718f94ac5beb8f84f87ab00f5132ffeeed8541c477bb58fb0a"
+  },
+  {
+   "file": "SBJ07/S02/Train/trainEvents.txt",
+   "bytes": 3200,
+   "sha256": "74bbcdde38301390939e83ee438bb3bec25d4e783534a97fd515318935c39cb3"
+  },
+  {
+   "file": "SBJ07/S02/Train/trainLabels.txt",
+   "bytes": 40,
+   "sha256": "f624b9f20592d4e050f50c3eee86ebfe9bd2db92a6237f9dc494c9d7e99de3ee"
+  },
+  {
+   "file": "SBJ07/S02/Train/trainTargets.txt",
+   "bytes": 3200,
+   "sha256": "d731c0db143e41d51b856b4924c820d11b01e6b300eeb469f1210c111635e178"
+  },
+  {
+   "file": "SBJ07/S03/Test/runs_per_block.txt",
+   "bytes": 3,
+   "sha256": "917df3320d778ddbaa5c5c7742bc4046bf803c36ed2b050f30844ed206783469"
+  },
+  {
+   "file": "SBJ07/S03/Test/testData.mat",
+   "bytes": 51046251,
+   "sha256": "65db50af9b0f368276d92c150232c8df283d2a11cfd6a02204916e5ebdd21ed2"
+  },
+  {
+   "file": "SBJ07/S03/Test/testEvents.txt",
+   "bytes": 8000,
+   "sha256": "cb3fd66e1d8e1c667de0d5c84a28b1696cf4305064495b6a4c0bb186f8fa6533"
+  },
+  {
+   "file": "SBJ07/S03/Test/testLabels.txt",
+   "bytes": 100,
+   "sha256": "a648ff4bfdcc838d4f039536fffa62a808a8101f3ab84114b05f8c82595fbf00"
+  },
+  {
+   "file": "SBJ07/S03/Test/testTargets.txt",
+   "bytes": 8000,
+   "sha256": "7e39dffc3ddcee96caf7ee875f36ea7e381e4f67c6d466573f24714a8b8b87dc"
+  },
+  {
+   "file": "SBJ07/S03/Train/trainData.mat",
+   "bytes": 20407304,
+   "sha256": "6fb53e8950d437517bafdfacbf61934fb2a42c43f6c9dd32acc25a9145b6faee"
+  },
+  {
+   "file": "SBJ07/S03/Train/trainEvents.txt",
+   "bytes": 3200,
+   "sha256": "63216066ba7e5e67927b06ea40bb86c970d8e112512fcd7d9866999a78550eab"
+  },
+  {
+   "file": "SBJ07/S03/Train/trainLabels.txt",
+   "bytes": 40,
+   "sha256": "fa3062528e6f79c10ddf636f9c7a10185ce801f542bcdba699db5587a7ef53c0"
+  },
+  {
+   "file": "SBJ07/S03/Train/trainTargets.txt",
+   "bytes": 3200,
+   "sha256": "8a29de1b7e6b738ed40262115485ab41f323099c520d5780196ed4a0e05024d1"
+  },
+  {
+   "file": "SBJ07/S04/Test/runs_per_block.txt",
+   "bytes": 3,
+   "sha256": "917df3320d778ddbaa5c5c7742bc4046bf803c36ed2b050f30844ed206783469"
+  },
+  {
+   "file": "SBJ07/S04/Test/testData.mat",
+   "bytes": 50789337,
+   "sha256": "ca4a3ca3a8dac4d4d9bc22463621f1d8843be671d482ba2d808cb814e7893857"
+  },
+  {
+   "file": "SBJ07/S04/Test/testEvents.txt",
+   "bytes": 8000,
+   "sha256": "92fb165eb8b50546ada4c18db69eb6a30a8280ab6559c366e6869655d31b9e29"
+  },
+  {
+   "file": "SBJ07/S04/Test/testLabels.txt",
+   "bytes": 100,
+   "sha256": "09aa791cbb4f859d84caefa4b3b9a1b7af727ad3aeeb9cf6ba2179392075aca6"
+  },
+  {
+   "file": "SBJ07/S04/Test/testTargets.txt",
+   "bytes": 8000,
+   "sha256": "b805abe75c02401631df53fd7f802d6ff9749347c2965b5121a9862179b515b8"
+  },
+  {
+   "file": "SBJ07/S04/Train/trainData.mat",
+   "bytes": 20373877,
+   "sha256": "c8bdd4e0997449f9075a6d18e608d72103f8055bfbd049904b5ac6aba48a176b"
+  },
+  {
+   "file": "SBJ07/S04/Train/trainEvents.txt",
+   "bytes": 3200,
+   "sha256": "07e2ce6c1a724e2b928fc19216d2b3962c6425bcde97c1cc688334fa08de8764"
+  },
+  {
+   "file": "SBJ07/S04/Train/trainLabels.txt",
+   "bytes": 40,
+   "sha256": "d127251c52497786823c570df1d4d7d0c095e2df98e3edff7f488ca4c34c7926"
+  },
+  {
+   "file": "SBJ07/S04/Train/trainTargets.txt",
+   "bytes": 3200,
+   "sha256": "f7d7006da8d32b6db04bd21fd3ce6c606fe28c2d2d8678f2c9ccf597eae9ed3a"
+  },
+  {
+   "file": "SBJ07/S05/Test/runs_per_block.txt",
+   "bytes": 2,
+   "sha256": "2e6d31a5983a91251bfae5aefa1c0a19d8ba3cf601d0e8a706b4cfa9661a6b8a"
+  },
+  {
+   "file": "SBJ07/S05/Test/testData.mat",
+   "bytes": 45671596,
+   "sha256": "d74caee41c11b03ef7f7ccbda54dbf59fdb291c3049f0d847917400b932b004a"
+  },
+  {
+   "file": "SBJ07/S05/Test/testEvents.txt",
+   "bytes": 7200,
+   "sha256": "ab22394050e5e9915d9c87d25cf8b53f51ec8c35a8fb235bdb33519b5b0644af"
+  },
+  {
+   "file": "SBJ07/S05/Test/testLabels.txt",
+   "bytes": 100,
+   "sha256": "c14660ae49c68c3055e7746c7def8a6ea1492cc9c5527122470307820fa22a08"
+  },
+  {
+   "file": "SBJ07/S05/Test/testTargets.txt",
+   "bytes": 7200,
+   "sha256": "411718e673c9a5440a215eb2ce9fd3e5a933a3cd590aab8b30e07f7147bce066"
+  },
+  {
+   "file": "SBJ07/S05/Train/trainData.mat",
+   "bytes": 20356975,
+   "sha256": "6a943b5836a32f03724df7f8dfcc7dcd3bb14fe0c555ba05112d71bc41013302"
+  },
+  {
+   "file": "SBJ07/S05/Train/trainEvents.txt",
+   "bytes": 3200,
+   "sha256": "bcdb8fff0934d4deb507153bdd8d96fc2a42549d07ebec71593e097b3d2c8688"
+  },
+  {
+   "file": "SBJ07/S05/Train/trainLabels.txt",
+   "bytes": 40,
+   "sha256": "1f25076e1f8cd7a43eea0f737c94691685d4fc97c2b192d88ebfdfc2462fd921"
+  },
+  {
+   "file": "SBJ07/S05/Train/trainTargets.txt",
+   "bytes": 3200,
+   "sha256": "b47631f89d5c9fff64b0a1e650970969a64dfa4905d9fd7b73c40c62240b1fda"
+  },
+  {
+   "file": "SBJ07/S06/Test/runs_per_block.txt",
+   "bytes": 2,
+   "sha256": "06e9d52c1720fca412803e3b07c4b228ff113e303f4c7ab94665319d832bbfb7"
+  },
+  {
+   "file": "SBJ07/S06/Test/testData.mat",
+   "bytes": 30506685,
+   "sha256": "ac74a0943001f0864c87df9c89f902e533a08bd4941334f8862df9c464d6d91d"
+  },
+  {
+   "file": "SBJ07/S06/Test/testEvents.txt",
+   "bytes": 4800,
+   "sha256": "26359c5709cf0240ac85637884e3b65ee353e22b1db8a6a0064024c61c8ec961"
+  },
+  {
+   "file": "SBJ07/S06/Test/testLabels.txt",
+   "bytes": 100,
+   "sha256": "afe5606a1868426317f07cc3c8450bfd2a4dc742e770e359ade61affd52742c5"
+  },
+  {
+   "file": "SBJ07/S06/Test/testTargets.txt",
+   "bytes": 4800,
+   "sha256": "09807f9eed0b223d0d8a2ef9aad60f8b9391dfda3fb9364a324fc5a6ed4508af"
+  },
+  {
+   "file": "SBJ07/S06/Train/trainData.mat",
+   "bytes": 20323854,
+   "sha256": "b4dcc0f8e4b7c30c385b0d9cb7e54e54f7f3c2c585c54981370f82d2e449e363"
+  },
+  {
+   "file": "SBJ07/S06/Train/trainEvents.txt",
+   "bytes": 3200,
+   "sha256": "97ccc9cf39c9c13789374c20c41445011479d60cb5bc38e0b84b441170284e24"
+  },
+  {
+   "file": "SBJ07/S06/Train/trainLabels.txt",
+   "bytes": 40,
+   "sha256": "6404a581a1285ebffe5b08d3b6be0ac7c98c9c2d39d2e8ca44e739da49a483c2"
+  },
+  {
+   "file": "SBJ07/S06/Train/trainTargets.txt",
+   "bytes": 3200,
+   "sha256": "0212761c661cd4a185ac9cee1dbf89dbe189bbca7021fd038b000c9f511d8ebd"
+  },
+  {
+   "file": "SBJ07/S07/Test/runs_per_block.txt",
+   "bytes": 2,
+   "sha256": "2e6d31a5983a91251bfae5aefa1c0a19d8ba3cf601d0e8a706b4cfa9661a6b8a"
+  },
+  {
+   "file": "SBJ07/S07/Test/testData.mat",
+   "bytes": 45908904,
+   "sha256": "0c0946d64d2bbf9186f4a57cc2ed6a52e396f48f051f657bb91f9eda4071d539"
+  },
+  {
+   "file": "SBJ07/S07/Test/testEvents.txt",
+   "bytes": 7200,
+   "sha256": "e99d88f9651235b6509eef179d4683fca85d6d88f945ace10467f9a790da370f"
+  },
+  {
+   "file": "SBJ07/S07/Test/testLabels.txt",
+   "bytes": 100,
+   "sha256": "66d66618707ae7247cb6dc10266af4f1384ff0189d6c641129149a73c11ba3fb"
+  },
+  {
+   "file": "SBJ07/S07/Test/testTargets.txt",
+   "bytes": 7200,
+   "sha256": "90ebe9c154078dff2f6f1cd9276873c20152d5e3216c0d391ae003e49bd93839"
+  },
+  {
+   "file": "SBJ07/S07/Train/trainData.mat",
+   "bytes": 20387118,
+   "sha256": "961f852b250d675576bac8d6b6e82168c4e7f139e3c4d98c9104213d775048c1"
+  },
+  {
+   "file": "SBJ07/S07/Train/trainEvents.txt",
+   "bytes": 3200,
+   "sha256": "0914ad24821e688bc3c754ae81113539e57ef9e669555589b221049dbb834db8"
+  },
+  {
+   "file": "SBJ07/S07/Train/trainLabels.txt",
+   "bytes": 40,
+   "sha256": "e11ed87b495f3329d0ab433e3b6826be7d1024fe170554498f02fbc881a03098"
+  },
+  {
+   "file": "SBJ07/S07/Train/trainTargets.txt",
+   "bytes": 3200,
+   "sha256": "a1e9b4382923d7856deebead17315e871ae35ed027a8d04557dadd6e95306895"
+  },
+  {
+   "file": "SBJ08/S01/Test/runs_per_block.txt",
+   "bytes": 2,
+   "sha256": "aa67a169b0bba217aa0aa88a65346920c84c42447c36ba5f7ea65f422c1fe5d8"
+  },
+  {
+   "file": "SBJ08/S01/Test/testData.mat",
+   "bytes": 40192343,
+   "sha256": "dd4872b946ba612e3570341e65acbff65afe566608379921ca12d47f980ceef5"
+  },
+  {
+   "file": "SBJ08/S01/Test/testEvents.txt",
+   "bytes": 6400,
+   "sha256": "9d7e1037fc586f256dfb0d871d0d1972f688fa9250ccedf7a7b793b2622dab8d"
+  },
+  {
+   "file": "SBJ08/S01/Test/testLabels.txt",
+   "bytes": 100,
+   "sha256": "8422e6bfeb895167525be95a7015bd96c68d018f9bd4a7fd690580b2ab6ea548"
+  },
+  {
+   "file": "SBJ08/S01/Test/testTargets.txt",
+   "bytes": 6400,
+   "sha256": "6c6482463a2edd9629f44bb9db50d3632596411920f95d8d89ee72dae56666ca"
+  },
+  {
+   "file": "SBJ08/S01/Train/trainData.mat",
+   "bytes": 20185946,
+   "sha256": "3db44f89e66801db468b48b304b13ad159fd42e511a751786d02b33ec6f43844"
+  },
+  {
+   "file": "SBJ08/S01/Train/trainEvents.txt",
+   "bytes": 3200,
+   "sha256": "057017b7718e29a31aedc38bbed56a22ddeba96d38f33b206df0052144b277a3"
+  },
+  {
+   "file": "SBJ08/S01/Train/trainLabels.txt",
+   "bytes": 40,
+   "sha256": "d6d06410061d4cff6da43fdc9ff7a74bade3ee74a3852ef14c76609eb225e27f"
+  },
+  {
+   "file": "SBJ08/S01/Train/trainTargets.txt",
+   "bytes": 3200,
+   "sha256": "aa5fc26298b059b5fd07836ac9e910d631ed98704fc731247d3ef8d26301d9dc"
+  },
+  {
+   "file": "SBJ08/S02/Test/runs_per_block.txt",
+   "bytes": 2,
+   "sha256": "10159baf262b43a92d95db59dae1f72c645127301661e0a3ce4e38b295a97c58"
+  },
+  {
+   "file": "SBJ08/S02/Test/testData.mat",
+   "bytes": 35299719,
+   "sha256": "270a8002bf23522e230b82d973ddb00ed5efed542669d0b7a247c4bdeb045ac7"
+  },
+  {
+   "file": "SBJ08/S02/Test/testEvents.txt",
+   "bytes": 5600,
+   "sha256": "1e40ca54cc22fe357d084ab10b6c1f4960766344e4acf1693f0b6770061b276a"
+  },
+  {
+   "file": "SBJ08/S02/Test/testLabels.txt",
+   "bytes": 100,
+   "sha256": "d46d1816d2d7a3a3011e6ddaa4ef839fea9a0e16a6a148228bf6816bfb52992c"
+  },
+  {
+   "file": "SBJ08/S02/Test/testTargets.txt",
+   "bytes": 5600,
+   "sha256": "52ac188b6c7fe9e76822ddc37dfb6f2fe3b6d24bec2d864d2be9df5fde2cfd70"
+  },
+  {
+   "file": "SBJ08/S02/Train/trainData.mat",
+   "bytes": 20111767,
+   "sha256": "d8e161debc9bbe432f92e2a7a24afc0893436fb461693791a4ee6cec23ed5473"
+  },
+  {
+   "file": "SBJ08/S02/Train/trainEvents.txt",
+   "bytes": 3200,
+   "sha256": "1f8f927bfda3d0f9a0a9355a48ba64d1d069290b311c742a5b4f560fefd0a1fa"
+  },
+  {
+   "file": "SBJ08/S02/Train/trainLabels.txt",
+   "bytes": 40,
+   "sha256": "201b08406d028023ba84ce5598b11dcd41fb6efd60cae44dc2b6ba1405585b31"
+  },
+  {
+   "file": "SBJ08/S02/Train/trainTargets.txt",
+   "bytes": 3200,
+   "sha256": "27746991483f295aede514b52a23a2218bd909ea7967703f5c4cc672117f638f"
+  },
+  {
+   "file": "SBJ08/S03/Test/runs_per_block.txt",
+   "bytes": 2,
+   "sha256": "7de1555df0c2700329e815b93b32c571c3ea54dc967b89e81ab73b9972b72d1d"
+  },
+  {
+   "file": "SBJ08/S03/Test/testData.mat",
+   "bytes": 20109585,
+   "sha256": "43f416458ed230ce71ff2216f5c0c70037b51a5e8e15df3f4f05baff23669ad2"
+  },
+  {
+   "file": "SBJ08/S03/Test/testEvents.txt",
+   "bytes": 3200,
+   "sha256": "f4e944f07d16ad7441023df982fcde0b701f927fc0701195fa21a8fa92527dac"
+  },
+  {
+   "file": "SBJ08/S03/Test/testLabels.txt",
+   "bytes": 100,
+   "sha256": "6ee419fdd0cd88fb4f8a51980ea0b99628ecb97c839bc01472c4c6570b98b482"
+  },
+  {
+   "file": "SBJ08/S03/Test/testTargets.txt",
+   "bytes": 3200,
+   "sha256": "89ee4bdd9378a87d9a4c7880e0722e6736c7f181fea36e63e74775e240f9b880"
+  },
+  {
+   "file": "SBJ08/S03/Train/trainData.mat",
+   "bytes": 20237518,
+   "sha256": "bfde23a1c4262931c42f6d9add8a34edf6d2eaf578bb4d0f21627e4b64855d3c"
+  },
+  {
+   "file": "SBJ08/S03/Train/trainEvents.txt",
+   "bytes": 3200,
+   "sha256": "f14e59ae4fbb5c1acae33f9ba751b67e13971c23892f885e57bce3ea215df0cb"
+  },
+  {
+   "file": "SBJ08/S03/Train/trainLabels.txt",
+   "bytes": 40,
+   "sha256": "642856b27e3fdcd585d219408c9cff4b9bc9ad92a71fed76b9c55fc1d476b171"
+  },
+  {
+   "file": "SBJ08/S03/Train/trainTargets.txt",
+   "bytes": 3200,
+   "sha256": "324c6fa0bc0667321958a1cb6405e27a995c48539de172f6db8cc88fea86a360"
+  },
+  {
+   "file": "SBJ08/S04/Test/runs_per_block.txt",
+   "bytes": 2,
+   "sha256": "06e9d52c1720fca412803e3b07c4b228ff113e303f4c7ab94665319d832bbfb7"
+  },
+  {
+   "file": "SBJ08/S04/Test/testData.mat",
+   "bytes": 30393693,
+   "sha256": "8d7641ee56b95a92a0acddb53ddb7e79472e8838faa4bd54b984e271301e86e4"
+  },
+  {
+   "file": "SBJ08/S04/Test/testEvents.txt",
+   "bytes": 4800,
+   "sha256": "2478553f6e7a7009ff85af81265d123044ff659e015b1d0ca9aefac0d65564fe"
+  },
+  {
+   "file": "SBJ08/S04/Test/testLabels.txt",
+   "bytes": 100,
+   "sha256": "7dd5ad07e9ba31f2ed200c7f3eab09c594fd9287b7b0e2577887869da715f5a1"
+  },
+  {
+   "file": "SBJ08/S04/Test/testTargets.txt",
+   "bytes": 4800,
+   "sha256": "45125550b501af21609c7350d95f5e5eaad05b11c8244356bff1b5949522d0b4"
+  },
+  {
+   "file": "SBJ08/S04/Train/trainData.mat",
+   "bytes": 20273018,
+   "sha256": "49be89f0f1eda23a9bf9d99c43a1a5a41e2d9f1cae82e3fa8a883bf1510d0467"
+  },
+  {
+   "file": "SBJ08/S04/Train/trainEvents.txt",
+   "bytes": 3200,
+   "sha256": "12ff8aac3dcdddb8968cd63eda190484d5d03c7441637a52991d278f1078d439"
+  },
+  {
+   "file": "SBJ08/S04/Train/trainLabels.txt",
+   "bytes": 40,
+   "sha256": "c1b3a924338eaebba95c5a23b59b6f889276cb18e671f4591c1049d9f34e3c41"
+  },
+  {
+   "file": "SBJ08/S04/Train/trainTargets.txt",
+   "bytes": 3200,
+   "sha256": "f37a176d47d688554654acdbd23963dc85f0f50fcacc26438033639626aefef4"
+  },
+  {
+   "file": "SBJ08/S05/Test/runs_per_block.txt",
+   "bytes": 2,
+   "sha256": "06e9d52c1720fca412803e3b07c4b228ff113e303f4c7ab94665319d832bbfb7"
+  },
+  {
+   "file": "SBJ08/S05/Test/testData.mat",
+   "bytes": 30425226,
+   "sha256": "489173e23c0460c95291d9cdc89d15c6591be544fb5156292d6b0d70c4979264"
+  },
+  {
+   "file": "SBJ08/S05/Test/testEvents.txt",
+   "bytes": 4800,
+   "sha256": "93633367e04754cbaee57aa67937761d6341f54d952e2ea268645012bd7203aa"
+  },
+  {
+   "file": "SBJ08/S05/Test/testLabels.txt",
+   "bytes": 100,
+   "sha256": "64db135e4a78b8a08cabe2c92ca8d1174edd9dafa34148cc3499cb42815763cb"
+  },
+  {
+   "file": "SBJ08/S05/Test/testTargets.txt",
+   "bytes": 4800,
+   "sha256": "c87248e06c1a10ae4f97778bcc9d8dd5370bdeafeba2d71ef137be4bd3e670a4"
+  },
+  {
+   "file": "SBJ08/S05/Train/trainData.mat",
+   "bytes": 20232131,
+   "sha256": "84043da3525febc6543ac9dbd0a3530b8ec8af09ebc294e4ff5ace4aee0d46bb"
+  },
+  {
+   "file": "SBJ08/S05/Train/trainEvents.txt",
+   "bytes": 3200,
+   "sha256": "2cd01031efbb2b027ae1f65cf2ff77b7dd4ea28281fd484cf57725b29f010c6d"
+  },
+  {
+   "file": "SBJ08/S05/Train/trainLabels.txt",
+   "bytes": 40,
+   "sha256": "e39a7135204f33b1d89fd530e26dbaf2e59a9fb2113d092da6467474670b9238"
+  },
+  {
+   "file": "SBJ08/S05/Train/trainTargets.txt",
+   "bytes": 3200,
+   "sha256": "a176a258ef821ed25f33063fb0778655474eda06a42074374a9f12bb13c756be"
+  },
+  {
+   "file": "SBJ08/S06/Test/runs_per_block.txt",
+   "bytes": 2,
+   "sha256": "10159baf262b43a92d95db59dae1f72c645127301661e0a3ce4e38b295a97c58"
+  },
+  {
+   "file": "SBJ08/S06/Test/testData.mat",
+   "bytes": 35470432,
+   "sha256": "aa3c766e65317eefac00a6034591ba85a212a06af522cb17b100210032c44567"
+  },
+  {
+   "file": "SBJ08/S06/Test/testEvents.txt",
+   "bytes": 5600,
+   "sha256": "107ec9b790bcd8760b04ccd180b7c8ef2b7e4bd7ceeee5b6bf064f13f26aa6df"
+  },
+  {
+   "file": "SBJ08/S06/Test/testLabels.txt",
+   "bytes": 100,
+   "sha256": "09d489f5d5e5ac3ba0c96acbd8919dd65cd938049ffa5ca51bd3a2f8fba870bc"
+  },
+  {
+   "file": "SBJ08/S06/Test/testTargets.txt",
+   "bytes": 5600,
+   "sha256": "9c031d95553f3dc8a89aa0ebe1a596f39d6169cc6088a5840f46cd00de8b5dcb"
+  },
+  {
+   "file": "SBJ08/S06/Train/trainData.mat",
+   "bytes": 20304768,
+   "sha256": "dfeee5605e32fceab67bb5895035de4a996fdbd6d8ea2d96eaac78c433039f3e"
+  },
+  {
+   "file": "SBJ08/S06/Train/trainEvents.txt",
+   "bytes": 3200,
+   "sha256": "190abff8b795959e30997886980584901afd7b7b385b794a786e97f0c271ed89"
+  },
+  {
+   "file": "SBJ08/S06/Train/trainLabels.txt",
+   "bytes": 40,
+   "sha256": "3e6cc3adcb4d8c1fc43ecc64bf2f74c51d9401a227f155c8688f4642c665fe7c"
+  },
+  {
+   "file": "SBJ08/S06/Train/trainTargets.txt",
+   "bytes": 3200,
+   "sha256": "4b11cc86612294e3512502adc42fd869309f906776eed7585b851dac4db2149c"
+  },
+  {
+   "file": "SBJ08/S07/Test/runs_per_block.txt",
+   "bytes": 2,
+   "sha256": "06e9d52c1720fca412803e3b07c4b228ff113e303f4c7ab94665319d832bbfb7"
+  },
+  {
+   "file": "SBJ08/S07/Test/testData.mat",
+   "bytes": 30354099,
+   "sha256": "405d04b28d83ae88d68f8214ffb5322a724148909bbcfc896f4fc5d032ca6576"
+  },
+  {
+   "file": "SBJ08/S07/Test/testEvents.txt",
+   "bytes": 4800,
+   "sha256": "ac11774799c2abafd8cf564fc43bbe1c026d6dc4cac595fe831e610da8fd21d8"
+  },
+  {
+   "file": "SBJ08/S07/Test/testLabels.txt",
+   "bytes": 100,
+   "sha256": "28a24d2d016b346acda1309f8ee47eb39a8c46799061ecdb63e6bd1a29d0e086"
+  },
+  {
+   "file": "SBJ08/S07/Test/testTargets.txt",
+   "bytes": 4800,
+   "sha256": "07a4f93ce72a505d67da6ae4edc1ff5472d5fac614adc17531f5981217e71ee1"
+  },
+  {
+   "file": "SBJ08/S07/Train/trainData.mat",
+   "bytes": 20237257,
+   "sha256": "c6516ad9dec7d172c49ab05ce4b07980bf73e8e0339ac6a0877fa42a214f3042"
+  },
+  {
+   "file": "SBJ08/S07/Train/trainEvents.txt",
+   "bytes": 3200,
+   "sha256": "1c5acb2c43e4618f3630831fa8e5e570db1b07c3c1a10a48dfdd4d6fff993695"
+  },
+  {
+   "file": "SBJ08/S07/Train/trainLabels.txt",
+   "bytes": 40,
+   "sha256": "a776a21e79b4c1d16447d395afdc709dbf0d2c88fb18943fe9b78ae2f4421313"
+  },
+  {
+   "file": "SBJ08/S07/Train/trainTargets.txt",
+   "bytes": 3200,
+   "sha256": "b21f965de57400b5c60bc784c92d615a107d8475af0981b79f95e1e717f19c64"
+  },
+  {
+   "file": "SBJ09/S01/Test/runs_per_block.txt",
+   "bytes": 2,
+   "sha256": "aa67a169b0bba217aa0aa88a65346920c84c42447c36ba5f7ea65f422c1fe5d8"
+  },
+  {
+   "file": "SBJ09/S01/Test/testData.mat",
+   "bytes": 40832647,
+   "sha256": "309f6bfb12f9606b7a7491ffbb38f67dde6b2c97754e73b125dd63c8f27d57b5"
+  },
+  {
+   "file": "SBJ09/S01/Test/testEvents.txt",
+   "bytes": 6400,
+   "sha256": "8670edbd52f1d2de12e0a7c48a470bec28ab1316a169255e21b0582981befaf0"
+  },
+  {
+   "file": "SBJ09/S01/Test/testLabels.txt",
+   "bytes": 100,
+   "sha256": "fba8049f15c65e52b234edeb166599dc3b98cdd29475f278b6bcdd288cdd1097"
+  },
+  {
+   "file": "SBJ09/S01/Test/testTargets.txt",
+   "bytes": 6400,
+   "sha256": "b4bdc0da2a98282f052bdc944a9730096c4b04a90f61f3716f542368fc96028f"
+  },
+  {
+   "file": "SBJ09/S01/Train/trainData.mat",
+   "bytes": 20428747,
+   "sha256": "35a39f77d4363b44b2a8a1598d3eb9c0349a027f0039d976a64fb957c528e01a"
+  },
+  {
+   "file": "SBJ09/S01/Train/trainEvents.txt",
+   "bytes": 3200,
+   "sha256": "1f682b9928f912a3ac67052bdf52946919dda48f15d2252419a266bda0bfd41f"
+  },
+  {
+   "file": "SBJ09/S01/Train/trainLabels.txt",
+   "bytes": 40,
+   "sha256": "9141f9974139f46971199ff7582cf95efde5761943184bce0dac0c6da322fa37"
+  },
+  {
+   "file": "SBJ09/S01/Train/trainTargets.txt",
+   "bytes": 3200,
+   "sha256": "df3b87fe87409268dd9fa73ec9a54c29406d25ae963bf077f820b0937f574f26"
+  },
+  {
+   "file": "SBJ09/S02/Test/runs_per_block.txt",
+   "bytes": 2,
+   "sha256": "aa67a169b0bba217aa0aa88a65346920c84c42447c36ba5f7ea65f422c1fe5d8"
+  },
+  {
+   "file": "SBJ09/S02/Test/testData.mat",
+   "bytes": 40491216,
+   "sha256": "db988130c7e7f3cccb67c231f0154625b45abdc171556e71433cb978beaf2250"
+  },
+  {
+   "file": "SBJ09/S02/Test/testEvents.txt",
+   "bytes": 6400,
+   "sha256": "4548a35db16314b6517ca55092ef7c714efb5ccd869b1afb6b6441e2ebfee1c9"
+  },
+  {
+   "file": "SBJ09/S02/Test/testLabels.txt",
+   "bytes": 100,
+   "sha256": "7a234c42a16b9a534b404daa74b2dbcc490d8c705f30a74f1471b0907da3e46f"
+  },
+  {
+   "file": "SBJ09/S02/Test/testTargets.txt",
+   "bytes": 6400,
+   "sha256": "fc21f974221150c9088ddc06eae951f6e90dc20f7e904d685abad058045393a0"
+  },
+  {
+   "file": "SBJ09/S02/Train/trainData.mat",
+   "bytes": 20411428,
+   "sha256": "00b68da887e98d2a08fbc43abe1b79685a506b6297c70123e442a8374afa49f7"
+  },
+  {
+   "file": "SBJ09/S02/Train/trainEvents.txt",
+   "bytes": 3200,
+   "sha256": "068ff0ad4f54f20421b32bf818c80f1994741ed4231f8911e841687bdc9c1db2"
+  },
+  {
+   "file": "SBJ09/S02/Train/trainLabels.txt",
+   "bytes": 40,
+   "sha256": "22c67deca3999aa1746eb444800b6e58ecd57efc5cda5b350757ab37bcccd540"
+  },
+  {
+   "file": "SBJ09/S02/Train/trainTargets.txt",
+   "bytes": 3200,
+   "sha256": "72ffe4e6df2eec6183c30f19fe905f54167251c828ec138364fcfed0114bcdf5"
+  },
+  {
+   "file": "SBJ09/S03/Test/runs_per_block.txt",
+   "bytes": 2,
+   "sha256": "2e6d31a5983a91251bfae5aefa1c0a19d8ba3cf601d0e8a706b4cfa9661a6b8a"
+  },
+  {
+   "file": "SBJ09/S03/Test/testData.mat",
+   "bytes": 45616487,
+   "sha256": "05d9a9ccd22420f2db24300835c3c31c23a1a3d11f94383985b9746fe6ac94fe"
+  },
+  {
+   "file": "SBJ09/S03/Test/testEvents.txt",
+   "bytes": 7200,
+   "sha256": "7e2b87b6efc8667c37e98cebed9b7b53f5973d559d4bda52fb68609a7f0e3c3e"
+  },
+  {
+   "file": "SBJ09/S03/Test/testLabels.txt",
+   "bytes": 100,
+   "sha256": "9086964215b6dd5158dc69fd6b58dbf2e6a784cc223a2c9617bfcc7c7c307a32"
+  },
+  {
+   "file": "SBJ09/S03/Test/testTargets.txt",
+   "bytes": 7200,
+   "sha256": "d92707b0c071349a17aaf975ff34d9d350e696dd31e9f12a4d27ad6ea04dbbe7"
+  },
+  {
+   "file": "SBJ09/S03/Train/trainData.mat",
+   "bytes": 20497685,
+   "sha256": "9f0db4d2a2d74e4038cd4ac6cd325e9b28125a6417643160671f265d2899cf95"
+  },
+  {
+   "file": "SBJ09/S03/Train/trainEvents.txt",
+   "bytes": 3200,
+   "sha256": "fd08e10179cec95a6d0938c1b728703263f96005e818a2be93962ecd618c6089"
+  },
+  {
+   "file": "SBJ09/S03/Train/trainLabels.txt",
+   "bytes": 40,
+   "sha256": "1230f42f339a217518a6c95df52c8525d0ceba5683698253c13a09cf4a9e27e3"
+  },
+  {
+   "file": "SBJ09/S03/Train/trainTargets.txt",
+   "bytes": 3200,
+   "sha256": "b6a20d097e6362388d7cba1cfc453e4092155367d00372cb59d18ad3aa69a87e"
+  },
+  {
+   "file": "SBJ09/S04/Test/runs_per_block.txt",
+   "bytes": 2,
+   "sha256": "06e9d52c1720fca412803e3b07c4b228ff113e303f4c7ab94665319d832bbfb7"
+  },
+  {
+   "file": "SBJ09/S04/Test/testData.mat",
+   "bytes": 30214120,
+   "sha256": "fd5d724d356d9fd83ed81822d7a33f3c8968f6e442bdb649a6ea921cdf333036"
+  },
+  {
+   "file": "SBJ09/S04/Test/testEvents.txt",
+   "bytes": 4800,
+   "sha256": "bb5da0a1fe9c022be618ea009e1fd17694d79d3c044cfe57e80e54c115a3bae1"
+  },
+  {
+   "file": "SBJ09/S04/Test/testLabels.txt",
+   "bytes": 100,
+   "sha256": "748ca7b449e52f00d4f954a25e7ee2505d4d82bc005a424f007cb7d42f02f63a"
+  },
+  {
+   "file": "SBJ09/S04/Test/testTargets.txt",
+   "bytes": 4800,
+   "sha256": "7c3be515e166071e61e309f876056864fd097f42b5189a46139223f417af8394"
+  },
+  {
+   "file": "SBJ09/S04/Train/trainData.mat",
+   "bytes": 20332564,
+   "sha256": "6715170a04c678ce2d01f506fe861364d7bbc072599e9c864fc4df2ab75d1844"
+  },
+  {
+   "file": "SBJ09/S04/Train/trainEvents.txt",
+   "bytes": 3200,
+   "sha256": "6f07e5ed228c535743242e6aa9ae22876d4aa36e2358782694844d3b7e55065b"
+  },
+  {
+   "file": "SBJ09/S04/Train/trainLabels.txt",
+   "bytes": 40,
+   "sha256": "52e9a9cdbbb37a474e9f1592154e08528da7a22cc373e70e769113ffa5e64812"
+  },
+  {
+   "file": "SBJ09/S04/Train/trainTargets.txt",
+   "bytes": 3200,
+   "sha256": "b3cab351a9d337d84db1435f965377e1618278798d8e73979a462a6ba77491f4"
+  },
+  {
+   "file": "SBJ09/S05/Test/runs_per_block.txt",
+   "bytes": 3,
+   "sha256": "917df3320d778ddbaa5c5c7742bc4046bf803c36ed2b050f30844ed206783469"
+  },
+  {
+   "file": "SBJ09/S05/Test/testData.mat",
+   "bytes": 50988615,
+   "sha256": "6c187aa392ce21c8e594117267ef9bcd8ba3745eb33c742a43bb0048be3e4d16"
+  },
+  {
+   "file": "SBJ09/S05/Test/testEvents.txt",
+   "bytes": 8000,
+   "sha256": "1e1ffd787daa422e5fdf154ea92406475a26b4f33c8f3ddbf5a4c17a6cfa134b"
+  },
+  {
+   "file": "SBJ09/S05/Test/testLabels.txt",
+   "bytes": 100,
+   "sha256": "33cdd83ac7e4d01fbe6eba8b72e808183e70616e5132d3eb2401f6d134de0367"
+  },
+  {
+   "file": "SBJ09/S05/Test/testTargets.txt",
+   "bytes": 8000,
+   "sha256": "ed1eeeebc2c7a6605e008a5bfe2fd0e32cabcc3af32809a2540807d8ac3486f7"
+  },
+  {
+   "file": "SBJ09/S05/Train/trainData.mat",
+   "bytes": 20446419,
+   "sha256": "2bbfffd970a3e72d9f460c7873f74e090cce6626b29155923dbcea0ead0cc8fa"
+  },
+  {
+   "file": "SBJ09/S05/Train/trainEvents.txt",
+   "bytes": 3200,
+   "sha256": "84de30799b1bbadcbbc8d1bebda135f5f5391fe697782ac600e465b5b5ab1619"
+  },
+  {
+   "file": "SBJ09/S05/Train/trainLabels.txt",
+   "bytes": 40,
+   "sha256": "d8f6da78d5b96f9abdb16d0284508cebebb6e3874120c3f95109ff2b275acc7f"
+  },
+  {
+   "file": "SBJ09/S05/Train/trainTargets.txt",
+   "bytes": 3200,
+   "sha256": "d5782d1962e94466089078acbf0839f92fb7aba95f800ca6188fb107983019a2"
+  },
+  {
+   "file": "SBJ09/S06/Test/runs_per_block.txt",
+   "bytes": 2,
+   "sha256": "06e9d52c1720fca412803e3b07c4b228ff113e303f4c7ab94665319d832bbfb7"
+  },
+  {
+   "file": "SBJ09/S06/Test/testData.mat",
+   "bytes": 30574429,
+   "sha256": "577298ff6282273a02577838e7ca03b11fb8280b64f4601bf137e11686319bfc"
+  },
+  {
+   "file": "SBJ09/S06/Test/testEvents.txt",
+   "bytes": 4800,
+   "sha256": "10cf6e2cfa801ae1b422b71b09350f1ed36f6bac144944e3e120e54675ef620a"
+  },
+  {
+   "file": "SBJ09/S06/Test/testLabels.txt",
+   "bytes": 100,
+   "sha256": "e845aca8b5bf5d8efd596fb6d5d81790c7719757ba17b9cfcf752ca5f471be6d"
+  },
+  {
+   "file": "SBJ09/S06/Test/testTargets.txt",
+   "bytes": 4800,
+   "sha256": "574ed17f0d7a6088c1cb3ce2473b22d7bc1cb69e3a99c08a2369046fac7258b7"
+  },
+  {
+   "file": "SBJ09/S06/Train/trainData.mat",
+   "bytes": 20469458,
+   "sha256": "f36d8c053a27a70db837f9cdcbebfdfb4ab618f3848005f2124e6481303521dd"
+  },
+  {
+   "file": "SBJ09/S06/Train/trainEvents.txt",
+   "bytes": 3200,
+   "sha256": "8efd1020ab333f8c249f3d181a128585f84eb6b777ff93d8edeea06c9c2dd133"
+  },
+  {
+   "file": "SBJ09/S06/Train/trainLabels.txt",
+   "bytes": 40,
+   "sha256": "3d63a08a7e7ffeacc6834d9ccd440c5acc25c4f236fcdf8469199ae0ec8bb49c"
+  },
+  {
+   "file": "SBJ09/S06/Train/trainTargets.txt",
+   "bytes": 3200,
+   "sha256": "3e86368333843bf13040ff4750bc97e3e4c9df29420c3f1f7aa011dd6afc3fae"
+  },
+  {
+   "file": "SBJ09/S07/Test/runs_per_block.txt",
+   "bytes": 2,
+   "sha256": "06e9d52c1720fca412803e3b07c4b228ff113e303f4c7ab94665319d832bbfb7"
+  },
+  {
+   "file": "SBJ09/S07/Test/testData.mat",
+   "bytes": 30728091,
+   "sha256": "b9e6d91565aad2d0baf3d81d808c23d7caa6de50b72a73d9ef415c43562614c1"
+  },
+  {
+   "file": "SBJ09/S07/Test/testEvents.txt",
+   "bytes": 4800,
+   "sha256": "c163a5459944fd45ec3666d9f5fd0d358569f4dad71211ea3c0cbfea2758939f"
+  },
+  {
+   "file": "SBJ09/S07/Test/testLabels.txt",
+   "bytes": 100,
+   "sha256": "f6560d811d134967708379554dba0aa69e9ea1b588c2c90d95575cfcf1a5d4a8"
+  },
+  {
+   "file": "SBJ09/S07/Test/testTargets.txt",
+   "bytes": 4800,
+   "sha256": "e72c80d99902b6efeb14cc54e4fe836a00abf9af4a2c3e8a14b186362614dd89"
+  },
+  {
+   "file": "SBJ09/S07/Train/trainData.mat",
+   "bytes": 20447541,
+   "sha256": "def7f453373ebe31cc487b2a1761ce88d9b50e784aa8d9f6ba751af214a626c2"
+  },
+  {
+   "file": "SBJ09/S07/Train/trainEvents.txt",
+   "bytes": 3200,
+   "sha256": "54fe5544445126ebd0343e0e1a8e2ffd27735d5ef9939834836bf946bef157da"
+  },
+  {
+   "file": "SBJ09/S07/Train/trainLabels.txt",
+   "bytes": 40,
+   "sha256": "6a326dfd00c782b508336430c3d7c5bf0e83c7d637495f8670bd0ac70e03f72a"
+  },
+  {
+   "file": "SBJ09/S07/Train/trainTargets.txt",
+   "bytes": 3200,
+   "sha256": "dceebdfc89456e7664525870d86ac42fd1ae84309ffd2aca240c857b0c7b2c68"
+  },
+  {
+   "file": "SBJ10/S01/Test/runs_per_block.txt",
+   "bytes": 2,
+   "sha256": "f0b5c2c2211c8d67ed15e75e656c7862d086e9245420892a7de62cd9ec582a06"
+  },
+  {
+   "file": "SBJ10/S01/Test/testData.mat",
+   "bytes": 25510345,
+   "sha256": "b5301711dd5806b0ce00d4ef513e53c31a08fef24ecc90be9ee6933f577a3468"
+  },
+  {
+   "file": "SBJ10/S01/Test/testEvents.txt",
+   "bytes": 4000,
+   "sha256": "d63d28e7b55e41e5922e825e5a60e704c9af639e5343abf59f11968d8997d05f"
+  },
+  {
+   "file": "SBJ10/S01/Test/testLabels.txt",
+   "bytes": 100,
+   "sha256": "cba88f42a58c3fac513cd585134fdb26794758782b3fd3a1ea2437e0755d13fc"
+  },
+  {
+   "file": "SBJ10/S01/Test/testTargets.txt",
+   "bytes": 4000,
+   "sha256": "ea7e2d8164e43053f4e7a2efffa953c67f8e162c052632bad970c4b95e526b53"
+  },
+  {
+   "file": "SBJ10/S01/Train/trainData.mat",
+   "bytes": 20387811,
+   "sha256": "1e459774ea2fb6a5a6f9425e3412ef549599986b2e409d1dea5c30b2b2d72f5f"
+  },
+  {
+   "file": "SBJ10/S01/Train/trainEvents.txt",
+   "bytes": 3200,
+   "sha256": "365eaba102859bd397698acd259862ffd5e5cdc7d0df58a687772e9026bb898a"
+  },
+  {
+   "file": "SBJ10/S01/Train/trainLabels.txt",
+   "bytes": 40,
+   "sha256": "42dfd71de6b875618c18351e3f438cfaa23f572228ff85bca2369561d63c15a5"
+  },
+  {
+   "file": "SBJ10/S01/Train/trainTargets.txt",
+   "bytes": 3200,
+   "sha256": "46adfe2b900edbe0f57a849637b321e00c2ba10c0e3697083a1c4680bafcfe98"
+  },
+  {
+   "file": "SBJ10/S02/Test/runs_per_block.txt",
+   "bytes": 2,
+   "sha256": "f0b5c2c2211c8d67ed15e75e656c7862d086e9245420892a7de62cd9ec582a06"
+  },
+  {
+   "file": "SBJ10/S02/Test/testData.mat",
+   "bytes": 25400254,
+   "sha256": "0d165bdafa43e35461c901397e4d46c3e94da11882391b0769965e8bdaa52db4"
+  },
+  {
+   "file": "SBJ10/S02/Test/testEvents.txt",
+   "bytes": 4000,
+   "sha256": "84f45bf83e35c0f0ab53efe18b6810849bde3a368925c604cde9887eb1be9f84"
+  },
+  {
+   "file": "SBJ10/S02/Test/testLabels.txt",
+   "bytes": 100,
+   "sha256": "8314350c36d75b72dd375cbe3c812fea375807df138b51019a77c0ff3655032a"
+  },
+  {
+   "file": "SBJ10/S02/Test/testTargets.txt",
+   "bytes": 4000,
+   "sha256": "7abe75e9b18c2b0a1518c724668cc3eeef9e951b83308185c87144615c6675ea"
+  },
+  {
+   "file": "SBJ10/S02/Train/trainData.mat",
+   "bytes": 20330232,
+   "sha256": "0deae52b26d8aab6b28473a5495968b46d50c19035eebcf5348cda5d559b7bcf"
+  },
+  {
+   "file": "SBJ10/S02/Train/trainEvents.txt",
+   "bytes": 3200,
+   "sha256": "a4653ae0ef5e33fed3341e74792cbae7c8513cee7edb2edb830ae35e083a3365"
+  },
+  {
+   "file": "SBJ10/S02/Train/trainLabels.txt",
+   "bytes": 40,
+   "sha256": "b2c0d60af6cb7db57130bda53df5ea7d1e572e1cd2ecf62ea1232b1e8c39a865"
+  },
+  {
+   "file": "SBJ10/S02/Train/trainTargets.txt",
+   "bytes": 3200,
+   "sha256": "a86615ab448c07dcd2dd47cba3d5c0056b581cbd86a6944d8b93a250823b58cc"
+  },
+  {
+   "file": "SBJ10/S03/Test/runs_per_block.txt",
+   "bytes": 2,
+   "sha256": "06e9d52c1720fca412803e3b07c4b228ff113e303f4c7ab94665319d832bbfb7"
+  },
+  {
+   "file": "SBJ10/S03/Test/testData.mat",
+   "bytes": 30633301,
+   "sha256": "1463a1cd66dc61d49b320908f780a15c2e5a17c75caaa2862315958aa5b0df8f"
+  },
+  {
+   "file": "SBJ10/S03/Test/testEvents.txt",
+   "bytes": 4800,
+   "sha256": "64b617c03c45c996d3fbc9df1cba56e66ff11f351d7f9adce27211c2e19ba9bd"
+  },
+  {
+   "file": "SBJ10/S03/Test/testLabels.txt",
+   "bytes": 100,
+   "sha256": "90ecc359e66221912a24a86e141beabbe418b24c2be6d631592a5513e525509e"
+  },
+  {
+   "file": "SBJ10/S03/Test/testTargets.txt",
+   "bytes": 4800,
+   "sha256": "0e6e4fb6d6c63239ed99ae7342ebdaa146dde4011d0c3d8c3a45e1e3b01b3896"
+  },
+  {
+   "file": "SBJ10/S03/Train/trainData.mat",
+   "bytes": 20376577,
+   "sha256": "fc7c31c15b1e774671db0ce5a6b62ba74e7aab7023c154e68b27caf86b02a835"
+  },
+  {
+   "file": "SBJ10/S03/Train/trainEvents.txt",
+   "bytes": 3200,
+   "sha256": "3b8cd3e926e37e0e41c3331f7f4eaa10b94f603b374e99e6be05ae711601e56c"
+  },
+  {
+   "file": "SBJ10/S03/Train/trainLabels.txt",
+   "bytes": 40,
+   "sha256": "c1cff300b9042599e045f8b79f70dd96052a2e87792172f7e9836736f4595e06"
+  },
+  {
+   "file": "SBJ10/S03/Train/trainTargets.txt",
+   "bytes": 3200,
+   "sha256": "b843a1e76852de3955986dd4024963417f6ef6b637239a06e640c1a10da158a5"
+  },
+  {
+   "file": "SBJ10/S04/Test/runs_per_block.txt",
+   "bytes": 2,
+   "sha256": "10159baf262b43a92d95db59dae1f72c645127301661e0a3ce4e38b295a97c58"
+  },
+  {
+   "file": "SBJ10/S04/Test/testData.mat",
+   "bytes": 35667237,
+   "sha256": "71cc12d655e76bd9bfd853f62a814a87020a30336c580b50f8ee8809edb66514"
+  },
+  {
+   "file": "SBJ10/S04/Test/testEvents.txt",
+   "bytes": 5600,
+   "sha256": "e2071e20d89caf12ec8c065266681a84eec426f665f8c933b22f0909c0332827"
+  },
+  {
+   "file": "SBJ10/S04/Test/testLabels.txt",
+   "bytes": 100,
+   "sha256": "107c9abd8320072376c02dcd8e2ff1e6fb2f585266fb3ef3dff066ff0a96ed96"
+  },
+  {
+   "file": "SBJ10/S04/Test/testTargets.txt",
+   "bytes": 5600,
+   "sha256": "c3e6a09f090b5f4494c42c09a4114f1d5b48e54759dfb12514bdd5ff51c0dd75"
+  },
+  {
+   "file": "SBJ10/S04/Train/trainData.mat",
+   "bytes": 20314536,
+   "sha256": "efad618494b95e580ebbbb2ba4d6e9b91ced3a7e198aab567d70058c8afd3967"
+  },
+  {
+   "file": "SBJ10/S04/Train/trainEvents.txt",
+   "bytes": 3200,
+   "sha256": "d65c03cd1080f184bf309d5a0c8a18c638d6516ac2748572c7e665d31edeb1ef"
+  },
+  {
+   "file": "SBJ10/S04/Train/trainLabels.txt",
+   "bytes": 40,
+   "sha256": "b1ad3b19a9245d7aa05d1bc4714433758dc2c05f2e9cfa8a360b2cc97e8a9cea"
+  },
+  {
+   "file": "SBJ10/S04/Train/trainTargets.txt",
+   "bytes": 3200,
+   "sha256": "6e70271f2c26c35d4d2777660fb9322d9f72442258b599e71d0cf2df37a47df8"
+  },
+  {
+   "file": "SBJ10/S05/Test/runs_per_block.txt",
+   "bytes": 2,
+   "sha256": "1121cfccd5913f0a63fec40a6ffd44ea64f9dc135c66634ba001d10bcf4302a2"
+  },
+  {
+   "file": "SBJ10/S05/Test/testData.mat",
+   "bytes": 15189721,
+   "sha256": "e374b7baee7b4c91bc90e53b4b8f7eb97b2615c3364a939c1a72b12bf41db751"
+  },
+  {
+   "file": "SBJ10/S05/Test/testEvents.txt",
+   "bytes": 2400,
+   "sha256": "bbdb6c4e4404737539ab313f112e0d9e85a8042c3579a3f38d4ef451a27df547"
+  },
+  {
+   "file": "SBJ10/S05/Test/testLabels.txt",
+   "bytes": 100,
+   "sha256": "e5030adde1e073fde6053c31cb1947176c823240c33583426bb6c185d856f68f"
+  },
+  {
+   "file": "SBJ10/S05/Test/testTargets.txt",
+   "bytes": 2400,
+   "sha256": "2c7120b6b96223f93297a0ad17ba5bbe22152e9fd729631c5ac9fa960a43bb27"
+  },
+  {
+   "file": "SBJ10/S05/Train/trainData.mat",
+   "bytes": 20351470,
+   "sha256": "f1f7244703346129a9c1e4c4bdf3667b080b3ff9b417d27664786545c4681c87"
+  },
+  {
+   "file": "SBJ10/S05/Train/trainEvents.txt",
+   "bytes": 3200,
+   "sha256": "4f6d69a4491a32a98a9884c8af1a995ef6735aee169104e3accd23b7c53c45b6"
+  },
+  {
+   "file": "SBJ10/S05/Train/trainLabels.txt",
+   "bytes": 40,
+   "sha256": "4677ef0d92f89e787ff743a3a2e4c4b3c29b522f0c85419161e5497fafc67306"
+  },
+  {
+   "file": "SBJ10/S05/Train/trainTargets.txt",
+   "bytes": 3200,
+   "sha256": "890f5bced3097d0b21fc58793f17a714cfe39eb49851064e1478ebdc459d9d02"
+  },
+  {
+   "file": "SBJ10/S06/Test/runs_per_block.txt",
+   "bytes": 2,
+   "sha256": "f0b5c2c2211c8d67ed15e75e656c7862d086e9245420892a7de62cd9ec582a06"
+  },
+  {
+   "file": "SBJ10/S06/Test/testData.mat",
+   "bytes": 25500877,
+   "sha256": "6567c43acf3980e155fac13d162432f53f0949d8b79a6408089092775669379d"
+  },
+  {
+   "file": "SBJ10/S06/Test/testEvents.txt",
+   "bytes": 4000,
+   "sha256": "16634ca3803920710dea598218c20333c2b1679ec20f9b0279e8f88ad7b5bb22"
+  },
+  {
+   "file": "SBJ10/S06/Test/testLabels.txt",
+   "bytes": 100,
+   "sha256": "b57a523f971442ee160a82e7c2fa6cb993506db89b2f8515771756bf3daed389"
+  },
+  {
+   "file": "SBJ10/S06/Test/testTargets.txt",
+   "bytes": 4000,
+   "sha256": "fc5b1c109405b6b53917cbe6ee1e55f05d403f0bb27f3208f200f6aefff04bf7"
+  },
+  {
+   "file": "SBJ10/S06/Train/trainData.mat",
+   "bytes": 20283403,
+   "sha256": "13f4ed7234bff4a844e74270432e320a183cae8799f670cdf10a5f28dda1c326"
+  },
+  {
+   "file": "SBJ10/S06/Train/trainEvents.txt",
+   "bytes": 3200,
+   "sha256": "011b0123e367a0856e1c50a77a7fb18851e4f840e09e6466780b04d64bd7fefc"
+  },
+  {
+   "file": "SBJ10/S06/Train/trainLabels.txt",
+   "bytes": 40,
+   "sha256": "4c5b27c9ecbb852110b15fd1bfb18a33aa15a2fe3e1a57af4f4129114b121f23"
+  },
+  {
+   "file": "SBJ10/S06/Train/trainTargets.txt",
+   "bytes": 3200,
+   "sha256": "94fa17f14e31ef0c72f42423534dcc1e3e8b81908eaf243bbb6f777667b91208"
+  },
+  {
+   "file": "SBJ10/S07/Test/runs_per_block.txt",
+   "bytes": 2,
+   "sha256": "aa67a169b0bba217aa0aa88a65346920c84c42447c36ba5f7ea65f422c1fe5d8"
+  },
+  {
+   "file": "SBJ10/S07/Test/testData.mat",
+   "bytes": 40711962,
+   "sha256": "04b4e7b7d662e4f5d00eb2e7257a0779916b972e6adea167caba0f6c384d42fd"
+  },
+  {
+   "file": "SBJ10/S07/Test/testEvents.txt",
+   "bytes": 6400,
+   "sha256": "16450c5cb778b5fcd758537867a03aa644140eb92dfada606fa0aa2775882482"
+  },
+  {
+   "file": "SBJ10/S07/Test/testLabels.txt",
+   "bytes": 100,
+   "sha256": "48924a2b551add7f7d89f9875a63ff302c57dc57d4e0ea5895168d08085e09fd"
+  },
+  {
+   "file": "SBJ10/S07/Test/testTargets.txt",
+   "bytes": 6400,
+   "sha256": "527e0f783e4fbbc19dfffdfb05c60f8d9fb5f9acdd8648b7393bf290e6e87225"
+  },
+  {
+   "file": "SBJ10/S07/Train/trainData.mat",
+   "bytes": 20327623,
+   "sha256": "36a17357a34a66832349bba544e78bfeec5a733c2fa1406e618241a37f42fbeb"
+  },
+  {
+   "file": "SBJ10/S07/Train/trainEvents.txt",
+   "bytes": 3200,
+   "sha256": "b3c066536fb6f685bddaad02dc821736b555322eadf63419124e32f8520550ba"
+  },
+  {
+   "file": "SBJ10/S07/Train/trainLabels.txt",
+   "bytes": 40,
+   "sha256": "4bec6220a21304b21cae437b9902649e42305115bd71724607fb21061358e5da"
+  },
+  {
+   "file": "SBJ10/S07/Train/trainTargets.txt",
+   "bytes": 3200,
+   "sha256": "d5647b23538b4e1430297f13a61366c5ba561a934865f4ecd2fc002e52552c62"
+  },
+  {
+   "file": "SBJ11/S01/Test/runs_per_block.txt",
+   "bytes": 2,
+   "sha256": "aa67a169b0bba217aa0aa88a65346920c84c42447c36ba5f7ea65f422c1fe5d8"
+  },
+  {
+   "file": "SBJ11/S01/Test/testData.mat",
+   "bytes": 40630885,
+   "sha256": "ad54f74b502ec83ab5212d82ccf7533d9c21726091ff7d6ba5b8171ed2162946"
+  },
+  {
+   "file": "SBJ11/S01/Test/testEvents.txt",
+   "bytes": 6400,
+   "sha256": "8d6ac07e7a41b41ff4f17cc7999179ec0d4e54d7c6178a4d401dc595c00dbbee"
+  },
+  {
+   "file": "SBJ11/S01/Test/testLabels.txt",
+   "bytes": 100,
+   "sha256": "4756d0c64f5cc8cbf6b542b58cd21ae8821eb59189af0d2d619ee8245877f105"
+  },
+  {
+   "file": "SBJ11/S01/Test/testTargets.txt",
+   "bytes": 6400,
+   "sha256": "2ab6434c5ea26ce195e7850c84cf55ddeb3ad90ede3cbbee2468b1d80eafdce9"
+  },
+  {
+   "file": "SBJ11/S01/Train/trainData.mat",
+   "bytes": 20282474,
+   "sha256": "e68528bff5391613456d6352ffbd64159a3a93133cb74d14acee308fb8f94a41"
+  },
+  {
+   "file": "SBJ11/S01/Train/trainEvents.txt",
+   "bytes": 3200,
+   "sha256": "78c6e2126cca5e5c1d3c09fe03eb795bfdb1cc84291edab51434ffdf890e97b7"
+  },
+  {
+   "file": "SBJ11/S01/Train/trainLabels.txt",
+   "bytes": 40,
+   "sha256": "5240b4b436d7a42b8487c38365a67de932a020cece7957c9228fa504d4846486"
+  },
+  {
+   "file": "SBJ11/S01/Train/trainTargets.txt",
+   "bytes": 3200,
+   "sha256": "bd4fb94ef8363cbebdbf714d41d6dc20a00165b28d3bb0cef60483ec210dd382"
+  },
+  {
+   "file": "SBJ11/S02/Test/runs_per_block.txt",
+   "bytes": 2,
+   "sha256": "7de1555df0c2700329e815b93b32c571c3ea54dc967b89e81ab73b9972b72d1d"
+  },
+  {
+   "file": "SBJ11/S02/Test/testData.mat",
+   "bytes": 20338355,
+   "sha256": "a03ea566f3a82f6e39fd972c81c2f03335b2194090559570813ad3a435235be0"
+  },
+  {
+   "file": "SBJ11/S02/Test/testEvents.txt",
+   "bytes": 3200,
+   "sha256": "fd179e8ee6cc09a43807c720f37dfaba844b4795eddf6fdfe63ea2bcbf5d8a38"
+  },
+  {
+   "file": "SBJ11/S02/Test/testLabels.txt",
+   "bytes": 100,
+   "sha256": "d6a39aeda1c55b3dbd8383cfbeb5a446b55fd13142991ebe89dc56ec12ce2bb9"
+  },
+  {
+   "file": "SBJ11/S02/Test/testTargets.txt",
+   "bytes": 3200,
+   "sha256": "19357ea802c74e190d6ede2435e181c361ad7eb231f39f8650b60af7fc386305"
+  },
+  {
+   "file": "SBJ11/S02/Train/trainData.mat",
+   "bytes": 20281527,
+   "sha256": "42c2cb383d3d2d03f2710071dcfef8915daac086de3bdfbf7b4f875b4da927c7"
+  },
+  {
+   "file": "SBJ11/S02/Train/trainEvents.txt",
+   "bytes": 3200,
+   "sha256": "f35380f3c178ba47f3e594385da0843ab29a642504b73e761c02673b6963fde7"
+  },
+  {
+   "file": "SBJ11/S02/Train/trainLabels.txt",
+   "bytes": 40,
+   "sha256": "be38b123ef098b11368c83ee870cd61f6870ccdf8a49fdb10d62aeb69155f3c7"
+  },
+  {
+   "file": "SBJ11/S02/Train/trainTargets.txt",
+   "bytes": 3200,
+   "sha256": "779996a4676e75878aad2298a3849ef03f91d5e41a60a0f2b0b83a5b4005ce76"
+  },
+  {
+   "file": "SBJ11/S03/Test/runs_per_block.txt",
+   "bytes": 2,
+   "sha256": "aa67a169b0bba217aa0aa88a65346920c84c42447c36ba5f7ea65f422c1fe5d8"
+  },
+  {
+   "file": "SBJ11/S03/Test/testData.mat",
+   "bytes": 40931192,
+   "sha256": "43e22a35559d36fe98772b9cb93124d1e20651d934f405325ac5916e0ae4ef01"
+  },
+  {
+   "file": "SBJ11/S03/Test/testEvents.txt",
+   "bytes": 6400,
+   "sha256": "dc562a1693c2c5ee68c6caf0985bf7001755e55e22c38f180c1c04ec8a1c39fa"
+  },
+  {
+   "file": "SBJ11/S03/Test/testLabels.txt",
+   "bytes": 100,
+   "sha256": "0dcde5450b07833b51e0bfdba081ca142c3c15f2c8628ee479867a3fb278ba12"
+  },
+  {
+   "file": "SBJ11/S03/Test/testTargets.txt",
+   "bytes": 6400,
+   "sha256": "9025252735f788c1b697d26abc3f6648f07d249372bc56659c2b9a523b06ce55"
+  },
+  {
+   "file": "SBJ11/S03/Train/trainData.mat",
+   "bytes": 20405978,
+   "sha256": "5b3e41186ccc06ee59480a474ca2704bb0cd252404cac52d10d9b9ef827083c9"
+  },
+  {
+   "file": "SBJ11/S03/Train/trainEvents.txt",
+   "bytes": 3200,
+   "sha256": "659d3cae847bb24edbdc8851c3e7d4dde5d8703581e20372ea1d41d455cd90ef"
+  },
+  {
+   "file": "SBJ11/S03/Train/trainLabels.txt",
+   "bytes": 40,
+   "sha256": "d2cf61bb31ddc904e63a308963c89bcde0d0e686ece345d693e9d6c0bbcb70e1"
+  },
+  {
+   "file": "SBJ11/S03/Train/trainTargets.txt",
+   "bytes": 3200,
+   "sha256": "72b3cc06135379664b7857e568efb072683f784e34bd612490490fec2548e815"
+  },
+  {
+   "file": "SBJ11/S04/Test/runs_per_block.txt",
+   "bytes": 2,
+   "sha256": "10159baf262b43a92d95db59dae1f72c645127301661e0a3ce4e38b295a97c58"
+  },
+  {
+   "file": "SBJ11/S04/Test/testData.mat",
+   "bytes": 35829949,
+   "sha256": "12c78b62b3bc27b1bc32d0da7d325adaa75570fa945af414175db886677e3f4e"
+  },
+  {
+   "file": "SBJ11/S04/Test/testEvents.txt",
+   "bytes": 5600,
+   "sha256": "f4e13194dd78312f33534c1dc99c0157cf78c37fe0651f40408be79395d8bca4"
+  },
+  {
+   "file": "SBJ11/S04/Test/testLabels.txt",
+   "bytes": 100,
+   "sha256": "1cdc56554bccda0ccc5052c4e6b5a9a3b44d843e220668efa7fd2cadad24849e"
+  },
+  {
+   "file": "SBJ11/S04/Test/testTargets.txt",
+   "bytes": 5600,
+   "sha256": "2e0d0cb2a5521a6868d76065d88e06e46a5c5c9d02b1c53ac008277db6edb366"
+  },
+  {
+   "file": "SBJ11/S04/Train/trainData.mat",
+   "bytes": 20486454,
+   "sha256": "92f89cebcb48f7033a744b1d6ed0bba35786f42bea1267fe7caf9d8069671ab1"
+  },
+  {
+   "file": "SBJ11/S04/Train/trainEvents.txt",
+   "bytes": 3200,
+   "sha256": "817b8348937a3bdba5758765d930ed72c08aed2d3958097501c4ce5eab649616"
+  },
+  {
+   "file": "SBJ11/S04/Train/trainLabels.txt",
+   "bytes": 40,
+   "sha256": "e770ec15f7f9754fef4220b26f77e461d3ba8ca8ff75d622c7bd5aa157da3b03"
+  },
+  {
+   "file": "SBJ11/S04/Train/trainTargets.txt",
+   "bytes": 3200,
+   "sha256": "54d79e5c0111ccc5201a0da1c39fda79963bc10503e4ad294e51953ccbf8866d"
+  },
+  {
+   "file": "SBJ11/S05/Test/runs_per_block.txt",
+   "bytes": 2,
+   "sha256": "06e9d52c1720fca412803e3b07c4b228ff113e303f4c7ab94665319d832bbfb7"
+  },
+  {
+   "file": "SBJ11/S05/Test/testData.mat",
+   "bytes": 30647638,
+   "sha256": "218885270dbd2082899024ec8d77d4be1a0543e87cd03c5682743cb045235cb4"
+  },
+  {
+   "file": "SBJ11/S05/Test/testEvents.txt",
+   "bytes": 4800,
+   "sha256": "610842e99e41fea6659308291166a6e0b6171bf2782504f1cf090bbc3ba6b77d"
+  },
+  {
+   "file": "SBJ11/S05/Test/testLabels.txt",
+   "bytes": 100,
+   "sha256": "d935af7d358407cb7c2787071bd5a5ce3304b05d65dbfcfa3e83af73549af2d0"
+  },
+  {
+   "file": "SBJ11/S05/Test/testTargets.txt",
+   "bytes": 4800,
+   "sha256": "392544edc6efccfbe20bae31f7ece3091bb511d80eb264d066e957604b538354"
+  },
+  {
+   "file": "SBJ11/S05/Train/trainData.mat",
+   "bytes": 20394669,
+   "sha256": "646428cb8b37f476822ea9847e32a1b1757eaa6da4bbe004b961570e68c778d7"
+  },
+  {
+   "file": "SBJ11/S05/Train/trainEvents.txt",
+   "bytes": 3200,
+   "sha256": "f4f2a688f69070c83351e8f0730f9a6ab9ad562cfc906001b28f7d006d50d07e"
+  },
+  {
+   "file": "SBJ11/S05/Train/trainLabels.txt",
+   "bytes": 40,
+   "sha256": "148e164f17a0c71a7cfc8a877ea6be9c9e6b1e62b0ba98016092d4dc0dc96f7a"
+  },
+  {
+   "file": "SBJ11/S05/Train/trainTargets.txt",
+   "bytes": 3200,
+   "sha256": "50ebcc6a64adcae60674204389ca3f7dadbe981b398f8ee150e4f7fd39def290"
+  },
+  {
+   "file": "SBJ11/S06/Test/runs_per_block.txt",
+   "bytes": 2,
+   "sha256": "06e9d52c1720fca412803e3b07c4b228ff113e303f4c7ab94665319d832bbfb7"
+  },
+  {
+   "file": "SBJ11/S06/Test/testData.mat",
+   "bytes": 30556455,
+   "sha256": "11bf486777366bbd767d05bf6a40ee77b2bb4265c26cdbbc656faccd700d6372"
+  },
+  {
+   "file": "SBJ11/S06/Test/testEvents.txt",
+   "bytes": 4800,
+   "sha256": "6e75ed896a449def16487ade579d12c032dc887bb0935e7a04fb8eefe3ece7a0"
+  },
+  {
+   "file": "SBJ11/S06/Test/testLabels.txt",
+   "bytes": 100,
+   "sha256": "113c34c69795334f1f288cabec1c50abc38c3edbfb728ba4126a37c0c91ba268"
+  },
+  {
+   "file": "SBJ11/S06/Test/testTargets.txt",
+   "bytes": 4800,
+   "sha256": "c6ef8414d3b1f6ead87088479c5a68dd55b58e05b110190d8f88ec10a98fd7ea"
+  },
+  {
+   "file": "SBJ11/S06/Train/trainData.mat",
+   "bytes": 20358620,
+   "sha256": "0f89d43de5193b2ab6fdd3934316b8ca7b9667700e547293e1cd79b287fce251"
+  },
+  {
+   "file": "SBJ11/S06/Train/trainEvents.txt",
+   "bytes": 3200,
+   "sha256": "056cf946e82bd937d3f9866ab86032f54755ccf78d873c62efea49965986d69c"
+  },
+  {
+   "file": "SBJ11/S06/Train/trainLabels.txt",
+   "bytes": 40,
+   "sha256": "17205cd9955f22d1186df7dbba132d44365e58df40239950a143200c7496abe4"
+  },
+  {
+   "file": "SBJ11/S06/Train/trainTargets.txt",
+   "bytes": 3200,
+   "sha256": "cebd5d404e3424b418f3e3ed40bf317bfe680fd5186593e738321e528a107fb2"
+  },
+  {
+   "file": "SBJ11/S07/Test/runs_per_block.txt",
+   "bytes": 2,
+   "sha256": "10159baf262b43a92d95db59dae1f72c645127301661e0a3ce4e38b295a97c58"
+  },
+  {
+   "file": "SBJ11/S07/Test/testData.mat",
+   "bytes": 35631761,
+   "sha256": "73758cbaac605899ff9f96b7cb75d708819c1b8acc1cf42954fdaca1e150891e"
+  },
+  {
+   "file": "SBJ11/S07/Test/testEvents.txt",
+   "bytes": 5600,
+   "sha256": "670ca3f678d55529d11e1cadd08bdd5400126c5742e24105a96295a2dfb179cf"
+  },
+  {
+   "file": "SBJ11/S07/Test/testLabels.txt",
+   "bytes": 100,
+   "sha256": "5b690e887d1b453c3d1328c0729a2c3e12906f027b384eb7f960e5b4e315648c"
+  },
+  {
+   "file": "SBJ11/S07/Test/testTargets.txt",
+   "bytes": 5600,
+   "sha256": "1cd9bb3176f75995bbb73afb56e41a7ae0792ae4b6c2e82010953d27140ecda2"
+  },
+  {
+   "file": "SBJ11/S07/Train/trainData.mat",
+   "bytes": 20299766,
+   "sha256": "db6f94823043a0fc7874a47b443fa968ab71d0708cab6d42615d113a5577cf19"
+  },
+  {
+   "file": "SBJ11/S07/Train/trainEvents.txt",
+   "bytes": 3200,
+   "sha256": "3b5cb6d1c7f511d5a71a8c33e612fc3884a2ef491685418f8d372ea199b632e6"
+  },
+  {
+   "file": "SBJ11/S07/Train/trainLabels.txt",
+   "bytes": 40,
+   "sha256": "51789953bc9eba1b598dc4cec1db908ec40337fb58cf3da26d03ea79846d156b"
+  },
+  {
+   "file": "SBJ11/S07/Train/trainTargets.txt",
+   "bytes": 3200,
+   "sha256": "fbd3a52efe94f9b11c226459b288c9bfb70583636290244cd6508c4b763f7b38"
+  },
+  {
+   "file": "SBJ12/S01/Test/runs_per_block.txt",
+   "bytes": 2,
+   "sha256": "aa67a169b0bba217aa0aa88a65346920c84c42447c36ba5f7ea65f422c1fe5d8"
+  },
+  {
+   "file": "SBJ12/S01/Test/testData.mat",
+   "bytes": 40956168,
+   "sha256": "86cb210b215b33bb655557b24e8408142996f68265e403e874f519a8eab374e4"
+  },
+  {
+   "file": "SBJ12/S01/Test/testEvents.txt",
+   "bytes": 6400,
+   "sha256": "ae6409f2cf5b9082d5fe7f4cac4eaaca4c498debd622bfffd1671239c00ae257"
+  },
+  {
+   "file": "SBJ12/S01/Test/testLabels.txt",
+   "bytes": 100,
+   "sha256": "f081343c6c3ce01ced5bfe928aa973a3ef1fd6db5327eae54d5971ac6ee47b77"
+  },
+  {
+   "file": "SBJ12/S01/Test/testTargets.txt",
+   "bytes": 6400,
+   "sha256": "73b7c4679666a021ce3dd7891e876013a7b5c4d3b6d25721ac0311ff1a42e063"
+  },
+  {
+   "file": "SBJ12/S01/Train/trainData.mat",
+   "bytes": 20464824,
+   "sha256": "ee889620352930ec8160cc645c35dc9bb50e50be2ec26f44b8f49c732b611350"
+  },
+  {
+   "file": "SBJ12/S01/Train/trainEvents.txt",
+   "bytes": 3200,
+   "sha256": "135b1e647563b2710f334fe7477daadf1923966aeb52a683aa66220b3f6cd45d"
+  },
+  {
+   "file": "SBJ12/S01/Train/trainLabels.txt",
+   "bytes": 40,
+   "sha256": "939e195ab0034ac0e5010da1f5eb7111bb3fa54ef4af46d6be3165c66c858ad3"
+  },
+  {
+   "file": "SBJ12/S01/Train/trainTargets.txt",
+   "bytes": 3200,
+   "sha256": "0fc981a8493466e7b2c04a3888c6bf1d0c9f9b6c0a03db9a838cf9e562eaccb9"
+  },
+  {
+   "file": "SBJ12/S02/Test/runs_per_block.txt",
+   "bytes": 2,
+   "sha256": "2e6d31a5983a91251bfae5aefa1c0a19d8ba3cf601d0e8a706b4cfa9661a6b8a"
+  },
+  {
+   "file": "SBJ12/S02/Test/testData.mat",
+   "bytes": 46089235,
+   "sha256": "d81bbdf85ec6a44dcf951dbc40cedf8bb131fc6f858ed7f9d8a3f4db5d3063c4"
+  },
+  {
+   "file": "SBJ12/S02/Test/testEvents.txt",
+   "bytes": 7200,
+   "sha256": "61472637c3a96aec04e4b465c77d7f77aa3a9a1d30fdbcb835f653e673505724"
+  },
+  {
+   "file": "SBJ12/S02/Test/testLabels.txt",
+   "bytes": 100,
+   "sha256": "909853a46c6fdd223c5df2a920e01e7765d731a1c5e5121d65a9a53133454cc2"
+  },
+  {
+   "file": "SBJ12/S02/Test/testTargets.txt",
+   "bytes": 7200,
+   "sha256": "81baa0486eeeef25ca3e936ce50b05a32da22c4f44bb22ffd58f9c518d485406"
+  },
+  {
+   "file": "SBJ12/S02/Train/trainData.mat",
+   "bytes": 20503125,
+   "sha256": "3a8e7ed156151b22c0547aedb2d3c0f64c1e99585f8a5d418473b8e25eb48245"
+  },
+  {
+   "file": "SBJ12/S02/Train/trainEvents.txt",
+   "bytes": 3200,
+   "sha256": "5b3e089ebe7bad9da54950cc6d4a4b9a6e94cf3f74ead37a219b0f0a70e88f37"
+  },
+  {
+   "file": "SBJ12/S02/Train/trainLabels.txt",
+   "bytes": 40,
+   "sha256": "12d567f6dda38547de723bbc3cbee644b39bf62d166b669c1baa5237388b57f7"
+  },
+  {
+   "file": "SBJ12/S02/Train/trainTargets.txt",
+   "bytes": 3200,
+   "sha256": "bfbd2c454cabef2cbe72650d560fefef2517c957d3956b2893f4a95c2f199f10"
+  },
+  {
+   "file": "SBJ12/S03/Test/runs_per_block.txt",
+   "bytes": 2,
+   "sha256": "f0b5c2c2211c8d67ed15e75e656c7862d086e9245420892a7de62cd9ec582a06"
+  },
+  {
+   "file": "SBJ12/S03/Test/testData.mat",
+   "bytes": 25508515,
+   "sha256": "aaab97afbd304c4bbd606c103ebfd3894bb4fad2581a3749a5bc51f5c65c8c8d"
+  },
+  {
+   "file": "SBJ12/S03/Test/testEvents.txt",
+   "bytes": 4000,
+   "sha256": "f20fbb9214233c5ab70201a88dea4d8b8e27f328f50285db9b37ab6d1be808e0"
+  },
+  {
+   "file": "SBJ12/S03/Test/testLabels.txt",
+   "bytes": 100,
+   "sha256": "131b4a684ec0b5668dd34405ff7f49dbb57bb27e0adaec9849db8721582df42c"
+  },
+  {
+   "file": "SBJ12/S03/Test/testTargets.txt",
+   "bytes": 4000,
+   "sha256": "a19e4a122db8697b04ed8f7bd18a3d7c06540bec55f9afe9f7ccebcd3c925622"
+  },
+  {
+   "file": "SBJ12/S03/Train/trainData.mat",
+   "bytes": 20482768,
+   "sha256": "087cb3ca952352fd880f2e5c7b40b6ca5cf1ad9779a95716414d75310acc3481"
+  },
+  {
+   "file": "SBJ12/S03/Train/trainEvents.txt",
+   "bytes": 3200,
+   "sha256": "b6a6c52c8869e4de0e4dd7541cabbf936f6ab1466aa8a2132777cf9c3a8a30ec"
+  },
+  {
+   "file": "SBJ12/S03/Train/trainLabels.txt",
+   "bytes": 40,
+   "sha256": "1f1977fa545024353a3da14b38575716186406605ab5f6afc38f6971a4bad101"
+  },
+  {
+   "file": "SBJ12/S03/Train/trainTargets.txt",
+   "bytes": 3200,
+   "sha256": "a034deba7d1997921ab45648266aa61ecef72e0d7a090518f4f2fe9795ec7bb9"
+  },
+  {
+   "file": "SBJ12/S04/Test/runs_per_block.txt",
+   "bytes": 2,
+   "sha256": "06e9d52c1720fca412803e3b07c4b228ff113e303f4c7ab94665319d832bbfb7"
+  },
+  {
+   "file": "SBJ12/S04/Test/testData.mat",
+   "bytes": 30683167,
+   "sha256": "32d6c5836e37e169bc651ad81e8096f9d57a7de40393ce0cd0c7c1ea3604a895"
+  },
+  {
+   "file": "SBJ12/S04/Test/testEvents.txt",
+   "bytes": 4800,
+   "sha256": "6bb122f6a046ac5465e1e22b295c42890fd7a664bde7cbafb91ed9a6d3d747e9"
+  },
+  {
+   "file": "SBJ12/S04/Test/testLabels.txt",
+   "bytes": 100,
+   "sha256": "4ffe9406e193da5fba8775c561c68b511a116934e64bc973266abd6e1e1e8fc6"
+  },
+  {
+   "file": "SBJ12/S04/Test/testTargets.txt",
+   "bytes": 4800,
+   "sha256": "745150cddef15dce7b2b8b32ee57c83be8ea528b04ab68ae095c89ed1f18107a"
+  },
+  {
+   "file": "SBJ12/S04/Train/trainData.mat",
+   "bytes": 20442316,
+   "sha256": "f4e8e7fb7ad587eaae0c8a077978d7abced752ad01baa3f23149a75fdda77a6e"
+  },
+  {
+   "file": "SBJ12/S04/Train/trainEvents.txt",
+   "bytes": 3200,
+   "sha256": "e0a861898519f4be254aaa29ace02595fec77f3f41fdec471652797ff0dd2519"
+  },
+  {
+   "file": "SBJ12/S04/Train/trainLabels.txt",
+   "bytes": 40,
+   "sha256": "c70f44b48101f6a027f0f16ba6189ecbe2a62e80f9a80b93007b06cae8c5401c"
+  },
+  {
+   "file": "SBJ12/S04/Train/trainTargets.txt",
+   "bytes": 3200,
+   "sha256": "f64d2d3bb4af8ca65ef52f99b1576b5664c100894120d8eb2dfe0439a5f54caa"
+  },
+  {
+   "file": "SBJ12/S05/Test/runs_per_block.txt",
+   "bytes": 2,
+   "sha256": "06e9d52c1720fca412803e3b07c4b228ff113e303f4c7ab94665319d832bbfb7"
+  },
+  {
+   "file": "SBJ12/S05/Test/testData.mat",
+   "bytes": 30762333,
+   "sha256": "6872b4598465a6370f7ca60a0b064fee9c004f69da2f4e1e9e398c73445870c7"
+  },
+  {
+   "file": "SBJ12/S05/Test/testEvents.txt",
+   "bytes": 4800,
+   "sha256": "d49e976a995ef1a3e7de2b6b0ea1f4e9131cab822c0e751e98f196d71e3e5011"
+  },
+  {
+   "file": "SBJ12/S05/Test/testLabels.txt",
+   "bytes": 100,
+   "sha256": "4e7de52416b0dabd5717a4d6db0ca81b68f44840b61a070d7c9317c2289d2da7"
+  },
+  {
+   "file": "SBJ12/S05/Test/testTargets.txt",
+   "bytes": 4800,
+   "sha256": "6a65b2295d2875438dc1d17d44312d00cbc40143be1d3635562208ae64fd37f7"
+  },
+  {
+   "file": "SBJ12/S05/Train/trainData.mat",
+   "bytes": 20510545,
+   "sha256": "9b2afa18107a474ca02f92fbf1f98c3bb52f73f5b8b072d8b4588e2d44d4d8cb"
+  },
+  {
+   "file": "SBJ12/S05/Train/trainEvents.txt",
+   "bytes": 3200,
+   "sha256": "52dfeee7297f3a815d51e0098ae048827bf84cc91648b0f69962b4c26fbefef2"
+  },
+  {
+   "file": "SBJ12/S05/Train/trainLabels.txt",
+   "bytes": 40,
+   "sha256": "44ade30971ca52ddc4653d214248c814962519e44a1e326aaa2603dd8b98c69d"
+  },
+  {
+   "file": "SBJ12/S05/Train/trainTargets.txt",
+   "bytes": 3200,
+   "sha256": "c83a2e3c5237e12e74193cf0b62ad31788cf6bdb7d90b71be8fc8309255c0e23"
+  },
+  {
+   "file": "SBJ12/S06/Test/runs_per_block.txt",
+   "bytes": 2,
+   "sha256": "06e9d52c1720fca412803e3b07c4b228ff113e303f4c7ab94665319d832bbfb7"
+  },
+  {
+   "file": "SBJ12/S06/Test/testData.mat",
+   "bytes": 30741002,
+   "sha256": "756e948e09c1ad65ebb1fc7e969b7ba6a1659b4466fbb9fd9bfc19f25067d949"
+  },
+  {
+   "file": "SBJ12/S06/Test/testEvents.txt",
+   "bytes": 4800,
+   "sha256": "4354a3f34739834ab5b83be70570d6fa5edad9b27596775cb3377b4e8c8d1050"
+  },
+  {
+   "file": "SBJ12/S06/Test/testLabels.txt",
+   "bytes": 100,
+   "sha256": "9c4d65fb856c137da9e532d2b3b46fb3c9c1d2e8a14693f0c24ef3c9e2f5ccb5"
+  },
+  {
+   "file": "SBJ12/S06/Test/testTargets.txt",
+   "bytes": 4800,
+   "sha256": "cf5bd4aa09726d8e1fef9f47f8201b40bdbf39cbccae7aae3f9ae0a5fae92114"
+  },
+  {
+   "file": "SBJ12/S06/Train/trainData.mat",
+   "bytes": 20414069,
+   "sha256": "add13b2541427b64b4a0f74077e6434ae8262260462dedacb91988be007035cd"
+  },
+  {
+   "file": "SBJ12/S06/Train/trainEvents.txt",
+   "bytes": 3200,
+   "sha256": "7958f9fc0914f3247d0ae7ee0a2de081688fbc7d9b88b50c54c73c13af122b17"
+  },
+  {
+   "file": "SBJ12/S06/Train/trainLabels.txt",
+   "bytes": 40,
+   "sha256": "8133709f8b506f13a051c5d891c2e51c90fba633db0b7de43cc29bc50a67ba84"
+  },
+  {
+   "file": "SBJ12/S06/Train/trainTargets.txt",
+   "bytes": 3200,
+   "sha256": "9d5a118089a1214de52d09be4ea03ec4e624679b0be6ccf01555283a8cf456ec"
+  },
+  {
+   "file": "SBJ12/S07/Test/runs_per_block.txt",
+   "bytes": 2,
+   "sha256": "06e9d52c1720fca412803e3b07c4b228ff113e303f4c7ab94665319d832bbfb7"
+  },
+  {
+   "file": "SBJ12/S07/Test/testData.mat",
+   "bytes": 30713246,
+   "sha256": "cb5a658a184d6739b95f527d83666c812a7a123a969667c9ea7ed770d235cf83"
+  },
+  {
+   "file": "SBJ12/S07/Test/testEvents.txt",
+   "bytes": 4800,
+   "sha256": "073b19490798115008eb6a8a912836aa615c4fda5fb49d8ac985bbb0c436368b"
+  },
+  {
+   "file": "SBJ12/S07/Test/testLabels.txt",
+   "bytes": 100,
+   "sha256": "278ca194cd7a535e6547ddb46cb9fc464cf5695ab9e912274d24eefb74fb5469"
+  },
+  {
+   "file": "SBJ12/S07/Test/testTargets.txt",
+   "bytes": 4800,
+   "sha256": "7caa7118707c555e1dbb347eb1aa06465cc2b609f7cb93bd940567cbe4f3aa59"
+  },
+  {
+   "file": "SBJ12/S07/Train/trainData.mat",
+   "bytes": 20485647,
+   "sha256": "9b922932e45137040b53749f73e7cc936e8609419c413bb3def2eac603e0ac00"
+  },
+  {
+   "file": "SBJ12/S07/Train/trainEvents.txt",
+   "bytes": 3200,
+   "sha256": "acd9a6feb17ccbede837bda303c42c9b23c4417aef3f8b5f1bc0da395b69eba2"
+  },
+  {
+   "file": "SBJ12/S07/Train/trainLabels.txt",
+   "bytes": 40,
+   "sha256": "9f10e3508a26a3d13bbf09ca5ca5618ae280f3a94bea403b5f419b4b4ee28d42"
+  },
+  {
+   "file": "SBJ12/S07/Train/trainTargets.txt",
+   "bytes": 3200,
+   "sha256": "bc31a93e9001544ce9491ed3fe0bbe1888131a2a6b86592cf29fc33879ad0f99"
+  },
+  {
+   "file": "SBJ13/S01/Test/runs_per_block.txt",
+   "bytes": 2,
+   "sha256": "2e6d31a5983a91251bfae5aefa1c0a19d8ba3cf601d0e8a706b4cfa9661a6b8a"
+  },
+  {
+   "file": "SBJ13/S01/Test/testData.mat",
+   "bytes": 45816676,
+   "sha256": "8bdfcaa83556ec323d71948f3f33e217b06d5918857b5570eeac715d6cbf07ac"
+  },
+  {
+   "file": "SBJ13/S01/Test/testEvents.txt",
+   "bytes": 7200,
+   "sha256": "60829c09e92b55545b0b1eb73b1546d510e812d2ce8e1c6dd60ef71bd2f94140"
+  },
+  {
+   "file": "SBJ13/S01/Test/testLabels.txt",
+   "bytes": 100,
+   "sha256": "3499420ef961668fb783f1fe43214cf47b6f6556fcb9a99df1c4e8070d31d0ab"
+  },
+  {
+   "file": "SBJ13/S01/Test/testTargets.txt",
+   "bytes": 7200,
+   "sha256": "e1d6d82f8c927f19177f48a5f64ce3a5e04793eb732f037e4d11ed4b0481f7f9"
+  },
+  {
+   "file": "SBJ13/S01/Train/trainData.mat",
+   "bytes": 20338500,
+   "sha256": "37949f9e1fb1d7e1c5ffbfc5fb8634a493a4805b8cb2ae86dea01fd59faaa17c"
+  },
+  {
+   "file": "SBJ13/S01/Train/trainEvents.txt",
+   "bytes": 3200,
+   "sha256": "878859edb362b6762cf9a08d1b281f5b7e86e964bba87f46c4b70b4b7fb95d82"
+  },
+  {
+   "file": "SBJ13/S01/Train/trainLabels.txt",
+   "bytes": 40,
+   "sha256": "c0669840583ed0cfa95cd3741767e085a42266e9c9c6e1398becb4551154cc0c"
+  },
+  {
+   "file": "SBJ13/S01/Train/trainTargets.txt",
+   "bytes": 3200,
+   "sha256": "c96fe41f516941aed46478b7de0abaa9b41e9c24d6227724659c91b53eb60711"
+  },
+  {
+   "file": "SBJ13/S02/Test/runs_per_block.txt",
+   "bytes": 2,
+   "sha256": "aa67a169b0bba217aa0aa88a65346920c84c42447c36ba5f7ea65f422c1fe5d8"
+  },
+  {
+   "file": "SBJ13/S02/Test/testData.mat",
+   "bytes": 40719947,
+   "sha256": "2dfcd8892ef65ed5a7ac947f8df5c5ea6c5e6b2b63ce123109f8ff75dd894527"
+  },
+  {
+   "file": "SBJ13/S02/Test/testEvents.txt",
+   "bytes": 6400,
+   "sha256": "28a3f02d55300f0f2192102be701c587d6b2afe9a8f4931cb8426a4335b1ee46"
+  },
+  {
+   "file": "SBJ13/S02/Test/testLabels.txt",
+   "bytes": 100,
+   "sha256": "8238ccca53331f670de334747ce05905c59f1d2b268d3fc3c2273038947c5f00"
+  },
+  {
+   "file": "SBJ13/S02/Test/testTargets.txt",
+   "bytes": 6400,
+   "sha256": "5ccd8b11e54a1d61d7a5e1df1d205fb44625e9111c8117450a14712e5faffb82"
+  },
+  {
+   "file": "SBJ13/S02/Train/trainData.mat",
+   "bytes": 20391809,
+   "sha256": "9e34de0939e9c7be69f68e39057437f9164879666a8db70e591aa57a1d5bf6f6"
+  },
+  {
+   "file": "SBJ13/S02/Train/trainEvents.txt",
+   "bytes": 3200,
+   "sha256": "26f3a98fc71edb0de5f48df1f1251ee585fcf41ccc6cdd0810c7af6ad217f0ec"
+  },
+  {
+   "file": "SBJ13/S02/Train/trainLabels.txt",
+   "bytes": 40,
+   "sha256": "85cf6fdc10b7965205cfba5ebd0f3dda08a55d8712a318f4dbb6cafa3759f3a7"
+  },
+  {
+   "file": "SBJ13/S02/Train/trainTargets.txt",
+   "bytes": 3200,
+   "sha256": "bb075b2184b10931e912ce7aa8712f61ad80eadb66006cd82ac7f8905b163b8c"
+  },
+  {
+   "file": "SBJ13/S03/Test/runs_per_block.txt",
+   "bytes": 2,
+   "sha256": "aa67a169b0bba217aa0aa88a65346920c84c42447c36ba5f7ea65f422c1fe5d8"
+  },
+  {
+   "file": "SBJ13/S03/Test/testData.mat",
+   "bytes": 40805904,
+   "sha256": "35bac9ace270699eba3ba153c7f18bbb660a33ba0bda4de21f9d912c7a284364"
+  },
+  {
+   "file": "SBJ13/S03/Test/testEvents.txt",
+   "bytes": 6400,
+   "sha256": "503a6b3d448f1774f6d8ffb3caafcad988ca0bf188a978de3a5a4abd0704ac98"
+  },
+  {
+   "file": "SBJ13/S03/Test/testLabels.txt",
+   "bytes": 100,
+   "sha256": "56e185f04a5381e5c15e9956e9a734069a0c5039287be2d998508b7c737b438a"
+  },
+  {
+   "file": "SBJ13/S03/Test/testTargets.txt",
+   "bytes": 6400,
+   "sha256": "b84b893b13b2becaeab6f5c6f9c1bb974f725e5711f3f9ed019abd8193b5de2b"
+  },
+  {
+   "file": "SBJ13/S03/Train/trainData.mat",
+   "bytes": 20398151,
+   "sha256": "0b7768f2a1ddf4c6daab444843c9ed4a1d0c45fa6a1afad5bf00808c34c8f53a"
+  },
+  {
+   "file": "SBJ13/S03/Train/trainEvents.txt",
+   "bytes": 3200,
+   "sha256": "8a65089c6908cf1c14a3121cedf21ebe3ea9c7d5559f8bb5561098e970f6cdeb"
+  },
+  {
+   "file": "SBJ13/S03/Train/trainLabels.txt",
+   "bytes": 40,
+   "sha256": "4a717947dd2cbb34cfe24213b1c7847c9882bb1720824a19ebd5d49a8688440e"
+  },
+  {
+   "file": "SBJ13/S03/Train/trainTargets.txt",
+   "bytes": 3200,
+   "sha256": "8a5275b9ce6755be35022b15abf7bf48ff66eb07ead86f0e647e3bc3d61f6a73"
+  },
+  {
+   "file": "SBJ13/S04/Test/runs_per_block.txt",
+   "bytes": 2,
+   "sha256": "aa67a169b0bba217aa0aa88a65346920c84c42447c36ba5f7ea65f422c1fe5d8"
+  },
+  {
+   "file": "SBJ13/S04/Test/testData.mat",
+   "bytes": 40457605,
+   "sha256": "ee120f32175b4396d0fe3b784018b1ae21437a075ae8b37260d03c78d8ecb9af"
+  },
+  {
+   "file": "SBJ13/S04/Test/testEvents.txt",
+   "bytes": 6400,
+   "sha256": "2c67e8d49a7ac0edecd82965b09ad91ed4e35b00334ca81ac02225e928aa0bb2"
+  },
+  {
+   "file": "SBJ13/S04/Test/testLabels.txt",
+   "bytes": 100,
+   "sha256": "59e3e80362003f1587e9161d7501f3bff82e4af06c514311851a2c5783bd285d"
+  },
+  {
+   "file": "SBJ13/S04/Test/testTargets.txt",
+   "bytes": 6400,
+   "sha256": "894051fbadfa0f8040df68a85b194f9ccda154aee5c413aa1f18599053719474"
+  },
+  {
+   "file": "SBJ13/S04/Train/trainData.mat",
+   "bytes": 20185426,
+   "sha256": "638a9f3a94ed9d1a976bb96c85a9496f1859a1ec18e5536d7da1a29d6ab45820"
+  },
+  {
+   "file": "SBJ13/S04/Train/trainEvents.txt",
+   "bytes": 3200,
+   "sha256": "d3b8bbad1db10f45ddeb34ed6f5a174becae276030e34e339810f7ac055517e9"
+  },
+  {
+   "file": "SBJ13/S04/Train/trainLabels.txt",
+   "bytes": 40,
+   "sha256": "0bc6a3bf3d24a3e00832bd948362969eec1b5b7db7b0753dcf3c5083e4089af5"
+  },
+  {
+   "file": "SBJ13/S04/Train/trainTargets.txt",
+   "bytes": 3200,
+   "sha256": "7d624c4986f032e0ffcbfc44b79786f7ff4932c943a535d0d9ad7065548a550f"
+  },
+  {
+   "file": "SBJ13/S05/Test/runs_per_block.txt",
+   "bytes": 2,
+   "sha256": "06e9d52c1720fca412803e3b07c4b228ff113e303f4c7ab94665319d832bbfb7"
+  },
+  {
+   "file": "SBJ13/S05/Test/testData.mat",
+   "bytes": 30550774,
+   "sha256": "4abb712e73afa0568580b15da9d0f24061e11b46b6b0baf22bc21a01db3311f9"
+  },
+  {
+   "file": "SBJ13/S05/Test/testEvents.txt",
+   "bytes": 4800,
+   "sha256": "e814a7fead5d2c1f8b48040285045c0dc803f10cb22eb6dcd34a64d895195a53"
+  },
+  {
+   "file": "SBJ13/S05/Test/testLabels.txt",
+   "bytes": 100,
+   "sha256": "67751a1f30b79ee1ac303348108c2055a14435697f9260daf0bf546b7d36c74e"
+  },
+  {
+   "file": "SBJ13/S05/Test/testTargets.txt",
+   "bytes": 4800,
+   "sha256": "e2c23374a0121eaec5232fc566f2e27bc189318df0095a20fbf3ca0149be0714"
+  },
+  {
+   "file": "SBJ13/S05/Train/trainData.mat",
+   "bytes": 20277330,
+   "sha256": "5df96c608d9cd41de22a7d9c747c5b501e4954e421bf899a644f571b6dc73c20"
+  },
+  {
+   "file": "SBJ13/S05/Train/trainEvents.txt",
+   "bytes": 3200,
+   "sha256": "b57feff82d796c058ae4b8c7fd5d40b8cc270b50cfc981e7b84158dce1d553c7"
+  },
+  {
+   "file": "SBJ13/S05/Train/trainLabels.txt",
+   "bytes": 40,
+   "sha256": "72fd0053fb6a0e0a23a790abff422a8105a2852ee849e090f5a9d3cb101f5ae5"
+  },
+  {
+   "file": "SBJ13/S05/Train/trainTargets.txt",
+   "bytes": 3200,
+   "sha256": "afe5d5d83f51cfe5b5f3dfe0ce2f02e5af7567d8e6289927b9cb9b943208dced"
+  },
+  {
+   "file": "SBJ13/S06/Test/runs_per_block.txt",
+   "bytes": 2,
+   "sha256": "06e9d52c1720fca412803e3b07c4b228ff113e303f4c7ab94665319d832bbfb7"
+  },
+  {
+   "file": "SBJ13/S06/Test/testData.mat",
+   "bytes": 30597774,
+   "sha256": "193a0fd9c73b7c4fd8dabe08eaff7a36315476d63a8578076c69e77f31d6a9a9"
+  },
+  {
+   "file": "SBJ13/S06/Test/testEvents.txt",
+   "bytes": 4800,
+   "sha256": "50e78fe801ae6e422eb689c81c82aa797aaaee9fb59d6610032a9376c9a5db10"
+  },
+  {
+   "file": "SBJ13/S06/Test/testLabels.txt",
+   "bytes": 100,
+   "sha256": "9b82120dfd15659ed47663796d5445f77512f1bf150dc2a93c1d857a701a86d2"
+  },
+  {
+   "file": "SBJ13/S06/Test/testTargets.txt",
+   "bytes": 4800,
+   "sha256": "37c30bca3dcc4e40fe830319ee440ed3d075ebff53818b09ed71f7fa787ddf5a"
+  },
+  {
+   "file": "SBJ13/S06/Train/trainData.mat",
+   "bytes": 20377094,
+   "sha256": "724732141b075227521666a4c02823aa047045c3bfab456d04b0686f90f3e7ba"
+  },
+  {
+   "file": "SBJ13/S06/Train/trainEvents.txt",
+   "bytes": 3200,
+   "sha256": "e118400784a0a8e43770c9b1126902752f23d6a8708bc38a71280786a307a5d2"
+  },
+  {
+   "file": "SBJ13/S06/Train/trainLabels.txt",
+   "bytes": 40,
+   "sha256": "e5b1597525aa4ed5a3d7009b451b1cb60f6d47f08d40a39d52b6a37abb35886e"
+  },
+  {
+   "file": "SBJ13/S06/Train/trainTargets.txt",
+   "bytes": 3200,
+   "sha256": "4b4a5bfb3cfb0bb4decd00dfd377f0f7a25f16c6cd8d75bc0284cfa94dba0330"
+  },
+  {
+   "file": "SBJ13/S07/Test/runs_per_block.txt",
+   "bytes": 3,
+   "sha256": "917df3320d778ddbaa5c5c7742bc4046bf803c36ed2b050f30844ed206783469"
+  },
+  {
+   "file": "SBJ13/S07/Test/testData.mat",
+   "bytes": 50995577,
+   "sha256": "7f233fc33dc0e192de14e495ab892ff9e860a19ee154737215a91551e95303c5"
+  },
+  {
+   "file": "SBJ13/S07/Test/testEvents.txt",
+   "bytes": 8000,
+   "sha256": "90813a52b4f1a54861072662a46aa13779776418271baeb8395b0da03a2eeac8"
+  },
+  {
+   "file": "SBJ13/S07/Test/testLabels.txt",
+   "bytes": 100,
+   "sha256": "4fd365220d35382c51818d60634fe1153c48e66c929b539d853b84b92609db42"
+  },
+  {
+   "file": "SBJ13/S07/Test/testTargets.txt",
+   "bytes": 8000,
+   "sha256": "219b975832e6663cb51364dbeb90881cbd8fcc7a211a2d15ea2d9f5da90ce542"
+  },
+  {
+   "file": "SBJ13/S07/Train/trainData.mat",
+   "bytes": 20355771,
+   "sha256": "79151eb22bd2c7a9935cbd6bd3b6a7bea984734a2899385578410fdaebfaaab0"
+  },
+  {
+   "file": "SBJ13/S07/Train/trainEvents.txt",
+   "bytes": 3200,
+   "sha256": "a61f77046ffa526119af99e6dc7f92d3d910245d474187e64c4bdb084ccdc732"
+  },
+  {
+   "file": "SBJ13/S07/Train/trainLabels.txt",
+   "bytes": 40,
+   "sha256": "aa3bdb230399b0f950da9e26bde2255ea947d4f80e1af7e7f96f1f818f0f9012"
+  },
+  {
+   "file": "SBJ13/S07/Train/trainTargets.txt",
+   "bytes": 3200,
+   "sha256": "a525763efcfc10325489ab1b9f012f197f4c52abdde0d74891abd81a9995b6a3"
+  },
+  {
+   "file": "SBJ14/S01/Test/runs_per_block.txt",
+   "bytes": 3,
+   "sha256": "917df3320d778ddbaa5c5c7742bc4046bf803c36ed2b050f30844ed206783469"
+  },
+  {
+   "file": "SBJ14/S01/Test/testData.mat",
+   "bytes": 50903663,
+   "sha256": "ac0985137f8e4b57d8e959bb8e330f553959f50ee0d06c75441c09ed5577b2dc"
+  },
+  {
+   "file": "SBJ14/S01/Test/testEvents.txt",
+   "bytes": 8000,
+   "sha256": "b9bb22acc00d22909eafb5514281542f1cdb0e5486bdcaff7cf66ea078aa591c"
+  },
+  {
+   "file": "SBJ14/S01/Test/testLabels.txt",
+   "bytes": 100,
+   "sha256": "f1e308bd54c10a30f639407b4ae3cd7d369cb57465aff355d4c2fb992cc2d064"
+  },
+  {
+   "file": "SBJ14/S01/Test/testTargets.txt",
+   "bytes": 8000,
+   "sha256": "1ca14cce77ecc7b9de48a43f50d09cf0c68790ca356c0d142b772665b340fa5f"
+  },
+  {
+   "file": "SBJ14/S01/Train/trainData.mat",
+   "bytes": 20358345,
+   "sha256": "287c60f3bd1e44c100bade6b4874755b5a757060283a0ac5e772808368f7b85d"
+  },
+  {
+   "file": "SBJ14/S01/Train/trainEvents.txt",
+   "bytes": 3200,
+   "sha256": "43dd94d7856d46ab0b3fa6d93e14a06d0e4ddb43b4b979b2e198b7b1d3269ec7"
+  },
+  {
+   "file": "SBJ14/S01/Train/trainLabels.txt",
+   "bytes": 40,
+   "sha256": "5aa72f6a716b6096ff7505f702c4d5f50e73c30f78b2dbbf5bd0020ecfb73062"
+  },
+  {
+   "file": "SBJ14/S01/Train/trainTargets.txt",
+   "bytes": 3200,
+   "sha256": "26df664aaf16e5dadc83d69a954f504d3bb8861208d9ec87d7558d3568b79e3f"
+  },
+  {
+   "file": "SBJ14/S02/Test/runs_per_block.txt",
+   "bytes": 2,
+   "sha256": "06e9d52c1720fca412803e3b07c4b228ff113e303f4c7ab94665319d832bbfb7"
+  },
+  {
+   "file": "SBJ14/S02/Test/testData.mat",
+   "bytes": 30585928,
+   "sha256": "8f8760b3858c6410f118daee7f74a5092aee8949fd9681df665d5be266f31ca3"
+  },
+  {
+   "file": "SBJ14/S02/Test/testEvents.txt",
+   "bytes": 4800,
+   "sha256": "c3678050c07d5541b475b5994e34dead790a402aaa070fcbf5a0cb5957b9cb00"
+  },
+  {
+   "file": "SBJ14/S02/Test/testLabels.txt",
+   "bytes": 100,
+   "sha256": "7a2782af94adf5aedcfb36b4f36a9e629868c6eca1c3a17520ef2c3b8c6b0c21"
+  },
+  {
+   "file": "SBJ14/S02/Test/testTargets.txt",
+   "bytes": 4800,
+   "sha256": "cc1fcf290175a31b57ef12ec12f649180d93190267c4aab821a7cff4632a0154"
+  },
+  {
+   "file": "SBJ14/S02/Train/trainData.mat",
+   "bytes": 20366647,
+   "sha256": "96893cc5152b5ff951b7eccacdeb6770fdbc5fec67b1e0d255c2cd6316a253b2"
+  },
+  {
+   "file": "SBJ14/S02/Train/trainEvents.txt",
+   "bytes": 3200,
+   "sha256": "5924e0677755fcdacfac0b97f2752b3ab4f7dc2a1f97fa02741de7ea276416a0"
+  },
+  {
+   "file": "SBJ14/S02/Train/trainLabels.txt",
+   "bytes": 40,
+   "sha256": "93655e907836e758bbe773ef3b6df5583b21298e65b3c1156b48df027444004d"
+  },
+  {
+   "file": "SBJ14/S02/Train/trainTargets.txt",
+   "bytes": 3200,
+   "sha256": "1ac70e5169514d2edb1592544e724cb4bb5d61624911abaf27313ede48608818"
+  },
+  {
+   "file": "SBJ14/S03/Test/runs_per_block.txt",
+   "bytes": 2,
+   "sha256": "10159baf262b43a92d95db59dae1f72c645127301661e0a3ce4e38b295a97c58"
+  },
+  {
+   "file": "SBJ14/S03/Test/testData.mat",
+   "bytes": 35607852,
+   "sha256": "792f04af56830a9ec8e7821b3236427bba703f05d7ad2da05f7ef5907401082d"
+  },
+  {
+   "file": "SBJ14/S03/Test/testEvents.txt",
+   "bytes": 5600,
+   "sha256": "944ee225cfed249242216cdb9f69d5fc5e21fc7997cc24ab4a31acd730345817"
+  },
+  {
+   "file": "SBJ14/S03/Test/testLabels.txt",
+   "bytes": 100,
+   "sha256": "87b363ce4de296663e259488701089aab054d2a67a87409d9f493beecedc5bfc"
+  },
+  {
+   "file": "SBJ14/S03/Test/testTargets.txt",
+   "bytes": 5600,
+   "sha256": "c7bd17edbcf822cd267d2bd2183a055529d555e825943c713abfb70e55e571d2"
+  },
+  {
+   "file": "SBJ14/S03/Train/trainData.mat",
+   "bytes": 19944598,
+   "sha256": "9fa518d11f228a7f4e6f51c1760be8bb16fb11e22758391d22bfde4a0393a80e"
+  },
+  {
+   "file": "SBJ14/S03/Train/trainEvents.txt",
+   "bytes": 3200,
+   "sha256": "bd817f63770dba025776b8cea48d1e63e6245cc5e71ff6e79b1c895d7e3422a7"
+  },
+  {
+   "file": "SBJ14/S03/Train/trainLabels.txt",
+   "bytes": 40,
+   "sha256": "03d974f88ab41dad11172f215f2af7786bf775a4206a7e075804cda16f327174"
+  },
+  {
+   "file": "SBJ14/S03/Train/trainTargets.txt",
+   "bytes": 3200,
+   "sha256": "0f023e853bc50dc6322cf389649e3d1b8921d1ff583ca1abf36c2bad3459a5c3"
+  },
+  {
+   "file": "SBJ14/S04/Test/runs_per_block.txt",
+   "bytes": 3,
+   "sha256": "917df3320d778ddbaa5c5c7742bc4046bf803c36ed2b050f30844ed206783469"
+  },
+  {
+   "file": "SBJ14/S04/Test/testData.mat",
+   "bytes": 50964095,
+   "sha256": "f00796244337e432b51fd8eb23da56fec3a0b1761b51b3392a9512d1083d409c"
+  },
+  {
+   "file": "SBJ14/S04/Test/testEvents.txt",
+   "bytes": 8000,
+   "sha256": "ccecb4cb1168f3f71847ef952186063ce6ea0a216d87ee9c83dbb8fb80536439"
+  },
+  {
+   "file": "SBJ14/S04/Test/testLabels.txt",
+   "bytes": 100,
+   "sha256": "bb2a7b1fb9367647f69e44a8978434b8fc866b234efb8a7cdb054f7abc12626e"
+  },
+  {
+   "file": "SBJ14/S04/Test/testTargets.txt",
+   "bytes": 8000,
+   "sha256": "343c810c35c322c411549d64ae7c53c9f4c8a873908ca02ba572bc855c805e56"
+  },
+  {
+   "file": "SBJ14/S04/Train/trainData.mat",
+   "bytes": 20410800,
+   "sha256": "b351b469674927c7a331764abbc150d33953dce9127abfeb374acb87c1d09ec2"
+  },
+  {
+   "file": "SBJ14/S04/Train/trainEvents.txt",
+   "bytes": 3200,
+   "sha256": "bdcb1b0b41c7a4b853180c3ee378189435da6dff41071793c0527213647162ae"
+  },
+  {
+   "file": "SBJ14/S04/Train/trainLabels.txt",
+   "bytes": 40,
+   "sha256": "e441ced763dd42a3aa92e69fde56b99a7f93bb1f12e4ffa7890339a7108a9295"
+  },
+  {
+   "file": "SBJ14/S04/Train/trainTargets.txt",
+   "bytes": 3200,
+   "sha256": "988df9041fe78575effdeb51d9a594405ce64c216a157af8409a891d44211763"
+  },
+  {
+   "file": "SBJ14/S05/Test/runs_per_block.txt",
+   "bytes": 3,
+   "sha256": "917df3320d778ddbaa5c5c7742bc4046bf803c36ed2b050f30844ed206783469"
+  },
+  {
+   "file": "SBJ14/S05/Test/testData.mat",
+   "bytes": 51114953,
+   "sha256": "2cb07022e80924aebf01d1bfd78ea5f492c8f10f81615f77e490e474a0deb3f7"
+  },
+  {
+   "file": "SBJ14/S05/Test/testEvents.txt",
+   "bytes": 8000,
+   "sha256": "12384fd594f637db1bf60493c817873b8fbb86d3ce4f39f11c9ddc2420a91302"
+  },
+  {
+   "file": "SBJ14/S05/Test/testLabels.txt",
+   "bytes": 100,
+   "sha256": "54f1b19a8187c2112e1c9c2a8ee6b6dce01533ec5334118859e7d2d14c1cf670"
+  },
+  {
+   "file": "SBJ14/S05/Test/testTargets.txt",
+   "bytes": 8000,
+   "sha256": "1b1972c6855b712dfa34203fa2a40217479d51e924b2185e20ef624148bc2d59"
+  },
+  {
+   "file": "SBJ14/S05/Train/trainData.mat",
+   "bytes": 20440187,
+   "sha256": "59c46a5879b6fcf997f7b11d73023a795bc672cd5465ad14eddb4e82eb4229e9"
+  },
+  {
+   "file": "SBJ14/S05/Train/trainEvents.txt",
+   "bytes": 3200,
+   "sha256": "d612e9f508c584cb74c4bde4b5bd45ce73e3b990e8fa225768cac80f61162822"
+  },
+  {
+   "file": "SBJ14/S05/Train/trainLabels.txt",
+   "bytes": 40,
+   "sha256": "0d8848d9da292c1049a3b6513ff23b991762ad5fd48650ac2a1e40bb6efbdcc4"
+  },
+  {
+   "file": "SBJ14/S05/Train/trainTargets.txt",
+   "bytes": 3200,
+   "sha256": "e841c35cc78590414c27a1c9f9528e1fb75a90f2fa21c70e4d1af659badb948a"
+  },
+  {
+   "file": "SBJ14/S06/Test/runs_per_block.txt",
+   "bytes": 2,
+   "sha256": "06e9d52c1720fca412803e3b07c4b228ff113e303f4c7ab94665319d832bbfb7"
+  },
+  {
+   "file": "SBJ14/S06/Test/testData.mat",
+   "bytes": 30582577,
+   "sha256": "20bfee61b167d35ff2b54bad10b06cc09628deb23073dfedab53df62511540fe"
+  },
+  {
+   "file": "SBJ14/S06/Test/testEvents.txt",
+   "bytes": 4800,
+   "sha256": "57264a163bfe783d3a18637b3b35fccb83856d8e9f3f52df1668c9be22a38852"
+  },
+  {
+   "file": "SBJ14/S06/Test/testLabels.txt",
+   "bytes": 100,
+   "sha256": "17aa7cd2af4be66bddee9c90965c5c58c02430ce4f4751fdf431c1f18d897630"
+  },
+  {
+   "file": "SBJ14/S06/Test/testTargets.txt",
+   "bytes": 4800,
+   "sha256": "2ffb634925cc5236919b30dab1a4b497a911e609dfc7bf824c7d4bdf87a7921b"
+  },
+  {
+   "file": "SBJ14/S06/Train/trainData.mat",
+   "bytes": 20347181,
+   "sha256": "22425c45488ac1c9e2b58b2d04c8850d27efb47d0e395dfa954e7c72a1b53c07"
+  },
+  {
+   "file": "SBJ14/S06/Train/trainEvents.txt",
+   "bytes": 3200,
+   "sha256": "12a644fa464844e432658619ca50875f99625977fb5864ed094b9c0b8db6a74a"
+  },
+  {
+   "file": "SBJ14/S06/Train/trainLabels.txt",
+   "bytes": 40,
+   "sha256": "b38404301a4e57a752f04b09f7429ef615dabb390cce7ea7e2c639631ee8339f"
+  },
+  {
+   "file": "SBJ14/S06/Train/trainTargets.txt",
+   "bytes": 3200,
+   "sha256": "8108da0a898ce34a877f631a42f77f939562c8d1c12566f4dde3e63defbd854f"
+  },
+  {
+   "file": "SBJ14/S07/Test/runs_per_block.txt",
+   "bytes": 2,
+   "sha256": "2e6d31a5983a91251bfae5aefa1c0a19d8ba3cf601d0e8a706b4cfa9661a6b8a"
+  },
+  {
+   "file": "SBJ14/S07/Test/testData.mat",
+   "bytes": 45840768,
+   "sha256": "e969e8f48d5770f82d9281b6f4e35d62e9fb77564aedbdc63d1223801f6a9315"
+  },
+  {
+   "file": "SBJ14/S07/Test/testEvents.txt",
+   "bytes": 7200,
+   "sha256": "2cd9fcbb64e1485a8611a3a9b149bb2fbb36a90fd091a4c56953b4b03322489f"
+  },
+  {
+   "file": "SBJ14/S07/Test/testLabels.txt",
+   "bytes": 100,
+   "sha256": "683c3c8cb13d1a77e9966d24cb5ad99dddc7832718e347d92d30092838dc90e1"
+  },
+  {
+   "file": "SBJ14/S07/Test/testTargets.txt",
+   "bytes": 7200,
+   "sha256": "63d6ef89ba3abd1556ad5ae4148bd9104e10d1c85db463443069bd19df20f481"
+  },
+  {
+   "file": "SBJ14/S07/Train/trainData.mat",
+   "bytes": 20439937,
+   "sha256": "9b3a17242b486f4b412aeef6065a558a956110a468e9fc5fbad6fb91d87e9248"
+  },
+  {
+   "file": "SBJ14/S07/Train/trainEvents.txt",
+   "bytes": 3200,
+   "sha256": "fabe43735c1b9088915b7b290baaa420d5f9010f539ca9a12741a84753ec527f"
+  },
+  {
+   "file": "SBJ14/S07/Train/trainLabels.txt",
+   "bytes": 40,
+   "sha256": "df2d511b067e34883589da28d3d3b104f2e890c7a76b3cc45d70702aa41267cd"
+  },
+  {
+   "file": "SBJ14/S07/Train/trainTargets.txt",
+   "bytes": 3200,
+   "sha256": "859919112336ba7d4df5afabaf1789256085aabd001bb099c1f5c017ebf63fc9"
+  },
+  {
+   "file": "SBJ15/S01/Test/runs_per_block.txt",
+   "bytes": 2,
+   "sha256": "06e9d52c1720fca412803e3b07c4b228ff113e303f4c7ab94665319d832bbfb7"
+  },
+  {
+   "file": "SBJ15/S01/Test/testData.mat",
+   "bytes": 30448362,
+   "sha256": "1cc8d5e56bba7d6cdfdfa9df34306f0f7bb41247a1cb31bd8c9e24bc984756a9"
+  },
+  {
+   "file": "SBJ15/S01/Test/testEvents.txt",
+   "bytes": 4800,
+   "sha256": "0217d4af04c716633a9199d9fee568fce8c5cf4fae9ea0b9c51116f9c24d2b4d"
+  },
+  {
+   "file": "SBJ15/S01/Test/testLabels.txt",
+   "bytes": 100,
+   "sha256": "948b4f412add32f1102b0eda08e0a54943c9fca1e869d28d2d7ceef6ca43fd39"
+  },
+  {
+   "file": "SBJ15/S01/Test/testTargets.txt",
+   "bytes": 4800,
+   "sha256": "3b8b0b6d104a9ab5d7be24fd66afea0939b19cd405199553bcd0bfad52d5a729"
+  },
+  {
+   "file": "SBJ15/S01/Train/trainData.mat",
+   "bytes": 20285544,
+   "sha256": "50eb3bed9f47b5a786b652236176c52cd7ecd5d2088bf453c45fb33836b79403"
+  },
+  {
+   "file": "SBJ15/S01/Train/trainEvents.txt",
+   "bytes": 3200,
+   "sha256": "05318f2f1aeeb13fe33b52fb5d491a529af9b6da9b7bd131e472a45b2791b5af"
+  },
+  {
+   "file": "SBJ15/S01/Train/trainLabels.txt",
+   "bytes": 40,
+   "sha256": "114559b0e9f4daa971eb3fb279552d3135d9da12d543000e7fb1b8f038dcf8df"
+  },
+  {
+   "file": "SBJ15/S01/Train/trainTargets.txt",
+   "bytes": 3200,
+   "sha256": "058c2a96204d5adde55d4499f9c2e7730bbc86d649e263f72ffba31a5ac2429b"
+  },
+  {
+   "file": "SBJ15/S02/Test/runs_per_block.txt",
+   "bytes": 2,
+   "sha256": "06e9d52c1720fca412803e3b07c4b228ff113e303f4c7ab94665319d832bbfb7"
+  },
+  {
+   "file": "SBJ15/S02/Test/testData.mat",
+   "bytes": 30233457,
+   "sha256": "57406b743df2dfeaffeb786c0799abc619cb497d33e83b8e004c0d6850740ff0"
+  },
+  {
+   "file": "SBJ15/S02/Test/testEvents.txt",
+   "bytes": 4800,
+   "sha256": "33b7c4a324d37beeaaf33d53448aa6bd988d9c936f98810ea6a997b78787815e"
+  },
+  {
+   "file": "SBJ15/S02/Test/testLabels.txt",
+   "bytes": 100,
+   "sha256": "4a4a8b62f12315e87d20d66324cde18c0f595926e5fdff5804dcace4cbc378e4"
+  },
+  {
+   "file": "SBJ15/S02/Test/testTargets.txt",
+   "bytes": 4800,
+   "sha256": "cb04a18bfb48f79f162f27003c702bf996501460888153735464a206cb803df5"
+  },
+  {
+   "file": "SBJ15/S02/Train/trainData.mat",
+   "bytes": 20243260,
+   "sha256": "9ee6608280ed2a36076e6878dbcd316d5082daf89670665c30b1ce7bc59737ce"
+  },
+  {
+   "file": "SBJ15/S02/Train/trainEvents.txt",
+   "bytes": 3200,
+   "sha256": "6a62f8b30acb361f880f4bcbaf28f22fdde238edaf5f2341b35f44d63db142b7"
+  },
+  {
+   "file": "SBJ15/S02/Train/trainLabels.txt",
+   "bytes": 40,
+   "sha256": "83020e475dc264fadab6487d865179187e7cd59536ceec2e736c4d260b99cac4"
+  },
+  {
+   "file": "SBJ15/S02/Train/trainTargets.txt",
+   "bytes": 3200,
+   "sha256": "8e29d908a2869bfd0ceeccbc5688b2e5b6bc4416a6b9d1ed98b794d18dbe9e2b"
+  },
+  {
+   "file": "SBJ15/S03/Test/runs_per_block.txt",
+   "bytes": 3,
+   "sha256": "917df3320d778ddbaa5c5c7742bc4046bf803c36ed2b050f30844ed206783469"
+  },
+  {
+   "file": "SBJ15/S03/Test/testData.mat",
+   "bytes": 50661647,
+   "sha256": "9960523cb02a02546a5d71d46028f8e6dcae46eaf3036b26a58d579fbff299b8"
+  },
+  {
+   "file": "SBJ15/S03/Test/testEvents.txt",
+   "bytes": 8000,
+   "sha256": "dbac4f5bf0e5558bcce4f03b164f33f448f913413325b13932634e491719516b"
+  },
+  {
+   "file": "SBJ15/S03/Test/testLabels.txt",
+   "bytes": 100,
+   "sha256": "1bcff6ea166a0bdb0e86c0755d9fa53be6d57096b3500a8a736b98f83232729a"
+  },
+  {
+   "file": "SBJ15/S03/Test/testTargets.txt",
+   "bytes": 8000,
+   "sha256": "22edae65e5f66f761e3b3419486f4e0bf7a10870de6fae9d48431a8c0f4b8247"
+  },
+  {
+   "file": "SBJ15/S03/Train/trainData.mat",
+   "bytes": 20209527,
+   "sha256": "36baa0bf1ef65977aacd851a781f113e6d00c82ee39c5b137380c682b695671e"
+  },
+  {
+   "file": "SBJ15/S03/Train/trainEvents.txt",
+   "bytes": 3200,
+   "sha256": "ca9c83749eff1f5c2a7e829e38862b22207e30359365c312e69ce8c95393460f"
+  },
+  {
+   "file": "SBJ15/S03/Train/trainLabels.txt",
+   "bytes": 40,
+   "sha256": "e699dfd6ec71fc379225c9217ff27213a74b19baa83ef1d43fb31062f14cac00"
+  },
+  {
+   "file": "SBJ15/S03/Train/trainTargets.txt",
+   "bytes": 3200,
+   "sha256": "5540f81f2893300fceb48fac6c81a124d2232107f10339d60c02e56be1ed83f9"
+  },
+  {
+   "file": "SBJ15/S04/Test/runs_per_block.txt",
+   "bytes": 2,
+   "sha256": "2e6d31a5983a91251bfae5aefa1c0a19d8ba3cf601d0e8a706b4cfa9661a6b8a"
+  },
+  {
+   "file": "SBJ15/S04/Test/testData.mat",
+   "bytes": 45598560,
+   "sha256": "8f812c62a8ed62076ec68cc136d96a84e88d2ce31c7b08d73707626a86b32960"
+  },
+  {
+   "file": "SBJ15/S04/Test/testEvents.txt",
+   "bytes": 7200,
+   "sha256": "d4017043d9a57429ff10779633198a7c1f770a52c51a314c5e48e7edf4f0636a"
+  },
+  {
+   "file": "SBJ15/S04/Test/testLabels.txt",
+   "bytes": 100,
+   "sha256": "a34067d6513dcc2170002e9205490a432ede830b77d431f871f7c31204994446"
+  },
+  {
+   "file": "SBJ15/S04/Test/testTargets.txt",
+   "bytes": 7200,
+   "sha256": "8dd891575c3609af4a53be4281dd2778dfec4f1e0d569a711a2285fcd2a963ea"
+  },
+  {
+   "file": "SBJ15/S04/Train/trainData.mat",
+   "bytes": 20243258,
+   "sha256": "d8cc1933ef153a9a582fc2854dd336f8413f4661c5de7c15cac8713937d9386e"
+  },
+  {
+   "file": "SBJ15/S04/Train/trainEvents.txt",
+   "bytes": 3200,
+   "sha256": "971b120ab4ecb149e1843b7e7b93818f6372b990afe61a9e2bb0a156bcc5393d"
+  },
+  {
+   "file": "SBJ15/S04/Train/trainLabels.txt",
+   "bytes": 40,
+   "sha256": "222e681f18a6c5dfb5c9176f5332ecf556a7e6c7a7c5ece020441a6cd5ebd7cc"
+  },
+  {
+   "file": "SBJ15/S04/Train/trainTargets.txt",
+   "bytes": 3200,
+   "sha256": "4c77a6ece5d6a1ade4e7ca57b0edb701dfc59a0e087945851320c6975f529f8e"
+  },
+  {
+   "file": "SBJ15/S05/Test/runs_per_block.txt",
+   "bytes": 2,
+   "sha256": "2e6d31a5983a91251bfae5aefa1c0a19d8ba3cf601d0e8a706b4cfa9661a6b8a"
+  },
+  {
+   "file": "SBJ15/S05/Test/testData.mat",
+   "bytes": 45782960,
+   "sha256": "1a15f2fb001ca3ed4eb81365076677827ffc267175809a32623207c3279b053a"
+  },
+  {
+   "file": "SBJ15/S05/Test/testEvents.txt",
+   "bytes": 7200,
+   "sha256": "93131ccd88d1dcd05ff917f673b8f9182328bf60d1ac63f2ecd736b4caf545e4"
+  },
+  {
+   "file": "SBJ15/S05/Test/testLabels.txt",
+   "bytes": 100,
+   "sha256": "812bed8b08eb788824e3051be85cd4cfc9684fb0e9ee424e774e2b69b09a3460"
+  },
+  {
+   "file": "SBJ15/S05/Test/testTargets.txt",
+   "bytes": 7200,
+   "sha256": "ca6f0dab07304705b5982f6b766b1d20c580e6202f70812065c738dc803bc981"
+  },
+  {
+   "file": "SBJ15/S05/Train/trainData.mat",
+   "bytes": 20347093,
+   "sha256": "c1785e65ed24dcb936904a2cbb532ed55df1b8be9b129247443d288e37d9a8b0"
+  },
+  {
+   "file": "SBJ15/S05/Train/trainEvents.txt",
+   "bytes": 3200,
+   "sha256": "c9bfefc0a09460788c7660fe93530dcafe04cd06869e4897810f72fb5c8f618d"
+  },
+  {
+   "file": "SBJ15/S05/Train/trainLabels.txt",
+   "bytes": 40,
+   "sha256": "efd10a83b333dae373c1a21bf43ff7575638715705dfdb805b5a612488e97502"
+  },
+  {
+   "file": "SBJ15/S05/Train/trainTargets.txt",
+   "bytes": 3200,
+   "sha256": "49234387d8fb82be84fd12216919df8ff4e883266e4ee0715b00ef55a7650b44"
+  },
+  {
+   "file": "SBJ15/S06/Test/runs_per_block.txt",
+   "bytes": 2,
+   "sha256": "06e9d52c1720fca412803e3b07c4b228ff113e303f4c7ab94665319d832bbfb7"
+  },
+  {
+   "file": "SBJ15/S06/Test/testData.mat",
+   "bytes": 30579102,
+   "sha256": "982b1c161fdbe2ff5247570ffd434cbfe414a748c3b86cdff87ab75dd070b65c"
+  },
+  {
+   "file": "SBJ15/S06/Test/testEvents.txt",
+   "bytes": 4800,
+   "sha256": "ab48468f92651c8aa81bcfa17d2a1d2cdf4496896d06e42da6016ca7f76fb09e"
+  },
+  {
+   "file": "SBJ15/S06/Test/testLabels.txt",
+   "bytes": 100,
+   "sha256": "4395b2c65302385b0dd787cfd57c24a6b19e62c9dafb5e96670c18835f4444bc"
+  },
+  {
+   "file": "SBJ15/S06/Test/testTargets.txt",
+   "bytes": 4800,
+   "sha256": "b2621df704d803edf1e25704be41f2b47759e0644550b8f6717eca9e275cdab0"
+  },
+  {
+   "file": "SBJ15/S06/Train/trainData.mat",
+   "bytes": 20332024,
+   "sha256": "4222926563622a7d62f8d6459ac7aa14e08ffb468ddb640591aa0aeada937043"
+  },
+  {
+   "file": "SBJ15/S06/Train/trainEvents.txt",
+   "bytes": 3200,
+   "sha256": "6348dfc2ffead19335a68c593e8282af000c83042aa054b3868c52088f3fa624"
+  },
+  {
+   "file": "SBJ15/S06/Train/trainLabels.txt",
+   "bytes": 40,
+   "sha256": "7e1620bf7d43a032113bc8cc86e6fff81e0b31e8c5087a5ff7fef571ad85cd2d"
+  },
+  {
+   "file": "SBJ15/S06/Train/trainTargets.txt",
+   "bytes": 3200,
+   "sha256": "747103beef0ffa656fb54f48208345f71569a1fd0b698149323ac12cac0bf965"
+  },
+  {
+   "file": "SBJ15/S07/Test/runs_per_block.txt",
+   "bytes": 2,
+   "sha256": "aa67a169b0bba217aa0aa88a65346920c84c42447c36ba5f7ea65f422c1fe5d8"
+  },
+  {
+   "file": "SBJ15/S07/Test/testData.mat",
+   "bytes": 40544725,
+   "sha256": "d814d902d60109bfa7f339fe12db2d6b1c130607b05877ce43db0e22e2227cec"
+  },
+  {
+   "file": "SBJ15/S07/Test/testEvents.txt",
+   "bytes": 6400,
+   "sha256": "baf63845b67826c0b2349270ade1b41d687b31c0957db1c3e49c8ad46d9832e1"
+  },
+  {
+   "file": "SBJ15/S07/Test/testLabels.txt",
+   "bytes": 100,
+   "sha256": "39ab756ebb3e4f42f8efd683df7e3429ab5c1a79f6ea893b33e639be85791cac"
+  },
+  {
+   "file": "SBJ15/S07/Test/testTargets.txt",
+   "bytes": 6400,
+   "sha256": "06364da9eeb9cc8840ec8bb8c39ddc9ba817a7635791f810908942e472dfcae1"
+  },
+  {
+   "file": "SBJ15/S07/Train/trainData.mat",
+   "bytes": 20210888,
+   "sha256": "7ff72b4b50668e8919dfb1f897f1ecd095b9168e862873a64774ccf884e5f200"
+  },
+  {
+   "file": "SBJ15/S07/Train/trainEvents.txt",
+   "bytes": 3200,
+   "sha256": "8344c239bd48d8c4cc64fadef5e1e5b384d3a4e659a2cd9a16731b7b17d184b8"
+  },
+  {
+   "file": "SBJ15/S07/Train/trainLabels.txt",
+   "bytes": 40,
+   "sha256": "633fa5e997babb117940ca223487a672066f89cc412f959d88e7dddb32734cd4"
+  },
+  {
+   "file": "SBJ15/S07/Train/trainTargets.txt",
+   "bytes": 3200,
+   "sha256": "2b20d03a9940bf51979e0399213ae3544048a9b606a058e5fd64ca985341cb46"
+  }
+ ]
+}
