@@ -3,7 +3,7 @@
   "pipeline_stage": "enriched",
   "title": "BCIAUT-P300 dataset for autism from Simoes et al 2020",
   "description": "BCIAUT-P300 is a multi-session, multi-subject EEG dataset comprising 15 individuals with autism spectrum disorder (ASD) performing a P300-based brain-computer interface task in a joint-attention training paradigm. The dataset includes 7 sessions per subject with 8-channel EEG recordings (250 Hz sampling rate) from visual P300 stimulation, providing a benchmark resource for developing and evaluating BCI classifiers in clinical populations.",
-  "methods_description": "EEG data were acquired using g.Nautilus wireless hardware (g.tec) at 250 Hz sampling rate from 8 channels (C3, Cz, C4, CPz, P3, Pz, P4, POz) referenced to the right ear with ground at AFz. The P300 paradigm involved visual presentation of 8 flashing objects with target and non-target stimuli. Data were preprocessed and epoched with a trial interval of [0, 1.2] s, bandpass filtered at 2.0-30.0 Hz, and organized into training (1600 trials) and test (400-4000 trials) sets per session.",
+  "methods_description": "EEG data were acquired using g.Nautilus wireless hardware (g.tec) at 250 Hz sampling rate from 8 channels (C3, Cz, C4, CPz, P3, Pz, P4, POz) in standard 1020 montage with right ear reference and AFz ground. Participants performed a P300 task with visual object flashing stimuli in an online BCI paradigm with visual feedback. Data were preprocessed and epoched with a trial interval of [0, 1.2] s, bandpass filtered at 2.0-30.0 Hz.",
   "license": "CC-BY-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -22,15 +22,13 @@
       "term": "EEG"
     },
     {
-      "term": "P300"
+      "term": "brain-computer interfaces"
     },
     {
       "term": "Autism Spectrum Disorder",
       "subject_scheme": "MeSH",
+      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
       "value_uri": "http://id.nlm.nih.gov/mesh/D000067877"
-    },
-    {
-      "term": "brain-computer interfaces"
     },
     {
       "term": "Event-Related Potentials, P300",
@@ -39,10 +37,16 @@
       "value_uri": "http://id.nlm.nih.gov/mesh/D018913"
     },
     {
+      "term": "P300"
+    },
+    {
       "term": "joint attention"
     },
     {
-      "term": "clinical benchmark"
+      "term": "clinical BCI"
+    },
+    {
+      "term": "clinical trial NCT02445625"
     }
   ],
   "related_identifiers": [
@@ -57,11 +61,6 @@
       "relation_type": "IsDescribedBy"
     },
     {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=nm000210",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
       "identifier": "10.21105/joss.01896",
       "identifier_type": "DOI",
       "relation_type": "References"
@@ -70,6 +69,11 @@
       "identifier": "10.1038/s41597-019-0104-8",
       "identifier_type": "DOI",
       "relation_type": "References"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/nm000210",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "resource_type_general": "Dataset",
@@ -78,15 +82,17 @@
     "eeg"
   ],
   "sizes": [
-    "4.1 GB (211 files)"
+    "10.0 GB (421 files)"
   ],
   "formats": [
     ".bdf",
     ".json",
+    ".mat",
     ".md",
     ".tsv",
+    ".txt",
     ".yaml",
     ".yml"
   ],
-  "source_hash": "b59140a5b4287d91cc7ec4ff5c9e078f7e0893674138fc4f9a6f7cb5a9706bb1"
+  "source_hash": "7c81cda4c952adc9b8975d15ee83b6229e2ff784341331090e4febe9d9f824c6"
 }
