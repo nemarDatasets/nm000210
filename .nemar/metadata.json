@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "BCIAUT-P300 dataset for autism from Simoes et al 2020",
-  "description": "BCIAUT-P300 is a multi-session, multi-subject EEG dataset comprising 15 individuals with autism spectrum disorder (ASD) performing a P300-based brain-computer interface task in a joint-attention training paradigm. The dataset includes 7 sessions per subject with 8-channel EEG recordings (250 Hz sampling rate) from visual P300 stimulation, providing a benchmark resource for developing and evaluating BCI classifiers in clinical populations.",
-  "methods_description": "EEG data were acquired using g.Nautilus wireless hardware (g.tec) at 250 Hz sampling rate from 8 channels (C3, Cz, C4, CPz, P3, Pz, P4, POz) in standard 1020 montage with right ear reference and AFz ground. Participants performed a P300 task with visual object flashing stimuli in an online BCI paradigm with visual feedback. Data were preprocessed and epoched with a trial interval of [0, 1.2] s, bandpass filtered at 2.0-30.0 Hz.",
+  "description": "The BCIAUT-P300 dataset comprises EEG recordings from 15 individuals with autism spectrum disorder (ASD) participating in a P300-based brain-computer interface (BCI) study focused on joint-attention training in a virtual environment. Data were collected across 7 sessions using 8 EEG channels sampled at 250 Hz, with visual stimuli presented as flashing objects. This multi-session, multi-subject benchmark dataset enables evaluation of P300 detection algorithms and BCI performance in the clinical ASD population.",
+  "methods_description": "EEG data were acquired using a g.Nautilus wireless system (g.tec) with 8 channels (C3, Cz, C4, CPz, P3, Pz, P4, POz) referenced to the right ear and grounded at AFz. Sampling rate was 250 Hz with a 50 Hz line frequency. Participants completed 7 sessions of P300 BCI training with visual feedback, involving 2 runs per session with flashing object stimuli. Data were preprocessed and epoched with a trial interval of [0, 1.2] seconds.",
   "license": "CC-BY-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -22,12 +22,14 @@
       "term": "EEG"
     },
     {
+      "term": "P300"
+    },
+    {
       "term": "brain-computer interfaces"
     },
     {
       "term": "Autism Spectrum Disorder",
       "subject_scheme": "MeSH",
-      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
       "value_uri": "http://id.nlm.nih.gov/mesh/D000067877"
     },
     {
@@ -37,16 +39,10 @@
       "value_uri": "http://id.nlm.nih.gov/mesh/D018913"
     },
     {
-      "term": "P300"
-    },
-    {
       "term": "joint attention"
     },
     {
-      "term": "clinical BCI"
-    },
-    {
-      "term": "clinical trial NCT02445625"
+      "term": "benchmark dataset"
     }
   ],
   "related_identifiers": [
@@ -94,5 +90,5 @@
     ".yaml",
     ".yml"
   ],
-  "source_hash": "7c81cda4c952adc9b8975d15ee83b6229e2ff784341331090e4febe9d9f824c6"
+  "source_hash": "f57f999608ea64c7534f5a43fbbea06a4fb13de5aa8d25e5b42c9a5394effd8a"
 }
