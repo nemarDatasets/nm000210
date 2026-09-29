@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "BCIAUT-P300 dataset for autism from Simoes et al 2020",
-  "description": "The BCIAUT-P300 dataset comprises EEG recordings from 15 individuals with autism spectrum disorder (ASD) participating in a P300-based brain-computer interface (BCI) study focused on joint-attention training in a virtual environment. Data were collected across 7 sessions using 8 EEG channels sampled at 250 Hz, with visual stimuli presented as flashing objects. This multi-session, multi-subject benchmark dataset enables evaluation of P300 detection algorithms and BCI performance in the clinical ASD population.",
-  "methods_description": "EEG data were acquired using a g.Nautilus wireless system (g.tec) with 8 channels (C3, Cz, C4, CPz, P3, Pz, P4, POz) referenced to the right ear and grounded at AFz. Sampling rate was 250 Hz with a 50 Hz line frequency. Participants completed 7 sessions of P300 BCI training with visual feedback, involving 2 runs per session with flashing object stimuli. Data were preprocessed and epoched with a trial interval of [0, 1.2] seconds.",
+  "description": "EEG dataset from 15 adolescents and adults with autism spectrum disorder who took part in a P300-based brain-computer interface joint-attention training in a virtual environment. Each participant completed 7 sessions in which 8 flashing objects served as targets or non-targets, with EEG recorded from 8 channels at 250 Hz. The data are epoched and preprocessed, and are provided as a benchmark for P300 classification within-subject, cross-session and cross-subject.",
+  "methods_description": "EEG was recorded with a wireless g.Nautilus system (g.tec) from 8 channels (C3, Cz, C4, CPz, P3, Pz, P4, POz) at 250 Hz, referenced to the right ear with AFz as ground. Participants performed a visual P300 joint-attention task in a virtual environment with 8 flashing objects over 7 sessions, with 2 runs per session. Each session had 1600 calibration trials plus online test trials. Data were bandpass filtered at 2-30 Hz and epoched over 0-1.2 s.",
   "license": "CC-BY-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -25,7 +25,13 @@
       "term": "P300"
     },
     {
-      "term": "brain-computer interfaces"
+      "term": "event-related potentials"
+    },
+    {
+      "term": "Brain-Computer Interfaces",
+      "subject_scheme": "MeSH",
+      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
     },
     {
       "term": "Autism Spectrum Disorder",
@@ -33,16 +39,7 @@
       "value_uri": "http://id.nlm.nih.gov/mesh/D000067877"
     },
     {
-      "term": "Event-Related Potentials, P300",
-      "subject_scheme": "MeSH",
-      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D018913"
-    },
-    {
-      "term": "joint attention"
-    },
-    {
-      "term": "benchmark dataset"
+      "term": "joint attention training"
     }
   ],
   "related_identifiers": [
@@ -78,7 +75,7 @@
     "eeg"
   ],
   "sizes": [
-    "10.0 GB (421 files)"
+    "9.32 GB (421 files)"
   ],
   "formats": [
     ".bdf",
